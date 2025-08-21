@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Best Biodiversity",
+    "n_locations": 368,
+    "biodiversity_score": 603.4214513403549,
+    "economic_score": -375099.79825766844,
+    "area_score": 368.0,
+    "species_coverage": {
+      "species_1_suitability": {
+        "mean_suitability": 0.2820328997456508,
+        "total_suitability": 103.78810710639951,
+        "locations_with_high_suitability": 2
+      },
+      "species_2_suitability": {
+        "mean_suitability": 0.42805794486499377,
+        "total_suitability": 157.5253237103177,
+        "locations_with_high_suitability": 29
+      },
+      "species_3_suitability": {
+        "mean_suitability": 0.20041390742744894,
+        "total_suitability": 73.75231793330121,
+        "locations_with_high_suitability": 2
+      },
+      "species_4_suitability": {
+        "mean_suitability": 0.4613715013542997,
+        "total_suitability": 169.7847124983823,
+        "locations_with_high_suitability": 48
+      },
+      "species_5_suitability": {
+        "mean_suitability": 0.267855951336832,
+        "total_suitability": 98.57099009195417,
+        "locations_with_high_suitability": 0
+      }
+    },
+    "geographic_stats": {
+      "longitude_range": [
+        -178.33247171834296,
+        177.4673266029481
+      ],
+      "latitude_range": [
+        -59.54944309540098,
+        79.53755953941675
+      ],
+      "elevation_range": [
+        24.003126695927968,
+        3991.930534829895
+      ],
+      "mean_elevation": 2054.6138422265103
+    },
+    "economic_details": {
+      "total_acquisition_cost": 9843195.919808194,
+      "total_annual_cost": 830947.9092603202,
+      "total_annual_benefits": 455848.1110026518,
+      "net_annual_value": -375099.79825766844,
+      "cost_per_location": 26747.81499947879
+    }
+  },
+  {
+    "name": "Best Economic",
+    "n_locations": 17,
+    "biodiversity_score": 27.274066713997584,
+    "economic_score": 3522.679650480428,
+    "area_score": 17.0,
+    "species_coverage": {
+      "species_1_suitability": {
+        "mean_suitability": 0.32399881427236166,
+        "total_suitability": 5.5079798426301485,
+        "locations_with_high_suitability": 0
+      },
+      "species_2_suitability": {
+        "mean_suitability": 0.38383078982536734,
+        "total_suitability": 6.525123427031245,
+        "locations_with_high_suitability": 1
+      },
+      "species_3_suitability": {
+        "mean_suitability": 0.23662452363406583,
+        "total_suitability": 4.022616901779119,
+        "locations_with_high_suitability": 1
+      },
+      "species_4_suitability": {
+        "mean_suitability": 0.4179416412934164,
+        "total_suitability": 7.1050079019880785,
+        "locations_with_high_suitability": 3
+      },
+      "species_5_suitability": {
+        "mean_suitability": 0.24196109650405842,
+        "total_suitability": 4.113338640568993,
+        "locations_with_high_suitability": 0
+      }
+    },
+    "geographic_stats": {
+      "longitude_range": [
+        -170.86091196227585,
+        131.30005545181916
+      ],
+      "latitude_range": [
+        -59.267854103992214,
+        71.98244837891758
+      ],
+      "elevation_range": [
+        455.78245472204947,
+        3745.234545573162
+      ],
+      "mean_elevation": 2394.0515361656703
+    },
+    "economic_details": {
+      "total_acquisition_cost": 209193.00503489206,
+      "total_annual_cost": 16136.60376577588,
+      "total_annual_benefits": 19659.28341625631,
+      "net_annual_value": 3522.679650480428,
+      "cost_per_location": 12305.470884405415
+    }
+  },
+  {
+    "name": "Largest Area",
+    "n_locations": 368,
+    "biodiversity_score": 603.4214513403549,
+    "economic_score": -375099.79825766844,
+    "area_score": 368.0,
+    "species_coverage": {
+      "species_1_suitability": {
+        "mean_suitability": 0.2820328997456508,
+        "total_suitability": 103.78810710639951,
+        "locations_with_high_suitability": 2
+      },
+      "species_2_suitability": {
+        "mean_suitability": 0.42805794486499377,
+        "total_suitability": 157.5253237103177,
+        "locations_with_high_suitability": 29
+      },
+      "species_3_suitability": {
+        "mean_suitability": 0.20041390742744894,
+        "total_suitability": 73.75231793330121,
+        "locations_with_high_suitability": 2
+      },
+      "species_4_suitability": {
+        "mean_suitability": 0.4613715013542997,
+        "total_suitability": 169.7847124983823,
+        "locations_with_high_suitability": 48
+      },
+      "species_5_suitability": {
+        "mean_suitability": 0.267855951336832,
+        "total_suitability": 98.57099009195417,
+        "locations_with_high_suitability": 0
+      }
+    },
+    "geographic_stats": {
+      "longitude_range": [
+        -178.33247171834296,
+        177.4673266029481
+      ],
+      "latitude_range": [
+        -59.54944309540098,
+        79.53755953941675
+      ],
+      "elevation_range": [
+        24.003126695927968,
+        3991.930534829895
+      ],
+      "mean_elevation": 2054.6138422265103
+    },
+    "economic_details": {
+      "total_acquisition_cost": 9843195.919808194,
+      "total_annual_cost": 830947.9092603202,
+      "total_annual_benefits": 455848.1110026518,
+      "net_annual_value": -375099.79825766844,
+      "cost_per_location": 26747.81499947879
+    }
+  },
+  {
+    "name": "Best Balanced",
+    "n_locations": 17,
+    "biodiversity_score": 27.274066713997584,
+    "economic_score": 3522.679650480428,
+    "area_score": 17.0,
+    "species_coverage": {
+      "species_1_suitability": {
+        "mean_suitability": 0.32399881427236166,
+        "total_suitability": 5.5079798426301485,
+        "locations_with_high_suitability": 0
+      },
+      "species_2_suitability": {
+        "mean_suitability": 0.38383078982536734,
+        "total_suitability": 6.525123427031245,
+        "locations_with_high_suitability": 1
+      },
+      "species_3_suitability": {
+        "mean_suitability": 0.23662452363406583,
+        "total_suitability": 4.022616901779119,
+        "locations_with_high_suitability": 1
+      },
+      "species_4_suitability": {
+        "mean_suitability": 0.4179416412934164,
+        "total_suitability": 7.1050079019880785,
+        "locations_with_high_suitability": 3
+      },
+      "species_5_suitability": {
+        "mean_suitability": 0.24196109650405842,
+        "total_suitability": 4.113338640568993,
+        "locations_with_high_suitability": 0
+      }
+    },
+    "geographic_stats": {
+      "longitude_range": [
+        -170.86091196227585,
+        131.30005545181916
+      ],
+      "latitude_range": [
+        -59.267854103992214,
+        71.98244837891758
+      ],
+      "elevation_range": [
+        455.78245472204947,
+        3745.234545573162
+      ],
+      "mean_elevation": 2394.0515361656703
+    },
+    "economic_details": {
+      "total_acquisition_cost": 209193.00503489206,
+      "total_annual_cost": 16136.60376577588,
+      "total_annual_benefits": 19659.28341625631,
+      "net_annual_value": 3522.679650480428,
+      "cost_per_location": 12305.470884405415
+    }
+  }
+]

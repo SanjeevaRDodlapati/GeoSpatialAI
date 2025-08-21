@@ -1,0 +1,31 @@
+{
+  "project_title": "Advanced Conservation Optimization with Climate Change and Economic Constraints",
+  "completion_date": "2025-08-21",
+  "key_metrics": {
+    "locations_analyzed": 1000,
+    "species_considered": 5,
+    "climate_scenarios": 3,
+    "pareto_solutions": 40,
+    "budget_limit": 10000000
+  },
+  "best_solutions": {
+    "max_biodiversity": 603.4214513403549,
+    "best_economic": 3522.679650480428,
+    "largest_area": 368.0
+  },
+  "files_generated": [
+    "optimization_results.pkl",
+    "optimization_results.json",
+    "solution_analysis.json",
+    "pareto_front_analysis.png",
+    "interactive_optimization_results.html",
+    "climate_scenario_analysis.html"
+  ],
+  "next_steps": [
+    "Validate results with field data",
+    "Implement monitoring protocols",
+    "Engage stakeholders in decision-making",
+    "Develop funding strategies",
+    "Create implementation timeline"
+  ]
+}
