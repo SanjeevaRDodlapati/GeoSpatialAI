@@ -1,0 +1,50 @@
+{
+  "system_status": {
+    "timestamp": "2025-08-21T10:47:14.092349",
+    "sensors_deployed": 25,
+    "sensors_active": 25,
+    "satellite_pixels_monitored": 1120000,
+    "data_points_collected": 250,
+    "active_alerts": 2
+  },
+  "sensor_summary": {
+    "total_sensors": 25,
+    "sensor_types": {
+      "water_quality": 6,
+      "soil_moisture": 5,
+      "temperature_humidity": 5,
+      "acoustic": 4,
+      "camera_trap": 4,
+      "air_quality": 1
+    },
+    "average_battery_level": 0.6073895994495399,
+    "geographic_coverage": {
+      "lat_range": [
+        -25.243962110725544,
+        -12.548044340441844
+      ],
+      "lon_range": [
+        43.03043055000374,
+        50.831123293349
+      ]
+    }
+  },
+  "satellite_monitoring": {
+    "total_pixels": 1120000,
+    "mean_ndvi": 0.4481110624450596,
+    "change_alerts": 218881,
+    "land_cover_distribution": {
+      "dense_forest": 390756,
+      "forest": 380009,
+      "grassland": 255334,
+      "sparse_vegetation": 89691,
+      "bare_ground": 4210
+    }
+  },
+  "alert_summary": {
+    "total_alerts": 2,
+    "critical_alerts": 1,
+    "high_alerts": 0,
+    "medium_alerts": 1
+  }
+}

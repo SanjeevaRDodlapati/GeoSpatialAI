@@ -1,0 +1,29 @@
+{
+  "validation_timestamp": "2025-08-21T10:50:05.306777",
+  "system_health": "NEEDS_ATTENTION",
+  "test_results": {
+    "sensor_reliability": {
+      "avg_readings_per_minute": 25.0,
+      "sensor_coverage_rate": 1.0,
+      "data_completeness_rate": 1.0,
+      "consistency_score": 1.0
+    },
+    "anomaly_detection": {
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "total_tests": 50,
+      "detected_anomalies": 0
+    },
+    "system_performance": {
+      "data_collection_speed": 2349.960780798279,
+      "satellite_processing_speed": 20626849.03597476,
+      "alert_response_time": 0.0021402835845947266,
+      "total_system_latency": 0.07771539688110352
+    }
+  },
+  "recommendations": [
+    "Enhance anomaly detection model training"
+  ],
+  "overall_score": 66.66666666666667
+}
