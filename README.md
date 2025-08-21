@@ -1,6 +1,12 @@
 # 🌍 GeoSpatialAI - Intelligent Geospatial Data Analysis
 
-A comprehensive hands-on tutorial series covering geographic data analysis, visualization, machine learning, and AI applications in the geospatial domain.
+A comprehensive hands-on tutoria### Project 5: Species Occurrence Mapping and Environmental Context
+**Status**: ✅ **COMPLETED**
+- **Aim**: Map biodiversity data and environmental relationships (Madagascar endemic species)
+- **Data**: GBIF species occurrences (3,544 records), environmental gradients, basemap creation
+- **Skills**: GBIF API integration, point pattern analysis, density mapping, environmental context analysis
+- **Outputs**: Species distribution maps, density heatmaps, environmental preference analysis, comprehensive project dashboard
+- **Connection**: Builds on Project 4's Madagascar land cover analysises covering geographic data analysis, visualization, machine learning, and AI applications in the geospatial domain.
 
 ## Overview
 
@@ -82,16 +88,18 @@ Every project implements the following QA/QC procedures:
 - **Skills**: Time series analysis, spatial interpolation, environmental data
 
 ### Project 4: Global Land Cover Snapshot and Change Analysis
-**Status**: 📋 Planned
+**Status**: ✅ **COMPLETED**
 - **Aim**: Work with raster datasets for land cover analysis
-- **Data**: ESA WorldCover or MODIS Land Cover
-- **Skills**: Raster processing, change detection, zonal statistics
+- **Data**: ESA WorldCover (Madagascar focus)
+- **Skills**: Raster processing, zonal statistics, memory-efficient visualization
+- **Outputs**: Land cover composition analysis and memory-optimized visualizations
 
 ### Project 5: Species Occurrence Mapping and Environmental Context
-**Status**: 📋 Planned
-- **Aim**: Map biodiversity data and environmental relationships
-- **Data**: GBIF species occurrences, environmental layers
-- **Skills**: Point pattern analysis, environmental data extraction
+**Status**: � **IN PROGRESS**
+- **Aim**: Map biodiversity data and environmental relationships (Madagascar endemic species)
+- **Data**: GBIF species occurrences, environmental layers, land cover integration
+- **Skills**: Point pattern analysis, environmental data extraction, species-habitat analysis
+- **Connection**: Builds on Project 4's Madagascar land cover analysis
 
 ### Project 6: Hazard Exposure Overlay Analysis
 **Status**: 📋 Planned

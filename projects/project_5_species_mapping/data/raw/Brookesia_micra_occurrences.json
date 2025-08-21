@@ -1,0 +1,981 @@
+{
+  "count": 3,
+  "results": [
+    {
+      "key": 4453774344,
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+      "hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "publishingCountry": "US",
+      "protocol": "DWC_ARCHIVE",
+      "lastCrawled": "2025-08-02T12:45:50.757+00:00",
+      "lastParsed": "2025-08-03T05:04:12.047+00:00",
+      "crawlId": 555,
+      "projectId": "https://www.inaturalist.org/projects/herpetogasy-bioblitz|https://www.inaturalist.org/projects/afriherps",
+      "extensions": {
+        "http://rs.gbif.org/terms/1.0/Multimedia": [
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "336405816",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/336405816",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405816/original.jpeg",
+            "http://purl.org/dc/terms/creator": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/created": "2023-11-15T08:58:04-08:00"
+          },
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "336405834",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/336405834",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405834/original.jpeg",
+            "http://purl.org/dc/terms/creator": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/created": "2023-11-15T08:57:57-08:00"
+          },
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "336405855",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/336405855",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405855/original.jpeg",
+            "http://purl.org/dc/terms/creator": "Andrianiaina Angelo",
+            "http://purl.org/dc/terms/created": "2023-11-15T08:58:03-08:00"
+          }
+        ]
+      },
+      "basisOfRecord": "HUMAN_OBSERVATION",
+      "occurrenceStatus": "PRESENT",
+      "classifications": {
+        "7ddf754f-d193-4cc9-b351-99906754a03b": {
+          "usage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "CS5HF",
+              "name": "Eukaryota",
+              "rank": "DOMAIN"
+            },
+            {
+              "key": "N",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "CH2",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "8V4V3",
+              "name": "Vertebrata",
+              "rank": "SUBPHYLUM"
+            },
+            {
+              "key": "8V4V5",
+              "name": "Gnathostomata",
+              "rank": "INFRAPHYLUM"
+            },
+            {
+              "key": "8VVWB",
+              "name": "Osteichthyes",
+              "rank": "PARVPHYLUM"
+            },
+            {
+              "key": "9CK8W",
+              "name": "Tetrapoda",
+              "rank": "MEGACLASS"
+            },
+            {
+              "key": "BXVXG",
+              "name": "Squamata",
+              "rank": "ORDER"
+            },
+            {
+              "key": "CV92F",
+              "name": "Iguania",
+              "rank": "UNRANKED"
+            },
+            {
+              "key": "7ZD",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "CCWMD",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "NDRJ",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        },
+        "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+          "usage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "1",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "44",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "11592253",
+              "name": "Squamata",
+              "rank": "CLASS"
+            },
+            {
+              "key": "9453",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "2449310",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "8017199",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        }
+      },
+      "taxonKey": 8017199,
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11592253,
+      "familyKey": 9453,
+      "genusKey": 2449310,
+      "speciesKey": 8017199,
+      "acceptedTaxonKey": 8017199,
+      "scientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "scientificNameAuthorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "acceptedScientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Chamaeleonidae",
+      "genus": "Brookesia",
+      "species": "Brookesia micra",
+      "genericName": "Brookesia",
+      "specificEpithet": "micra",
+      "taxonRank": "SPECIES",
+      "taxonomicStatus": "ACCEPTED",
+      "iucnRedListCategory": "NT",
+      "dateIdentified": "2023-11-22T01:04:50",
+      "decimalLatitude": -12.303369,
+      "decimalLongitude": 49.081273,
+      "coordinateUncertaintyInMeters": 31092.0,
+      "continent": "AFRICA",
+      "stateProvince": "Antsiranana",
+      "gadm": {},
+      "year": 2023,
+      "month": 11,
+      "day": 15,
+      "eventDate": "2023-11-15T08:58:04",
+      "startDayOfYear": 319,
+      "endDayOfYear": 319,
+      "issues": [
+        "COORDINATE_ROUNDED",
+        "CONTINENT_DERIVED_FROM_COORDINATES",
+        "TAXON_ID_NOT_FOUND"
+      ],
+      "modified": "2024-08-22T15:24:10.000+00:00",
+      "lastInterpreted": "2025-08-03T05:04:12.047+00:00",
+      "references": "https://www.inaturalist.org/observations/191722142",
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "isSequenced": false,
+      "identifiers": [
+        {
+          "identifier": "191722142"
+        }
+      ],
+      "media": [
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/336405834",
+          "created": "2023-11-15T16:57:57.000+00:00",
+          "creator": "Andrianiaina Angelo",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "Andrianiaina Angelo",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405834/original.jpeg"
+        },
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/336405855",
+          "created": "2023-11-15T16:58:03.000+00:00",
+          "creator": "Andrianiaina Angelo",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "Andrianiaina Angelo",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405855/original.jpeg"
+        },
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/336405816",
+          "created": "2023-11-15T16:58:04.000+00:00",
+          "creator": "Andrianiaina Angelo",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "Andrianiaina Angelo",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/336405816/original.jpeg"
+        }
+      ],
+      "facts": [],
+      "relations": [],
+      "isInCluster": false,
+      "datasetName": "iNaturalist research-grade observations",
+      "recordedBy": "Andrianiaina Angelo",
+      "identifiedBy": "Andrianiaina Angelo",
+      "dnaSequenceID": [],
+      "geodeticDatum": "WGS84",
+      "class": "Squamata",
+      "countryCode": "MG",
+      "recordedByIDs": [
+        {
+          "type": "ORCID",
+          "value": "https://orcid.org/0000-0001-7846-2000"
+        }
+      ],
+      "identifiedByIDs": [
+        {
+          "type": "ORCID",
+          "value": "https://orcid.org/0000-0001-7846-2000"
+        }
+      ],
+      "gbifRegion": "AFRICA",
+      "country": "Madagascar",
+      "publishedByGbifRegion": "NORTH_AMERICA",
+      "rightsHolder": "Andrianiaina Angelo",
+      "identifier": "191722142",
+      "http://unknown.org/nick": "angelomg",
+      "informationWithheld": "Coordinate uncertainty increased to 31092m to protect threatened taxon",
+      "verbatimEventDate": "2023-11-15 08:58:04",
+      "collectionCode": "Observations",
+      "gbifID": "4453774344",
+      "verbatimLocality": "Diana, MG-AS, MG",
+      "occurrenceID": "https://www.inaturalist.org/observations/191722142",
+      "taxonID": "145979",
+      "http://unknown.org/captive_cultivated": "wild",
+      "catalogNumber": "191722142",
+      "institutionCode": "iNaturalist",
+      "eventTime": "08:58:04+03:00",
+      "identificationID": "428819286"
+    },
+    {
+      "key": 4458706324,
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+      "hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "publishingCountry": "GB",
+      "protocol": "DWC_ARCHIVE",
+      "lastCrawled": "2025-08-02T12:45:50.757+00:00",
+      "lastParsed": "2025-08-03T01:26:29.062+00:00",
+      "crawlId": 555,
+      "projectId": "https://www.inaturalist.org/projects/herpetogasy-bioblitz|https://www.inaturalist.org/projects/afriherps",
+      "extensions": {
+        "http://rs.gbif.org/terms/1.0/Multimedia": [
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "338393196",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "mags49",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/338393196",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393196/original.jpg",
+            "http://purl.org/dc/terms/creator": "mags49",
+            "http://purl.org/dc/terms/created": "2023-12-01T13:55:00Z"
+          },
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "338393228",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "mags49",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/338393228",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393228/original.jpg",
+            "http://purl.org/dc/terms/creator": "mags49",
+            "http://purl.org/dc/terms/created": "2023-12-01T13:55:00Z"
+          },
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "338393265",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "mags49",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/338393265",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393265/original.jpg",
+            "http://purl.org/dc/terms/creator": "mags49",
+            "http://purl.org/dc/terms/created": "2023-12-01T13:55:00Z"
+          }
+        ]
+      },
+      "basisOfRecord": "HUMAN_OBSERVATION",
+      "occurrenceStatus": "PRESENT",
+      "classifications": {
+        "7ddf754f-d193-4cc9-b351-99906754a03b": {
+          "usage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "CS5HF",
+              "name": "Eukaryota",
+              "rank": "DOMAIN"
+            },
+            {
+              "key": "N",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "CH2",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "8V4V3",
+              "name": "Vertebrata",
+              "rank": "SUBPHYLUM"
+            },
+            {
+              "key": "8V4V5",
+              "name": "Gnathostomata",
+              "rank": "INFRAPHYLUM"
+            },
+            {
+              "key": "8VVWB",
+              "name": "Osteichthyes",
+              "rank": "PARVPHYLUM"
+            },
+            {
+              "key": "9CK8W",
+              "name": "Tetrapoda",
+              "rank": "MEGACLASS"
+            },
+            {
+              "key": "BXVXG",
+              "name": "Squamata",
+              "rank": "ORDER"
+            },
+            {
+              "key": "CV92F",
+              "name": "Iguania",
+              "rank": "UNRANKED"
+            },
+            {
+              "key": "7ZD",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "CCWMD",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "NDRJ",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        },
+        "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+          "usage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "1",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "44",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "11592253",
+              "name": "Squamata",
+              "rank": "CLASS"
+            },
+            {
+              "key": "9453",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "2449310",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "8017199",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        }
+      },
+      "taxonKey": 8017199,
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11592253,
+      "familyKey": 9453,
+      "genusKey": 2449310,
+      "speciesKey": 8017199,
+      "acceptedTaxonKey": 8017199,
+      "scientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "scientificNameAuthorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "acceptedScientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Chamaeleonidae",
+      "genus": "Brookesia",
+      "species": "Brookesia micra",
+      "genericName": "Brookesia",
+      "specificEpithet": "micra",
+      "taxonRank": "SPECIES",
+      "taxonomicStatus": "ACCEPTED",
+      "iucnRedListCategory": "NT",
+      "dateIdentified": "2023-12-01T15:00:13",
+      "decimalLatitude": -12.25722,
+      "decimalLongitude": 49.170403,
+      "coordinateUncertaintyInMeters": 31092.0,
+      "continent": "AFRICA",
+      "stateProvince": "Antsiranana",
+      "gadm": {
+        "level0": {
+          "gid": "MDG",
+          "name": "Madagascar"
+        },
+        "level1": {
+          "gid": "MDG.2_1",
+          "name": "Antsiranana"
+        },
+        "level2": {
+          "gid": "MDG.2.1_1",
+          "name": "Diana"
+        },
+        "level3": {
+          "gid": "MDG.2.1.3_1",
+          "name": "Antsiranana Rural"
+        }
+      },
+      "year": 2023,
+      "month": 12,
+      "day": 1,
+      "eventDate": "2023-12-01T16:55",
+      "startDayOfYear": 335,
+      "endDayOfYear": 335,
+      "issues": [
+        "COORDINATE_ROUNDED",
+        "CONTINENT_DERIVED_FROM_COORDINATES",
+        "TAXON_ID_NOT_FOUND"
+      ],
+      "modified": "2025-04-18T05:58:52.000+00:00",
+      "lastInterpreted": "2025-08-03T01:26:29.062+00:00",
+      "references": "https://www.inaturalist.org/observations/192725002",
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "isSequenced": false,
+      "identifiers": [
+        {
+          "identifier": "192725002"
+        }
+      ],
+      "media": [
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/338393228",
+          "created": "2023-12-01T13:55:00.000+00:00",
+          "creator": "mags49",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "mags49",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393228/original.jpg"
+        },
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/338393265",
+          "created": "2023-12-01T13:55:00.000+00:00",
+          "creator": "mags49",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "mags49",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393265/original.jpg"
+        },
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/338393196",
+          "created": "2023-12-01T13:55:00.000+00:00",
+          "creator": "mags49",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "mags49",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/338393196/original.jpg"
+        }
+      ],
+      "facts": [],
+      "relations": [],
+      "isInCluster": false,
+      "datasetName": "iNaturalist research-grade observations",
+      "recordedBy": "mags49",
+      "identifiedBy": "mags49",
+      "dnaSequenceID": [],
+      "geodeticDatum": "WGS84",
+      "class": "Squamata",
+      "countryCode": "MG",
+      "recordedByIDs": [],
+      "identifiedByIDs": [],
+      "gbifRegion": "AFRICA",
+      "country": "Madagascar",
+      "publishedByGbifRegion": "EUROPE",
+      "rightsHolder": "mags49",
+      "identifier": "192725002",
+      "http://unknown.org/nick": "mags49",
+      "informationWithheld": "Coordinate uncertainty increased to 31092m to protect threatened taxon",
+      "verbatimEventDate": "2023-12-01 16:55:00+03:00",
+      "collectionCode": "Observations",
+      "gbifID": "4458706324",
+      "verbatimLocality": "Diana, MG-AS, MG",
+      "occurrenceID": "https://www.inaturalist.org/observations/192725002",
+      "taxonID": "145979",
+      "http://unknown.org/captive_cultivated": "wild",
+      "catalogNumber": "192725002",
+      "institutionCode": "iNaturalist",
+      "eventTime": "16:55:00+03:00",
+      "occurrenceRemarks": "On Nosy Hara On hand of guide About 2 cm long at most",
+      "identificationID": "431419006"
+    },
+    {
+      "key": 3079690626,
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+      "publishingOrgKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "installationKey": "997448a8-f762-11e1-a439-00145eb45e9a",
+      "hostingOrganizationKey": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+      "publishingCountry": "US",
+      "protocol": "DWC_ARCHIVE",
+      "lastCrawled": "2025-08-02T12:45:50.757+00:00",
+      "lastParsed": "2025-08-03T03:00:51.968+00:00",
+      "crawlId": 555,
+      "projectId": "https://www.inaturalist.org/projects/herpetogasy-bioblitz|https://www.inaturalist.org/projects/afriherps",
+      "extensions": {
+        "http://rs.gbif.org/terms/1.0/Multimedia": [
+          {
+            "http://rs.tdwg.org/dwc/terms/catalogNumber": "40354902",
+            "http://purl.org/dc/terms/publisher": "iNaturalist",
+            "http://purl.org/dc/terms/license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "http://purl.org/dc/terms/rightsHolder": "Drew Villeneuve",
+            "http://purl.org/dc/terms/type": "StillImage",
+            "http://purl.org/dc/terms/references": "https://www.inaturalist.org/photos/40354902",
+            "http://purl.org/dc/terms/format": "image/jpeg",
+            "http://purl.org/dc/terms/identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/40354902/original.jpeg",
+            "http://purl.org/dc/terms/creator": "Drew Villeneuve",
+            "http://purl.org/dc/terms/created": "2015-04-10T09:51:03-07:00"
+          }
+        ]
+      },
+      "basisOfRecord": "HUMAN_OBSERVATION",
+      "occurrenceStatus": "PRESENT",
+      "classifications": {
+        "7ddf754f-d193-4cc9-b351-99906754a03b": {
+          "usage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "NDRJ",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "CS5HF",
+              "name": "Eukaryota",
+              "rank": "DOMAIN"
+            },
+            {
+              "key": "N",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "CH2",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "8V4V3",
+              "name": "Vertebrata",
+              "rank": "SUBPHYLUM"
+            },
+            {
+              "key": "8V4V5",
+              "name": "Gnathostomata",
+              "rank": "INFRAPHYLUM"
+            },
+            {
+              "key": "8VVWB",
+              "name": "Osteichthyes",
+              "rank": "PARVPHYLUM"
+            },
+            {
+              "key": "9CK8W",
+              "name": "Tetrapoda",
+              "rank": "MEGACLASS"
+            },
+            {
+              "key": "BXVXG",
+              "name": "Squamata",
+              "rank": "ORDER"
+            },
+            {
+              "key": "CV92F",
+              "name": "Iguania",
+              "rank": "UNRANKED"
+            },
+            {
+              "key": "7ZD",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "CCWMD",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "NDRJ",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        },
+        "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c": {
+          "usage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "acceptedUsage": {
+            "key": "8017199",
+            "name": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "rank": "SPECIES",
+            "code": "ZOOLOGICAL",
+            "authorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+            "genericName": "Brookesia",
+            "specificEpithet": "micra",
+            "formattedName": "<i>Brookesia</i> <i>micra</i> Glaw, K\u00f6hler, Townsend & Vences, 2012"
+          },
+          "taxonomicStatus": "ACCEPTED",
+          "classification": [
+            {
+              "key": "1",
+              "name": "Animalia",
+              "rank": "KINGDOM"
+            },
+            {
+              "key": "44",
+              "name": "Chordata",
+              "rank": "PHYLUM"
+            },
+            {
+              "key": "11592253",
+              "name": "Squamata",
+              "rank": "CLASS"
+            },
+            {
+              "key": "9453",
+              "name": "Chamaeleonidae",
+              "rank": "FAMILY"
+            },
+            {
+              "key": "2449310",
+              "name": "Brookesia",
+              "rank": "GENUS"
+            },
+            {
+              "key": "8017199",
+              "name": "Brookesia micra",
+              "rank": "SPECIES"
+            }
+          ],
+          "iucnRedListCategoryCode": "NT",
+          "issues": [
+            "TAXON_ID_NOT_FOUND"
+          ]
+        }
+      },
+      "taxonKey": 8017199,
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11592253,
+      "familyKey": 9453,
+      "genusKey": 2449310,
+      "speciesKey": 8017199,
+      "acceptedTaxonKey": 8017199,
+      "scientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "scientificNameAuthorship": "Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "acceptedScientificName": "Brookesia micra Glaw, K\u00f6hler, Townsend & Vences, 2012",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Chamaeleonidae",
+      "genus": "Brookesia",
+      "species": "Brookesia micra",
+      "genericName": "Brookesia",
+      "specificEpithet": "micra",
+      "taxonRank": "SPECIES",
+      "taxonomicStatus": "ACCEPTED",
+      "iucnRedListCategory": "NT",
+      "dateIdentified": "2019-05-29T18:41:21",
+      "decimalLatitude": -12.230296,
+      "decimalLongitude": 49.166443,
+      "coordinateUncertaintyInMeters": 31092.0,
+      "continent": "AFRICA",
+      "stateProvince": "Antsiranana",
+      "gadm": {
+        "level0": {
+          "gid": "MDG",
+          "name": "Madagascar"
+        },
+        "level1": {
+          "gid": "MDG.2_1",
+          "name": "Antsiranana"
+        },
+        "level2": {
+          "gid": "MDG.2.1_1",
+          "name": "Diana"
+        },
+        "level3": {
+          "gid": "MDG.2.1.3_1",
+          "name": "Antsiranana Rural"
+        }
+      },
+      "year": 2015,
+      "month": 4,
+      "day": 10,
+      "eventDate": "2015-04-10",
+      "startDayOfYear": 100,
+      "endDayOfYear": 100,
+      "issues": [
+        "COORDINATE_ROUNDED",
+        "CONTINENT_DERIVED_FROM_COORDINATES",
+        "TAXON_ID_NOT_FOUND"
+      ],
+      "modified": "2024-11-14T02:38:37.000+00:00",
+      "lastInterpreted": "2025-08-03T03:00:51.968+00:00",
+      "references": "https://www.inaturalist.org/observations/26013379",
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "isSequenced": false,
+      "identifiers": [
+        {
+          "identifier": "26013379"
+        }
+      ],
+      "media": [
+        {
+          "type": "StillImage",
+          "format": "image/jpeg",
+          "references": "https://www.inaturalist.org/photos/40354902",
+          "created": "2015-04-10T16:51:03.000+00:00",
+          "creator": "Drew Villeneuve",
+          "publisher": "iNaturalist",
+          "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+          "rightsHolder": "Drew Villeneuve",
+          "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/40354902/original.jpeg"
+        }
+      ],
+      "facts": [],
+      "relations": [],
+      "isInCluster": false,
+      "datasetName": "iNaturalist research-grade observations",
+      "recordedBy": "Drew Villeneuve",
+      "identifiedBy": "Drew Villeneuve",
+      "dnaSequenceID": [],
+      "geodeticDatum": "WGS84",
+      "class": "Squamata",
+      "countryCode": "MG",
+      "recordedByIDs": [
+        {
+          "type": "ORCID",
+          "value": "https://orcid.org/0000-0001-7303-5931"
+        }
+      ],
+      "identifiedByIDs": [
+        {
+          "type": "ORCID",
+          "value": "https://orcid.org/0000-0001-7303-5931"
+        }
+      ],
+      "gbifRegion": "AFRICA",
+      "country": "Madagascar",
+      "publishedByGbifRegion": "NORTH_AMERICA",
+      "rightsHolder": "Drew Villeneuve",
+      "identifier": "26013379",
+      "http://unknown.org/nick": "drewvilleneuve",
+      "informationWithheld": "Coordinate uncertainty increased to 31092m to protect threatened taxon",
+      "verbatimEventDate": "2015/04/10 9:51 AM UTC",
+      "collectionCode": "Observations",
+      "gbifID": "3079690626",
+      "verbatimLocality": "Diana, MG-AS, MG",
+      "occurrenceID": "https://www.inaturalist.org/observations/26013379",
+      "taxonID": "145979",
+      "http://unknown.org/captive_cultivated": "wild",
+      "catalogNumber": "26013379",
+      "institutionCode": "iNaturalist",
+      "identificationID": "56930260"
+    }
+  ],
+  "search_params": {
+    "scientificName": "Brookesia micra",
+    "hasCoordinate": "true",
+    "hasGeospatialIssue": "false",
+    "limit": 300,
+    "decimalLatitude": "-25.6,-11.9",
+    "decimalLongitude": "43.2,50.5",
+    "year": "2000,2024",
+    "offset": 0
+  },
+  "download_time": "2025-08-21T06:33:46.596120"
+}

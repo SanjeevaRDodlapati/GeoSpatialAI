@@ -1,0 +1,7 @@
+species_key,scientific_name,common_name,group,total_records,date_range,coordinate_uncertainty_median,basis_of_record_types,data_source
+lemur_catta,Lemur catta,Ring-tailed Lemur,Mammals,496,2000-2024,30318.0,{'HUMAN_OBSERVATION': 496},GBIF
+propithecus_verreauxi,Propithecus verreauxi,Verreaux's Sifaka,Mammals,444,2000-2024,30237.0,"{'HUMAN_OBSERVATION': 403, 'PRESERVED_SPECIMEN': 41}",GBIF
+brookesia_micra,Brookesia micra,Nosy Hara Leaf Chameleon,Reptiles,3,2015-2023,31092.0,{'HUMAN_OBSERVATION': 3},GBIF
+furcifer_pardalis,Furcifer pardalis,Panther Chameleon,Reptiles,601,2001-2024,250.0,"{'HUMAN_OBSERVATION': 593, 'PRESERVED_SPECIMEN': 8}",GBIF
+coua_caerulea,Coua caerulea,Blue Coua,Birds,1000,2023-2024,8.0,{'HUMAN_OBSERVATION': 1000},GBIF
+vanga_curvirostris,Vanga curvirostris,Hook-billed Vanga,Birds,1000,2019-2024,7.0,"{'HUMAN_OBSERVATION': 999, 'MACHINE_OBSERVATION': 1}",GBIF
