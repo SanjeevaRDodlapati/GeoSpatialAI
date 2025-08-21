@@ -1,6 +1,6 @@
-# Geospatial & Geographic Data Analysis Tutorial
+# 🌍 GeoSpatialAI - Intelligent Geospatial Data Analysis
 
-A comprehensive tutorial series for learning geographic and geospatial data analysis, visualization, and machine learning applications using Python.
+A comprehensive hands-on tutorial series covering geographic data analysis, visualization, machine learning, and AI applications in the geospatial domain.
 
 ## Overview
 
