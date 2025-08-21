@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data files (optional - uncomment if datasets get too large)
+# projects/*/data/raw/
+# *.zip
+# *.csv
+# *.shp
+# *.geojson
+
+# Outputs that can be regenerated
+# projects/*/outputs/figures/*.png
+# projects/*/outputs/figures/*.jpg
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cache
+.cache/
