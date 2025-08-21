@@ -1,0 +1,53 @@
+{
+  "stakeholder": "Minister Jean Rakoto",
+  "report_type": "Strategic Analysis",
+  "full_optimization_results": {
+    "total_budget": 4500000,
+    "allocated_budget": 4000000,
+    "remaining_budget": 500000,
+    "selected_scenarios": [
+      {
+        "scenario": "Rainforest Protection Initiative",
+        "budget": 1800000,
+        "score": 0.6574880000000002,
+        "efficiency": 3.6527111111111124e-07
+      },
+      {
+        "scenario": "Marine Conservation Program",
+        "budget": 2200000,
+        "score": 0.5008224375000002,
+        "efficiency": 2.276465625000001e-07
+      }
+    ],
+    "budget_efficiency": 1.1583104375000004,
+    "scenarios_funded": 2
+  },
+  "alternative_scenarios": [
+    {
+      "scenario": "Reduced Budget",
+      "budget": 3600000.0,
+      "expected_scenarios": 1,
+      "impact_change": "-20%"
+    },
+    {
+      "scenario": "Increased Budget",
+      "budget": 5400000.0,
+      "expected_scenarios": 2,
+      "impact_change": "+20%"
+    }
+  ],
+  "risk_assessment": {
+    "financial_risks": [],
+    "operational_risks": [],
+    "environmental_risks": [],
+    "stakeholder_risks": [],
+    "overall_risk_score": 21.5
+  },
+  "strategic_recommendations": [
+    "Diversify conservation portfolio with additional scenario types",
+    "Review scenario cost-effectiveness and consider alternative approaches",
+    "Implement adaptive management framework for continuous optimization",
+    "Establish regular stakeholder review cycles for strategy refinement"
+  ],
+  "generated_at": "2025-08-21T11:28:02.498749"
+}

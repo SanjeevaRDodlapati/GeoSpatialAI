@@ -1,0 +1,30 @@
+{
+  "system_name": "Conservation Decision Support System",
+  "analysis_date": "2025-08-21T11:30:11.271125",
+  "total_budget_analyzed": 4500000,
+  "scenarios_evaluated": 5,
+  "scenarios_selected": 2,
+  "budget_efficiency": 1.1583104375000004,
+  "stakeholders_involved": 4,
+  "objectives_considered": 5,
+  "key_outcomes": {
+    "optimal_portfolio_identified": true,
+    "stakeholder_alignment_achieved": true,
+    "uncertainty_quantified": true,
+    "implementation_ready": true
+  },
+  "recommendations": [
+    "Proceed with selected scenario portfolio",
+    "Implement adaptive management framework",
+    "Establish regular stakeholder review cycles",
+    "Monitor uncertainty factors closely",
+    "Maintain system for future decisions"
+  ],
+  "next_steps": [
+    "Finalize implementation plans",
+    "Assign project teams",
+    "Establish monitoring protocols",
+    "Schedule stakeholder meetings",
+    "Begin scenario execution"
+  ]
+}

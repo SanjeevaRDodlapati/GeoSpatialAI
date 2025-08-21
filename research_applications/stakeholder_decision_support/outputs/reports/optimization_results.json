@@ -1,0 +1,21 @@
+{
+  "total_budget": 4500000,
+  "allocated_budget": 4000000,
+  "remaining_budget": 500000,
+  "selected_scenarios": [
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "budget": 1800000,
+      "score": 0.6574880000000002,
+      "efficiency": 3.6527111111111124e-07
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "budget": 2200000,
+      "score": 0.5008224375000002,
+      "efficiency": 2.276465625000001e-07
+    }
+  ],
+  "budget_efficiency": 1.1583104375000004,
+  "scenarios_funded": 2
+}

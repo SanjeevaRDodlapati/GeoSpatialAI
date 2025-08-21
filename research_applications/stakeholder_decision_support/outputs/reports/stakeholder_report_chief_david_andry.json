@@ -1,0 +1,19 @@
+{
+  "stakeholder": "Chief David Andry",
+  "report_type": "Public Summary",
+  "conservation_priorities": [
+    "community_engagement",
+    "economic_benefits",
+    "habitat_conservation"
+  ],
+  "funded_projects": 2,
+  "public_benefits": [
+    "Protect 65 endangered species",
+    "Conserve 8500 hectares of habitat",
+    "Sequester 35000 tons of carbon",
+    "Protect 45 endangered species",
+    "Conserve 6000 hectares of habitat",
+    "Sequester 15000 tons of carbon"
+  ],
+  "generated_at": "2025-08-21T11:28:02.498822"
+}

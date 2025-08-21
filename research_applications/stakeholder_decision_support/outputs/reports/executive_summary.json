@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-08-21T11:28:02.497937",
+  "executive_summary": {
+    "total_budget": 4500000,
+    "scenarios_recommended": 2,
+    "budget_utilization": 88.88888888888889,
+    "expected_impact_score": 1.1583104375000004
+  },
+  "key_recommendations": [
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "priority": "Medium",
+      "budget_allocation": 1800000,
+      "expected_outcomes": {
+        "species_protection": 65,
+        "habitat_conservation": 8500,
+        "carbon_sequestration": 35000,
+        "community_engagement": 80,
+        "economic_benefits": 450000
+      },
+      "timeline": "24 months",
+      "efficiency_score": 3.6527111111111124e-07
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "priority": "Medium",
+      "budget_allocation": 2200000,
+      "expected_outcomes": {
+        "species_protection": 45,
+        "habitat_conservation": 6000,
+        "carbon_sequestration": 15000,
+        "community_engagement": 85,
+        "economic_benefits": 650000
+      },
+      "timeline": "30 months",
+      "efficiency_score": 2.276465625000001e-07
+    }
+  ],
+  "risk_factors": [
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "risk_area": "community_engagement",
+      "uncertainty_level": "25%",
+      "mitigation": "Enhanced monitoring and adaptive management recommended"
+    },
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "risk_area": "economic_benefits",
+      "uncertainty_level": "30%",
+      "mitigation": "Enhanced monitoring and adaptive management recommended"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "risk_area": "carbon_sequestration",
+      "uncertainty_level": "35%",
+      "mitigation": "Enhanced monitoring and adaptive management recommended"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "risk_area": "economic_benefits",
+      "uncertainty_level": "25%",
+      "mitigation": "Enhanced monitoring and adaptive management recommended"
+    }
+  ],
+  "stakeholder_alignment": {}
+}

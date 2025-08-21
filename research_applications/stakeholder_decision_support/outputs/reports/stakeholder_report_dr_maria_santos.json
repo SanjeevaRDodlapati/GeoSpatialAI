@@ -1,0 +1,174 @@
+{
+  "stakeholder": "Dr. Maria Santos",
+  "report_type": "Operational Details",
+  "budget_breakdown": [
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "budget": 1800000,
+      "score": 0.6574880000000002,
+      "efficiency": 3.6527111111111124e-07
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "budget": 2200000,
+      "score": 0.5008224375000002,
+      "efficiency": 2.276465625000001e-07
+    }
+  ],
+  "implementation_timeline": {
+    "Rainforest Protection Initiative": {
+      "start_month": 0,
+      "duration": 24,
+      "end_month": 24,
+      "milestones": [
+        {
+          "phase": "Planning",
+          "month": 2,
+          "description": "Complete planning and stakeholder engagement"
+        },
+        {
+          "phase": "Implementation Start",
+          "month": 4,
+          "description": "Begin field implementation"
+        },
+        {
+          "phase": "Mid-term Review",
+          "month": 12,
+          "description": "Conduct progress assessment"
+        },
+        {
+          "phase": "Final Implementation",
+          "month": 19,
+          "description": "Complete core activities"
+        },
+        {
+          "phase": "Evaluation",
+          "month": 24,
+          "description": "Final evaluation and reporting"
+        }
+      ]
+    },
+    "Marine Conservation Program": {
+      "start_month": 3,
+      "duration": 30,
+      "end_month": 33,
+      "milestones": [
+        {
+          "phase": "Planning",
+          "month": 3,
+          "description": "Complete planning and stakeholder engagement"
+        },
+        {
+          "phase": "Implementation Start",
+          "month": 6,
+          "description": "Begin field implementation"
+        },
+        {
+          "phase": "Mid-term Review",
+          "month": 15,
+          "description": "Conduct progress assessment"
+        },
+        {
+          "phase": "Final Implementation",
+          "month": 24,
+          "description": "Complete core activities"
+        },
+        {
+          "phase": "Evaluation",
+          "month": 30,
+          "description": "Final evaluation and reporting"
+        }
+      ]
+    }
+  },
+  "monitoring_requirements": [
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "metric": "species_protection",
+      "frequency": "Monthly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "metric": "habitat_conservation",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "metric": "carbon_sequestration",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "metric": "community_engagement",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Rainforest Protection Initiative",
+      "metric": "economic_benefits",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "metric": "species_protection",
+      "frequency": "Monthly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "metric": "habitat_conservation",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "metric": "carbon_sequestration",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "metric": "community_engagement",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    },
+    {
+      "scenario": "Marine Conservation Program",
+      "metric": "economic_benefits",
+      "frequency": "Quarterly",
+      "method": "Remote sensing",
+      "responsible_party": "GIS team"
+    }
+  ],
+  "stakeholder_alignment": {
+    "carbon_sequestration": {
+      "stakeholder_weight": 0.5,
+      "budget_allocation": 960000000.0,
+      "alignment_score": 1.0
+    },
+    "habitat_conservation": {
+      "stakeholder_weight": 0.3,
+      "budget_allocation": 285000000.0,
+      "alignment_score": 1.0
+    },
+    "species_protection": {
+      "stakeholder_weight": 0.2,
+      "budget_allocation": 2160000.0,
+      "alignment_score": 1.0
+    }
+  },
+  "generated_at": "2025-08-21T11:28:02.498794"
+}
