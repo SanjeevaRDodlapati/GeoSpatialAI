@@ -1,0 +1,31 @@
+# Phase 2: Madagascar Specialization Requirements
+# Additional packages for transfer learning and specialization
+
+# Training and optimization
+albumentations==1.3.0          # Advanced data augmentation
+wandb==0.15.0                   # Experiment tracking and visualization
+optuna==3.2.0                   # Hyperparameter optimization
+pytorch-lightning==2.0.0        # Training framework
+timm==0.9.0                     # Vision model library
+audiomentations==0.30.0         # Audio data augmentation
+
+# Data processing
+roboflow==1.1.0                 # Dataset management
+fiftyone==0.21.0                # Dataset visualization
+albumentations==1.3.0           # Image augmentation
+librosa==0.10.0                 # Audio processing (already installed)
+
+# Model optimization
+onnx==1.14.0                    # Model export format
+tensorrt==8.6.0                 # NVIDIA optimization (if available)
+openvino==2023.0.0              # Intel optimization
+
+# Evaluation and monitoring
+tensorboard==2.13.0             # Training visualization
+mlflow==2.5.0                   # Model lifecycle management
+evidently==0.4.0                # Model monitoring
+
+# Conservation-specific
+inat-tools==0.1.0               # iNaturalist data integration
+gbif-api==0.6.0                 # GBIF biodiversity data
+ebird-api==2.0.0                # eBird data integration

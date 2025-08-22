@@ -1,0 +1,95 @@
+{
+  "yolov8": {
+    "model": "yolov8n.pt",
+    "data": "madagascar_wildlife.yaml",
+    "epochs": 100,
+    "batch": 16,
+    "imgsz": 640,
+    "device": "mps",
+    "workers": 4,
+    "optimizer": "AdamW",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3,
+    "augment": true,
+    "mixup": 0.1,
+    "copy_paste": 0.3
+  },
+  "birdnet": {
+    "model_architecture": "efficientnet_b0",
+    "input_shape": [
+      150,
+      150,
+      1
+    ],
+    "num_classes": 250,
+    "batch_size": 32,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "loss": "categorical_crossentropy",
+    "metrics": [
+      "accuracy",
+      "top_5_accuracy"
+    ],
+    "callbacks": [
+      "early_stopping",
+      "reduce_lr",
+      "model_checkpoint"
+    ],
+    "augmentation": {
+      "time_stretch": [
+        0.8,
+        1.2
+      ],
+      "pitch_shift": [
+        -2,
+        2
+      ],
+      "noise_injection": 0.1,
+      "mixup": 0.2
+    }
+  },
+  "sam": {
+    "model_type": "vit_h",
+    "input_size": [
+      1024,
+      1024
+    ],
+    "num_classes": 12,
+    "batch_size": 4,
+    "epochs": 30,
+    "learning_rate": 0.0001,
+    "optimizer": "adamw",
+    "weight_decay": 0.01,
+    "scheduler": "cosine",
+    "prompt_engineering": true,
+    "mask_threshold": 0.5
+  },
+  "lemur": {
+    "backbone": "resnet50",
+    "pretrained": true,
+    "num_classes": 108,
+    "input_size": [
+      224,
+      224
+    ],
+    "batch_size": 64,
+    "epochs": 75,
+    "learning_rate": 0.001,
+    "optimizer": "sgd",
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "scheduler": "step",
+    "step_size": 25,
+    "gamma": 0.1,
+    "augmentation": {
+      "rotation": 15,
+      "brightness": 0.2,
+      "contrast": 0.2,
+      "saturation": 0.2,
+      "hue": 0.1
+    }
+  }
+}

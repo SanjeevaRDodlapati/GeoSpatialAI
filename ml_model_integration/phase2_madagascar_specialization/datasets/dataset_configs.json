@@ -1,0 +1,105 @@
+{
+  "wildlife": {
+    "name": "madagascar_wildlife",
+    "description": "Camera trap images of Madagascar endemic wildlife",
+    "species_count": 40,
+    "target_species": [
+      "Indri indri",
+      "Propithecus diadema",
+      "Lemur catta",
+      "Eulemur macaco",
+      "Microcebus murinus",
+      "Daubentonia madagascariensis",
+      "Cryptoprocta ferox",
+      "Fossa fossana",
+      "Tenrec ecaudatus"
+    ],
+    "image_size": [
+      640,
+      640
+    ],
+    "batch_size": 16,
+    "augmentation": true,
+    "split_ratio": {
+      "train": 0.7,
+      "val": 0.2,
+      "test": 0.1
+    }
+  },
+  "birds": {
+    "name": "madagascar_birds",
+    "description": "Audio recordings of Madagascar endemic birds",
+    "species_count": 250,
+    "endemic_families": [
+      "Vangidae",
+      "Bernieridae",
+      "Mesitornithidae",
+      "Leptosomidae",
+      "Brachypteraciidae"
+    ],
+    "audio_format": "wav",
+    "sample_rate": 22050,
+    "duration": 3.0,
+    "overlap": 0.5,
+    "augmentation": true
+  },
+  "ecosystems": {
+    "name": "madagascar_ecosystems",
+    "description": "Satellite imagery for ecosystem segmentation",
+    "ecosystem_types": [
+      "Spiny Forest",
+      "Dry Deciduous Forest",
+      "Eastern Rainforest",
+      "Central Highland",
+      "Mangrove",
+      "Coastal Dune",
+      "Agricultural Land",
+      "Urban Area",
+      "Water Body",
+      "Degraded Forest",
+      "Grassland",
+      "Rocky Outcrop"
+    ],
+    "image_resolution": "10m",
+    "tile_size": [
+      512,
+      512
+    ],
+    "channels": [
+      "RGB",
+      "NIR",
+      "SWIR"
+    ],
+    "temporal_range": "2020-2025"
+  },
+  "lemurs": {
+    "name": "lemur_species_identification",
+    "description": "Specialized dataset for 108 lemur species",
+    "species_count": 108,
+    "genera": [
+      "Lemur",
+      "Eulemur",
+      "Varecia",
+      "Propithecus",
+      "Indri",
+      "Avahi",
+      "Microcebus",
+      "Mirza",
+      "Cheirogaleus",
+      "Phaner",
+      "Allocebus",
+      "Daubentonia",
+      "Lepilemur"
+    ],
+    "features": [
+      "visual",
+      "acoustic",
+      "behavioral"
+    ],
+    "image_size": [
+      224,
+      224
+    ],
+    "conservation_status": true
+  }
+}

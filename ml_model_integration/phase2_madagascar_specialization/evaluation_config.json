@@ -1,0 +1,52 @@
+{
+  "metrics": {
+    "detection": [
+      "mAP50",
+      "mAP50-95",
+      "precision",
+      "recall",
+      "F1"
+    ],
+    "classification": [
+      "accuracy",
+      "top_5_accuracy",
+      "precision",
+      "recall",
+      "F1"
+    ],
+    "segmentation": [
+      "IoU",
+      "dice_coefficient",
+      "pixel_accuracy"
+    ],
+    "conservation": [
+      "species_coverage",
+      "threat_detection_rate",
+      "false_positive_rate"
+    ]
+  },
+  "benchmarks": {
+    "yolov8_madagascar": {
+      "target_map50": 0.9,
+      "target_speed": "30_fps"
+    },
+    "birdnet_madagascar": {
+      "target_accuracy": 0.85,
+      "target_latency": "1s"
+    },
+    "sam_madagascar": {
+      "target_iou": 0.95,
+      "target_speed": "5_fps"
+    },
+    "lemur_classifier": {
+      "target_accuracy": 0.92,
+      "target_inference": "100ms"
+    }
+  },
+  "validation": {
+    "cross_validation": 5,
+    "test_split": 0.1,
+    "stratified": true,
+    "temporal_split": true
+  }
+}
