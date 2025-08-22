@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monitoring
+  namespace: conservation-prod
+  labels:
+    app: monitoring
+    component: monitoring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: monitoring
+  template:
+    metadata:
+      labels:
+        app: monitoring
+        component: monitoring
+    spec:
+      containers:
+      - name: monitoring
+        image: madagascar-ai/monitoring:latest
+        ports:
+        - containerPort: 9090
+        - name: PROMETHEUS_CONFIG
+          value: "/etc/prometheus/prometheus.yml" 
+        - name: GRAFANA_ADMIN_PASSWORD
+          value: "PLACEHOLDER" 
+        - name: prometheus-storage
+          mountPath: /prometheus
+        - name: grafana-storage
+          mountPath: /var/lib/grafana
+        resources:
+          requests:
+          memory: 2Gi
+          cpu: 1000m
+          limits:
+          memory: 2Gi
+          cpu: 1500.0m
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 9090
+          initialDelaySeconds: 60
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 9090
+          initialDelaySeconds: 30
+          periodSeconds: 15
+      - name: prometheus-storage
+        persistentVolumeClaim:
+          claimName: prometheus-pvc
+      - name: grafana-storage
+        persistentVolumeClaim:
+          claimName: grafana-pvc

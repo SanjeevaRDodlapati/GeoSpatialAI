@@ -1,0 +1,18 @@
+{
+  "deployment_id": "madagascar_conservation_production_v1",
+  "environment": "production",
+  "cloud_provider": "kubernetes",
+  "region": "us-east-1",
+  "cluster_name": "madagascar-conservation-ai-prod",
+  "namespace": "conservation-prod",
+  "domain": "conservation.madagascar.org",
+  "services_count": 9,
+  "generation_time": "2025-08-22T19:19:11.014506",
+  "artifacts_generated": [
+    "docker_files",
+    "kubernetes_manifests",
+    "monitoring_configs",
+    "deployment_scripts",
+    "cicd_pipeline"
+  ]
+}

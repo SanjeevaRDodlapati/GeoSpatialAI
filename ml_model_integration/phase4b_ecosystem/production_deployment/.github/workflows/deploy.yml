@@ -1,0 +1,93 @@
+name: Madagascar Conservation AI - CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: madagascar-conservation-ai
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run tests
+      run: |
+        python -m pytest tests/ -v
+        python phase4b_ecosystem/ecosystem_core/step1_ecosystem_core.py
+        python phase4b_ecosystem/agent_communication/step2_agent_communication.py
+        python phase4b_ecosystem/conservation_dashboard/step3_conservation_dashboard.py
+        python phase4b_ecosystem/automated_workflows/step4_automated_workflows.py
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: [orchestrator, species_agent, dashboard, workflow_engine]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Log in to Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: .
+        file: ./phase4b_ecosystem/production_deployment/Dockerfile.${{ matrix.service }}
+        push: true
+        tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/${{ matrix.service }}:${{ github.sha }}
+        labels: |
+          org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+          org.opencontainers.image.revision=${{ github.sha }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Configure kubectl
+      uses: azure/k8s-set-context@v3
+      with:
+        method: kubeconfig
+        kubeconfig: ${{ secrets.KUBE_CONFIG }}
+    
+    - name: Update image tags
+      run: |
+        sed -i 's|madagascar-ai/|${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/|g' phase4b_ecosystem/production_deployment/*.yaml
+        sed -i 's|:latest|:${{ github.sha }}|g' phase4b_ecosystem/production_deployment/*.yaml
+    
+    - name: Deploy to Kubernetes
+      run: |
+        cd phase4b_ecosystem/production_deployment
+        chmod +x deploy.sh
+        ./deploy.sh
+    
+    - name: Verify deployment
+      run: |
+        kubectl wait --for=condition=available --timeout=300s deployment/ecosystem-orchestrator -n conservation-prod
+        kubectl get pods -n conservation-prod

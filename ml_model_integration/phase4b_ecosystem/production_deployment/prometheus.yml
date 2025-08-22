@@ -1,0 +1,37 @@
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "conservation_alerts.yml"
+
+scrape_configs:
+  - job_name: 'kubernetes-pods'
+    kubernetes_sd_configs:
+      - role: pod
+    relabel_configs:
+      - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_scrape]
+        action: keep
+        regex: true
+
+  - job_name: 'ecosystem-orchestrator'
+    static_configs:
+      - targets: ['ecosystem-orchestrator:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+
+  - job_name: 'conservation-agents'
+    static_configs:
+      - targets: 
+        - 'species-identification-agent:8001'
+        - 'threat-detection-agent:8002'
+        - 'workflow-engine:8003'
+    metrics_path: '/metrics'
+    scrape_interval: 15s
+
+  - job_name: 'conservation-dashboard'
+    static_configs:
+      - targets: ['conservation-dashboard:8050']
+    metrics_path: '/metrics'
+    scrape_interval: 30s

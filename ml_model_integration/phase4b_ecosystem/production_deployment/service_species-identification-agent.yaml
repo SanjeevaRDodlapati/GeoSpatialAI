@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: species-identification-agent
+  namespace: conservation-prod
+  labels:
+    app: species-identification-agent
+    component: agent_service
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8001
+    targetPort: 8001
+    protocol: TCP
+  selector:
+    app: species-identification-agent

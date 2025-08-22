@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: threat-detection-agent
+  namespace: conservation-prod
+  labels:
+    app: threat-detection-agent
+    component: agent_service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: threat-detection-agent
+  template:
+    metadata:
+      labels:
+        app: threat-detection-agent
+        component: agent_service
+    spec:
+      containers:
+      - name: threat-detection-agent
+        image: madagascar-ai/threat-agent:latest
+        ports:
+        - containerPort: 8002
+        - name: AGENT_TYPE
+          value: "THREAT_DETECTION" 
+        - name: SATELLITE_API_ENDPOINT
+          value: "https://api.satellite.provider.com" 
+        - name: THREAT_THRESHOLD
+          value: "0.6" 
+
+        resources:
+          requests:
+          memory: 3Gi
+          cpu: 1500m
+          limits:
+          memory: 3Gi
+          cpu: 2250.0m
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8002
+          initialDelaySeconds: 60
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8002
+          initialDelaySeconds: 30
+          periodSeconds: 15

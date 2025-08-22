@@ -1,0 +1,73 @@
+# Madagascar Conservation AI Helm Chart Values
+
+global:
+  environment: production
+  domain: conservation.madagascar.org
+  namespace: conservation-prod
+
+orchestrator:
+  enabled: true
+  replicaCount: 2
+  image:
+    repository: madagascar-ai/ecosystem-orchestrator
+    tag: latest
+  resources:
+    requests:
+      memory: "2Gi"
+      cpu: "1000m"
+    limits:
+      memory: "4Gi"
+      cpu: "2000m"
+
+agents:
+  species:
+    enabled: true
+    replicaCount: 3
+    image:
+      repository: madagascar-ai/species-agent
+      tag: latest
+    resources:
+      requests:
+        memory: "4Gi"
+        cpu: "2000m"
+        nvidia.com/gpu: 1
+  
+  threat:
+    enabled: true
+    replicaCount: 2
+    image:
+      repository: madagascar-ai/threat-agent
+      tag: latest
+
+dashboard:
+  enabled: true
+  replicaCount: 2
+  image:
+    repository: madagascar-ai/dashboard
+    tag: latest
+  ingress:
+    enabled: true
+    host: conservation.madagascar.org
+
+database:
+  postgresql:
+    enabled: true
+    auth:
+      database: madagascar_conservation
+      username: conservation_user
+    primary:
+      persistence:
+        size: 100Gi
+
+monitoring:
+  prometheus:
+    enabled: true
+  grafana:
+    enabled: true
+    adminPassword: admin_password
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70

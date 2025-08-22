@@ -1,0 +1,87 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Madagascar Conservation AI Dashboard",
+    "tags": [
+      "conservation",
+      "ai",
+      "madagascar"
+    ],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Ecosystem Health",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "ecosystem_health_percentage",
+            "legendFormat": "Health %"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "thresholds": {
+              "steps": [
+                {
+                  "color": "red",
+                  "value": 0
+                },
+                {
+                  "color": "yellow",
+                  "value": 70
+                },
+                {
+                  "color": "green",
+                  "value": 90
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "Species Detections",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "rate(species_detections_total[5m])",
+            "legendFormat": "{{ species }}"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Threat Alerts",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "sum(conservation_active_threats)",
+            "legendFormat": "Active Threats"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Workflow Performance",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "rate(workflow_executions_total[5m])",
+            "legendFormat": "Executions/sec"
+          },
+          {
+            "expr": "workflow_success_rate",
+            "legendFormat": "Success Rate"
+          }
+        ]
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}

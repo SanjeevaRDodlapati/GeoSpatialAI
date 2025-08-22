@@ -1,0 +1,48 @@
+
+groups:
+  - name: conservation_alerts
+    rules:
+      - alert: EcosystemDown
+        expr: up{job="ecosystem-orchestrator"} == 0
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Madagascar Conservation Ecosystem is down"
+          description: "The main ecosystem orchestrator has been down for more than 5 minutes."
+
+      - alert: HighThreatDetected
+        expr: conservation_threat_severity > 0.8
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High severity threat detected"
+          description: "A threat with severity {{ $value }} has been detected."
+
+      - alert: SpeciesEndangered
+        expr: species_population_decline_rate > 0.1
+        for: 10m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Rapid species population decline"
+          description: "Species {{ $labels.species }} population declining at rate {{ $value }}."
+
+      - alert: WorkflowExecutionFailed
+        expr: failed_workflow_executions_total > 3
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Multiple workflow executions failed"
+          description: "{{ $value }} workflow executions have failed in the last 5 minutes."
+
+      - alert: DatabaseConnectionLost
+        expr: up{job="postgresql"} == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Database connection lost"
+          description: "PostgreSQL database is unreachable."

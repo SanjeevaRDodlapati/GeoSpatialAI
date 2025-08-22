@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: conservation-config
+  namespace: conservation-prod
+data:
+  environment: "production"
+  cluster_name: "madagascar-conservation-ai-prod"
+  domain: "conservation.madagascar.org"
+  log_level: "INFO"
+  monitoring_enabled: "true"
+  auto_scaling_enabled: "true"

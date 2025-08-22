@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  postgresql:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: madagascar_conservation
+      POSTGRES_USER: conservation_user
+      POSTGRES_PASSWORD: dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U conservation_user"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: conservation_admin
+      MINIO_ROOT_PASSWORD: dev_password
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  ecosystem-orchestrator:
+    build:
+      context: ../../..
+      dockerfile: phase4b_ecosystem/production_deployment/Dockerfile.orchestrator
+    environment:
+      ENVIRONMENT: development
+      DATABASE_URL: postgresql://conservation_user:dev_password@postgresql:5432/madagascar_conservation
+      REDIS_URL: redis://redis:6379
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgresql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  conservation-dashboard:
+    build:
+      context: ../../..
+      dockerfile: phase4b_ecosystem/production_deployment/Dockerfile.dashboard
+    environment:
+      ORCHESTRATOR_URL: http://ecosystem-orchestrator:8000
+    ports:
+      - "8050:8050"
+    depends_on:
+      - ecosystem-orchestrator
+
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:

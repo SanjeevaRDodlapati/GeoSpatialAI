@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: species-identification-agent
+  namespace: conservation-prod
+  labels:
+    app: species-identification-agent
+    component: agent_service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: species-identification-agent
+  template:
+    metadata:
+      labels:
+        app: species-identification-agent
+        component: agent_service
+    spec:
+      containers:
+      - name: species-identification-agent
+        image: madagascar-ai/species-agent:latest
+        ports:
+        - containerPort: 8001
+        - name: AGENT_TYPE
+          value: "SPECIES_IDENTIFICATION" 
+        - name: MODEL_PATH
+          value: "/app/models/species_model.pkl" 
+        - name: CONFIDENCE_THRESHOLD
+          value: "0.7" 
+        - name: model-storage
+          mountPath: /app/models
+        resources:
+          requests:
+          memory: 4Gi
+          cpu: 2000m
+          nvidia.com/gpu: 1
+          limits:
+          memory: 4Gi
+          cpu: 3000.0m
+          nvidia.com/gpu: 1
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8001
+          initialDelaySeconds: 60
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8001
+          initialDelaySeconds: 30
+          periodSeconds: 15
+      - name: model-storage
+        persistentVolumeClaim:
+          claimName: model-pvc
