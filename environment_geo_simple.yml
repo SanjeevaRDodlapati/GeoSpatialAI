@@ -1,0 +1,83 @@
+# GeoSpatialAI Simple Conda Environment
+# ====================================
+# Simplified environment for easier installation
+# Core packages only, additional packages via pip
+
+name: geo_env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.11
+  
+  # Core scientific computing
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy
+  - matplotlib=3.8.4
+  
+  # Geospatial core
+  - geopandas
+  - rasterio  
+  - shapely
+  - fiona
+  - pyproj
+  - folium
+  
+  # Visualization
+  - plotly=5.22.0
+  - seaborn
+  
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  
+  # ML basics
+  - scikit-learn
+  - xgboost
+  
+  # Web frameworks
+  - fastapi
+  - uvicorn
+  - requests
+  
+  # Development
+  - pytest
+  - black
+  - git
+  
+  # Additional tools
+  - pyyaml
+  - lxml
+  - rich
+  
+  # Pip packages
+  - pip
+  - pip:
+    # Deep learning (exact versions)
+    - torch==2.2.2
+    - torchvision==0.17.2
+    - tensorflow==2.16.2
+    - tensorflow-hub==0.16.1
+    
+    # AI/LLM
+    - openai>=1.0.0
+    - anthropic>=0.5.0
+    - langchain>=0.1.0
+    
+    # Web tools
+    - pydantic==2.11.7
+    - httpx
+    - aiohttp
+    
+    # Additional packages
+    - streamlit
+    - pytest-asyncio
+    - python-dateutil
+    - structlog
+    - geojson
