@@ -1,0 +1,36 @@
+{
+  "device_name": "madagascar_conservation_jetson",
+  "models": {
+    "yolov8_wildlife": {
+      "format": "TensorRT",
+      "inference_time": "28.2ms",
+      "memory_usage": "2.1GB",
+      "power_consumption": "15W"
+    },
+    "lemur_classifier": {
+      "format": "TensorRT",
+      "inference_time": "14.8ms",
+      "memory_usage": "1.8GB",
+      "power_consumption": "12W"
+    },
+    "ecosystem_segmentation": {
+      "format": "TensorRT",
+      "inference_time": "100.2ms",
+      "memory_usage": "3.2GB",
+      "power_consumption": "18W"
+    }
+  },
+  "system_specs": {
+    "gpu": "384-core NVIDIA Volta GPU",
+    "cpu": "6-core NVIDIA Carmel ARM64",
+    "memory": "8GB LPDDR4x",
+    "storage": "32GB eMMC + 256GB NVMe SSD",
+    "power": "Solar + battery backup system"
+  },
+  "deployment_settings": {
+    "max_concurrent_streams": 4,
+    "batch_processing": true,
+    "real_time_alerts": true,
+    "data_backup": "local + cloud sync"
+  }
+}

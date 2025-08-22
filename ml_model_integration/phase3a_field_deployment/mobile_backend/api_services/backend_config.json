@@ -1,0 +1,77 @@
+{
+  "api_services": {
+    "base_url": "https://api.madagascar-conservation-ai.org",
+    "version": "v1",
+    "authentication": "JWT + API_KEY",
+    "rate_limiting": "100_requests_per_minute",
+    "endpoints": {
+      "/species/detect": "Real-time species identification",
+      "/species/history": "Historical detection data",
+      "/alerts/current": "Active conservation alerts",
+      "/maps/activity": "Geographic activity heatmap",
+      "/reports/generate": "Generate conservation reports",
+      "/sync/data": "Offline data synchronization"
+    }
+  },
+  "user_management": {
+    "user_types": [
+      {
+        "type": "field_researcher",
+        "permissions": [
+          "full_access",
+          "data_collection",
+          "report_generation"
+        ],
+        "offline_capability": true
+      },
+      {
+        "type": "park_ranger",
+        "permissions": [
+          "alert_access",
+          "species_identification",
+          "incident_reporting"
+        ],
+        "offline_capability": true
+      },
+      {
+        "type": "conservation_manager",
+        "permissions": [
+          "dashboard_access",
+          "report_viewing",
+          "data_export"
+        ],
+        "offline_capability": false
+      }
+    ],
+    "authentication": {
+      "method": "OAuth2 + biometric",
+      "session_timeout": "8_hours",
+      "offline_auth": "cached_credentials"
+    }
+  },
+  "features": {
+    "species_identification": {
+      "camera_integration": true,
+      "real_time_processing": true,
+      "confidence_scoring": true,
+      "conservation_status": true
+    },
+    "data_collection": {
+      "photo_upload": true,
+      "gps_tagging": true,
+      "metadata_capture": true,
+      "offline_storage": true
+    },
+    "conservation_tools": {
+      "threat_reporting": true,
+      "population_tracking": true,
+      "habitat_assessment": true,
+      "alert_notifications": true
+    },
+    "offline_capability": {
+      "model_caching": "core_models_only",
+      "data_sync": "automatic_when_connected",
+      "storage_limit": "2GB_local_data"
+    }
+  }
+}

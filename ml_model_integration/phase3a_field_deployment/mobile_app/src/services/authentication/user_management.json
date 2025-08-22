@@ -1,0 +1,109 @@
+{
+  "authentication": {
+    "methods": [
+      {
+        "type": "biometric",
+        "options": [
+          "fingerprint",
+          "face_id",
+          "voice_recognition"
+        ],
+        "fallback": "pin_password",
+        "field_optimized": "glove_friendly_large_buttons"
+      },
+      {
+        "type": "oauth2",
+        "providers": [
+          "google",
+          "institutional_sso"
+        ],
+        "token_management": "refresh_token_automatic",
+        "offline_capability": "cached_credentials_72_hours"
+      },
+      {
+        "type": "api_key",
+        "usage": "device_to_device_authentication",
+        "rotation": "monthly_automatic",
+        "scope": "field_station_specific"
+      }
+    ],
+    "security": {
+      "encryption": "aes_256_end_to_end",
+      "key_management": "hardware_security_module",
+      "session_management": "jwt_with_refresh_rotation",
+      "audit_logging": "comprehensive_access_logging"
+    }
+  },
+  "user_roles": {
+    "field_researcher": {
+      "permissions": [
+        "species_identification_full",
+        "data_collection_unlimited",
+        "observation_create_edit_delete",
+        "report_generation_basic",
+        "collaboration_tools_full"
+      ],
+      "restrictions": [
+        "system_administration_none",
+        "user_management_none",
+        "sensitive_data_limited"
+      ],
+      "offline_capabilities": "full_functionality_available"
+    },
+    "park_ranger": {
+      "permissions": [
+        "species_identification_basic",
+        "threat_reporting_full",
+        "alert_management_response",
+        "patrol_data_collection",
+        "emergency_communication"
+      ],
+      "restrictions": [
+        "research_data_view_only",
+        "system_configuration_none",
+        "sensitive_location_data_filtered"
+      ],
+      "offline_capabilities": "essential_features_available"
+    },
+    "conservation_manager": {
+      "permissions": [
+        "dashboard_access_full",
+        "report_generation_advanced",
+        "data_export_analysis",
+        "team_coordination_tools",
+        "partnership_data_sharing"
+      ],
+      "restrictions": [
+        "field_data_collection_limited",
+        "system_administration_basic",
+        "direct_device_control_none"
+      ],
+      "offline_capabilities": "reporting_tools_only"
+    },
+    "system_administrator": {
+      "permissions": [
+        "full_system_access",
+        "user_management_complete",
+        "system_configuration_all",
+        "data_management_advanced",
+        "security_administration"
+      ],
+      "restrictions": [],
+      "offline_capabilities": "diagnostic_tools_available"
+    }
+  },
+  "collaboration_features": {
+    "team_management": {
+      "research_groups": "project_based_team_organization",
+      "data_sharing": "permission_based_selective_sharing",
+      "communication": "in_app_messaging_with_location",
+      "coordination": "shared_calendars_task_assignment"
+    },
+    "real_time_collaboration": {
+      "shared_observations": "simultaneous_multi_user_editing",
+      "live_location_sharing": "team_member_tracking_consent_based",
+      "collaborative_species_id": "crowd_sourced_identification_validation",
+      "emergency_coordination": "panic_button_team_notification"
+    }
+  }
+}

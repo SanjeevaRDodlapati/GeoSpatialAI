@@ -1,0 +1,51 @@
+{
+  "main_dashboard": {
+    "layout": "conservation_dashboard",
+    "widgets": [
+      {
+        "type": "species_counter",
+        "position": "top",
+        "size": "large"
+      },
+      {
+        "type": "alert_feed",
+        "position": "center",
+        "size": "medium"
+      },
+      {
+        "type": "quick_actions",
+        "position": "bottom",
+        "size": "toolbar"
+      }
+    ],
+    "navigation": "bottom_tab_conservation_focused"
+  },
+  "species_identification": {
+    "layout": "camera_overlay",
+    "real_time_processing": true,
+    "overlay_elements": [
+      "species_prediction_box",
+      "confidence_meter",
+      "conservation_status_indicator",
+      "capture_controls"
+    ]
+  },
+  "data_collection": {
+    "layout": "form_based_with_media",
+    "sections": [
+      "photo_gallery_grid",
+      "metadata_form",
+      "field_notes_editor",
+      "sync_status_indicator"
+    ]
+  },
+  "conservation_tools": {
+    "layout": "action_oriented",
+    "quick_access": [
+      "emergency_alert_button",
+      "species_reporting",
+      "habitat_assessment",
+      "population_survey"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "regular_communications": {
+    "daily_operations": {
+      "participants": [
+        "field_teams",
+        "park_rangers",
+        "research_station"
+      ],
+      "format": "digital_dashboard_updates",
+      "content": [
+        "system_status",
+        "species_detections",
+        "alerts"
+      ],
+      "timing": "morning_briefing_evening_summary"
+    },
+    "weekly_coordination": {
+      "participants": [
+        "park_management",
+        "research_coordinators",
+        "ai_team"
+      ],
+      "format": "video_conference_call",
+      "content": [
+        "performance_review",
+        "challenges",
+        "planning"
+      ],
+      "timing": "friday_afternoon_coordination"
+    },
+    "monthly_review": {
+      "participants": [
+        "all_stakeholders",
+        "partner_organizations"
+      ],
+      "format": "comprehensive_report_meeting",
+      "content": [
+        "impact_assessment",
+        "lessons_learned",
+        "scaling_plans"
+      ],
+      "timing": "first_week_of_month"
+    }
+  },
+  "emergency_communications": {
+    "conservation_threats": {
+      "activation": "automatic_ai_threat_detection",
+      "notification": "immediate_sms_email_app_alerts",
+      "escalation": "park_management_law_enforcement",
+      "response_time": "under_15_minutes"
+    },
+    "technical_issues": {
+      "detection": "automated_system_monitoring",
+      "notification": "technical_support_team",
+      "escalation": "field_support_remote_assistance",
+      "response_time": "under_30_minutes"
+    }
+  }
+}

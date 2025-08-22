@@ -1,0 +1,71 @@
+{
+  "offline_strategy": {
+    "core_functionality": "fully_operational_offline",
+    "data_storage": "intelligent_local_caching",
+    "synchronization": "automatic_background_sync",
+    "conflict_resolution": "timestamp_based_with_manual_override"
+  },
+  "local_storage": {
+    "species_database": {
+      "madagascar_species": "complete_20_wildlife_108_lemurs",
+      "conservation_status": "iucn_local_priority_data",
+      "identification_guides": "photos_descriptions_audio",
+      "behavioral_data": "ethogram_interaction_patterns"
+    },
+    "ai_models": {
+      "core_detection": "yolov8_wildlife_compressed",
+      "lemur_classification": "specialized_lemur_model",
+      "preprocessing": "image_optimization_pipeline",
+      "postprocessing": "result_enhancement_filters"
+    },
+    "user_data": {
+      "observations": "sqlite_database_with_encryption",
+      "photos": "jpeg_with_lossless_compression",
+      "audio_notes": "aac_compressed_transcribed",
+      "metadata": "json_structured_indexed"
+    },
+    "maps_navigation": {
+      "base_maps": "offline_madagascar_topographic",
+      "protected_areas": "park_boundaries_trails",
+      "research_sites": "station_locations_facilities",
+      "species_hotspots": "known_occurrence_areas"
+    }
+  },
+  "sync_management": {
+    "connectivity_detection": {
+      "wifi_priority": "high_bandwidth_full_sync",
+      "cellular_selective": "essential_data_only",
+      "satellite_emergency": "alerts_critical_data",
+      "offline_queuing": "intelligent_priority_queue"
+    },
+    "data_prioritization": {
+      "immediate_sync": [
+        "conservation_alerts",
+        "threat_reports",
+        "rare_species_sightings",
+        "emergency_communications"
+      ],
+      "daily_sync": [
+        "species_observations",
+        "photo_collections",
+        "field_notes",
+        "performance_metrics"
+      ],
+      "weekly_sync": [
+        "model_updates",
+        "database_refreshes",
+        "app_updates",
+        "bulk_media_backup"
+      ]
+    },
+    "conflict_resolution": {
+      "strategy": "user_guided_resolution",
+      "automatic_rules": [
+        "latest_timestamp_wins_for_notes",
+        "merge_photo_collections",
+        "alert_data_never_overwritten",
+        "conservation_status_server_authority"
+      ]
+    }
+  }
+}

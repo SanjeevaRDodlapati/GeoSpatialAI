@@ -1,0 +1,69 @@
+{
+  "synchronization_architecture": {
+    "sync_protocol": "differential_sync_with_compression",
+    "conflict_resolution": "operational_transform_based",
+    "data_integrity": "checksum_verification_end_to_end",
+    "scalability": "horizontal_scaling_ready"
+  },
+  "sync_endpoints": {
+    "primary_server": "https://api.madagascar-conservation-ai.org/sync/v1",
+    "backup_servers": [
+      "https://backup-eu.madagascar-conservation-ai.org/sync/v1",
+      "https://backup-us.madagascar-conservation-ai.org/sync/v1"
+    ],
+    "edge_computing_integration": [
+      "centre_valbio_edge_server",
+      "maromizaha_edge_server"
+    ]
+  },
+  "data_types": {
+    "species_observations": {
+      "sync_frequency": "immediate_when_connected",
+      "compression": "json_gzip",
+      "versioning": "full_history_maintained",
+      "conflict_resolution": "field_researcher_priority"
+    },
+    "photos_media": {
+      "sync_frequency": "wifi_only_unless_critical",
+      "compression": "progressive_jpeg_smart_resize",
+      "versioning": "original_plus_optimized_versions",
+      "conflict_resolution": "keep_all_versions"
+    },
+    "ai_model_updates": {
+      "sync_frequency": "weekly_wifi_only",
+      "compression": "delta_updates_binary_diff",
+      "versioning": "semantic_versioning",
+      "conflict_resolution": "server_authoritative"
+    },
+    "conservation_alerts": {
+      "sync_frequency": "immediate_all_connections",
+      "compression": "minimal_for_speed",
+      "versioning": "append_only_immutable",
+      "conflict_resolution": "chronological_ordering"
+    }
+  },
+  "bandwidth_management": {
+    "connection_types": {
+      "wifi": {
+        "full_sync": "all_data_types_unlimited",
+        "background_sync": "continuous_monitoring",
+        "quality_settings": "high_resolution_full_models"
+      },
+      "cellular_4g": {
+        "selective_sync": "essential_data_compressed",
+        "background_sync": "limited_conservation_alerts",
+        "quality_settings": "medium_resolution_core_models"
+      },
+      "cellular_3g": {
+        "minimal_sync": "alerts_critical_data_only",
+        "background_sync": "disabled_manual_trigger",
+        "quality_settings": "low_resolution_minimal_models"
+      },
+      "satellite": {
+        "emergency_only": "alerts_location_heartbeat",
+        "background_sync": "disabled",
+        "quality_settings": "text_only_no_media"
+      }
+    }
+  }
+}

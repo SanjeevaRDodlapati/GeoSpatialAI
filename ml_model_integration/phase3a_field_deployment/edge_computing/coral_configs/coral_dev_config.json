@@ -1,0 +1,27 @@
+{
+  "device_name": "madagascar_conservation_coral",
+  "models": {
+    "yolov8_wildlife_lite": {
+      "format": "TFLite EdgeTPU",
+      "inference_time": "45.3ms",
+      "power_consumption": "2W"
+    },
+    "lemur_classifier_lite": {
+      "format": "TFLite EdgeTPU",
+      "inference_time": "23.1ms",
+      "power_consumption": "1.5W"
+    }
+  },
+  "system_specs": {
+    "edge_tpu": "Google Edge TPU ML accelerator",
+    "cpu": "NXP i.MX 8M SOC (Quad Cortex-A53)",
+    "memory": "1GB LPDDR4",
+    "storage": "8GB eMMC + microSD",
+    "power": "USB-C + solar backup"
+  },
+  "deployment_settings": {
+    "ultra_low_power": true,
+    "battery_optimization": true,
+    "offline_capability": true
+  }
+}

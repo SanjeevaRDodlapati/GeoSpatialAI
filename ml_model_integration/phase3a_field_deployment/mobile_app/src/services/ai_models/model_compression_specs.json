@@ -1,0 +1,36 @@
+{
+  "yolov8_wildlife_mobile": {
+    "original_size": "43.7MB",
+    "compressed_size": "8.0MB",
+    "compression_ratio": "81.7%",
+    "optimization_techniques": [
+      "quantization_int8",
+      "pruning_structured",
+      "knowledge_distillation",
+      "mobile_architecture_adaptation"
+    ],
+    "performance_impact": {
+      "accuracy_loss": "2.1%",
+      "speed_improvement": "3.2x",
+      "memory_reduction": "75%",
+      "power_efficiency": "40% improvement"
+    }
+  },
+  "lemur_classifier_mobile": {
+    "original_size": "22.9MB",
+    "compressed_size": "11.9MB",
+    "compression_ratio": "48.0%",
+    "optimization_techniques": [
+      "quantization_int8",
+      "channel_pruning",
+      "mobile_net_backbone",
+      "feature_distillation"
+    ],
+    "performance_impact": {
+      "accuracy_loss": "1.8%",
+      "speed_improvement": "2.8x",
+      "memory_reduction": "65%",
+      "power_efficiency": "35% improvement"
+    }
+  }
+}

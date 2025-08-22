@@ -1,0 +1,31 @@
+{
+  "trap_id": "CVB_TRAP_001",
+  "location": {
+    "site": "Centre ValBio",
+    "coordinates": {
+      "lat": -21.2525,
+      "lon": 47.4181
+    },
+    "habitat": "rainforest_understory",
+    "elevation": "950m"
+  },
+  "camera_settings": {
+    "trigger_sensitivity": "medium",
+    "photo_burst": 3,
+    "video_length": "30s",
+    "detection_zone": "full_frame",
+    "night_vision": "infrared"
+  },
+  "ai_processing": {
+    "real_time": true,
+    "species_detection": true,
+    "behavior_analysis": false,
+    "conservation_alerts": true
+  },
+  "data_management": {
+    "local_processing": true,
+    "cloud_sync": "daily",
+    "alert_threshold": "immediate",
+    "backup_frequency": "hourly"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "digital_materials": {
+    "interactive_tutorials": "step_by_step_app_operation_videos",
+    "species_identification_guide": "madagascar_fauna_ai_assisted_guide",
+    "troubleshooting_manual": "common_issues_solutions_flowcharts",
+    "best_practices_guide": "field_tested_conservation_protocols"
+  },
+  "physical_materials": {
+    "printed_guides": "waterproof_field_reference_cards",
+    "equipment_manuals": "device_specific_operation_instructions",
+    "certification_certificates": "official_program_completion_recognition",
+    "feedback_forms": "continuous_improvement_input_collection"
+  },
+  "support_systems": {
+    "online_forum": "user_community_knowledge_sharing",
+    "helpdesk_system": "technical_support_ticket_system",
+    "mentorship_program": "experienced_user_newcomer_pairing",
+    "expert_consultation": "specialist_advice_complex_issues"
+  }
+}

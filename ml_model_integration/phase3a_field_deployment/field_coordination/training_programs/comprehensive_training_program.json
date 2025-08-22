@@ -1,0 +1,138 @@
+{
+  "training_objectives": {
+    "technical_competency": "ai_system_operation_troubleshooting",
+    "conservation_application": "effective_conservation_ai_utilization",
+    "data_management": "scientific_data_collection_protocols",
+    "safety_protocols": "field_safety_emergency_response"
+  },
+  "target_audiences": {
+    "park_rangers": {
+      "group_size": "15_rangers_across_both_sites",
+      "training_focus": [
+        "mobile_app_usage_species_identification",
+        "threat_detection_alert_response",
+        "equipment_basic_maintenance",
+        "conservation_data_interpretation"
+      ],
+      "training_duration": "3_days_intensive_workshop",
+      "certification": "conservation_ai_ranger_certification",
+      "refresher_training": "quarterly_updates"
+    },
+    "field_researchers": {
+      "group_size": "8_researchers_graduate_students",
+      "training_focus": [
+        "advanced_ai_system_features",
+        "research_data_collection_protocols",
+        "statistical_analysis_interpretation",
+        "publication_quality_data_management"
+      ],
+      "training_duration": "5_days_comprehensive_training",
+      "certification": "conservation_ai_researcher_certification",
+      "ongoing_support": "monthly_technical_support_sessions"
+    },
+    "conservation_managers": {
+      "group_size": "5_park_management_staff",
+      "training_focus": [
+        "dashboard_interpretation_decision_making",
+        "conservation_impact_assessment",
+        "resource_allocation_optimization",
+        "stakeholder_reporting_communication"
+      ],
+      "training_duration": "2_days_executive_training",
+      "certification": "conservation_ai_management_certification",
+      "strategic_support": "quarterly_strategy_sessions"
+    },
+    "technical_support": {
+      "group_size": "3_local_technical_staff",
+      "training_focus": [
+        "system_administration_maintenance",
+        "troubleshooting_repair_procedures",
+        "software_updates_model_deployment",
+        "user_support_training_delivery"
+      ],
+      "training_duration": "7_days_technical_certification",
+      "certification": "conservation_ai_technical_specialist",
+      "advanced_training": "annual_international_training"
+    }
+  },
+  "training_curriculum": {
+    "module_1_system_overview": {
+      "duration": "4_hours",
+      "content": [
+        "conservation_ai_principles_applications",
+        "madagascar_species_conservation_context",
+        "system_architecture_capabilities",
+        "conservation_impact_potential"
+      ],
+      "delivery": "interactive_presentation_demonstrations"
+    },
+    "module_2_hands_on_operation": {
+      "duration": "8_hours",
+      "content": [
+        "mobile_app_practical_training",
+        "species_identification_practice",
+        "data_collection_protocols",
+        "alert_response_procedures"
+      ],
+      "delivery": "field_based_practical_exercises"
+    },
+    "module_3_data_interpretation": {
+      "duration": "4_hours",
+      "content": [
+        "ai_confidence_scores_interpretation",
+        "conservation_metrics_understanding",
+        "population_trend_analysis",
+        "threat_assessment_prioritization"
+      ],
+      "delivery": "case_study_analysis_group_work"
+    },
+    "module_4_troubleshooting": {
+      "duration": "3_hours",
+      "content": [
+        "common_technical_issues_solutions",
+        "equipment_maintenance_procedures",
+        "connectivity_problems_resolution",
+        "escalation_procedures_support_contacts"
+      ],
+      "delivery": "hands_on_problem_solving"
+    },
+    "module_5_conservation_integration": {
+      "duration": "3_hours",
+      "content": [
+        "patrol_route_optimization",
+        "research_protocol_integration",
+        "community_engagement_strategies",
+        "long_term_conservation_planning"
+      ],
+      "delivery": "strategic_planning_workshop"
+    }
+  },
+  "training_logistics": {
+    "scheduling": {
+      "centre_valbio_training": "week_1_installation_concurrent",
+      "maromizaha_training": "week_2_following_equipment_setup",
+      "follow_up_sessions": "monthly_virtual_quarterly_in_person",
+      "refresher_training": "annual_comprehensive_update"
+    },
+    "facilities": {
+      "classroom_space": "research_station_conference_facilities",
+      "field_training_areas": "actual_deployment_locations",
+      "equipment": "training_devices_demonstration_units",
+      "materials": "multilingual_guides_french_malagasy_english"
+    },
+    "certification_program": {
+      "assessment_methods": [
+        "practical_skills_demonstration",
+        "written_knowledge_assessment",
+        "field_scenario_problem_solving",
+        "conservation_case_study_analysis"
+      ],
+      "certification_levels": [
+        "basic_user_mobile_app_operation",
+        "advanced_user_data_analysis_interpretation",
+        "trainer_certification_train_others",
+        "specialist_system_administration"
+      ]
+    }
+  }
+}

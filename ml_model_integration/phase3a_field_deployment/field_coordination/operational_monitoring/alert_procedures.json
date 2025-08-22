@@ -1,0 +1,28 @@
+{
+  "alert_categories": {
+    "critical_system_failure": {
+      "definition": "system_down_major_functionality_loss",
+      "response_time": "immediate_under_15_minutes",
+      "notification": "sms_email_app_notification_all_stakeholders",
+      "escalation": "technical_team_management_partners"
+    },
+    "conservation_emergency": {
+      "definition": "poaching_activity_rare_species_threat",
+      "response_time": "immediate_under_5_minutes",
+      "notification": "emergency_alert_law_enforcement_rangers",
+      "escalation": "park_management_government_agencies"
+    },
+    "performance_degradation": {
+      "definition": "below_target_performance_metrics",
+      "response_time": "within_2_hours",
+      "notification": "technical_team_operations_managers",
+      "escalation": "performance_improvement_action_plan"
+    },
+    "user_support_request": {
+      "definition": "field_team_technical_assistance_needs",
+      "response_time": "within_30_minutes",
+      "notification": "support_team_local_technical_staff",
+      "escalation": "senior_support_specialist_if_unresolved"
+    }
+  }
+}

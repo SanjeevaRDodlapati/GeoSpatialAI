@@ -1,0 +1,52 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Madagascar Conservation AI API",
+    "version": "1.0.0",
+    "description": "Real-time conservation AI services for Madagascar"
+  },
+  "paths": {
+    "/api/v1/species/detect": {
+      "post": {
+        "summary": "Detect species in uploaded image",
+        "parameters": [
+          {
+            "name": "image",
+            "type": "file",
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "object",
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": "Species detection results with confidence scores"
+        }
+      }
+    },
+    "/api/v1/alerts/submit": {
+      "post": {
+        "summary": "Submit conservation alert",
+        "parameters": [
+          {
+            "name": "alert_type",
+            "type": "string",
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "object",
+            "required": true
+          },
+          {
+            "name": "evidence",
+            "type": "file",
+            "required": false
+          }
+        ]
+      }
+    }
+  }
+}

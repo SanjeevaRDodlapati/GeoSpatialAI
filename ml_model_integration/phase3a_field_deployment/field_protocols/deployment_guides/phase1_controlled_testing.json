@@ -1,0 +1,48 @@
+{
+  "phase": "controlled_testing",
+  "duration": "2_weeks",
+  "objectives": [
+    "Validate model performance in real conditions",
+    "Test edge device reliability",
+    "Establish baseline metrics",
+    "Train field staff"
+  ],
+  "test_scenarios": [
+    {
+      "scenario": "known_species_validation",
+      "description": "Test AI on known species populations",
+      "location": "Centre ValBio research plots",
+      "expected_species": [
+        "Ring-tailed lemur",
+        "Red-fronted lemur",
+        "Tenrec species"
+      ],
+      "success_criteria": "90% accuracy on known populations"
+    },
+    {
+      "scenario": "edge_device_stress_test",
+      "description": "24-hour continuous operation test",
+      "location": "Both deployment sites",
+      "monitored_metrics": [
+        "CPU usage",
+        "memory",
+        "temperature",
+        "power"
+      ],
+      "success_criteria": "Stable operation under 80% resource usage"
+    },
+    {
+      "scenario": "camera_trap_integration",
+      "description": "Automated processing of camera trap data",
+      "location": "Active camera trap locations",
+      "data_volume": "1000+ images per day",
+      "success_criteria": "Real-time processing with <2 minute delay"
+    }
+  ],
+  "daily_activities": [
+    "Morning system health check",
+    "Midday performance review",
+    "Evening data analysis",
+    "Night automated monitoring"
+  ]
+}

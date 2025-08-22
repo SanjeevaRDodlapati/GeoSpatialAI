@@ -1,0 +1,20 @@
+{
+  "power_requirements": {
+    "total_power_consumption": "450W_peak_250W_average",
+    "solar_capacity": "1.5kW_solar_panels_per_site",
+    "battery_backup": "72_hour_autonomy_lithium_phosphate",
+    "grid_integration": "automatic_switching_load_management"
+  },
+  "connectivity_requirements": {
+    "primary_connectivity": "4g_lte_cellular_backup",
+    "secondary_connectivity": "satellite_emergency_communication",
+    "local_networking": "wifi_mesh_5km_range",
+    "data_bandwidth": "10mbps_minimum_ai_processing"
+  },
+  "environmental_specifications": {
+    "operating_temperature": "-10c_to_60c_operation",
+    "humidity_tolerance": "95%_relative_humidity_tropical",
+    "ingress_protection": "ip67_dust_water_protection",
+    "wildlife_protection": "tamper_resistant_wildlife_safe_enclosures"
+  }
+}

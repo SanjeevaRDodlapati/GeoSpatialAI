@@ -1,0 +1,40 @@
+{
+  "automated_workflows": {
+    "species_detection_workflow": {
+      "trigger": "new_species_observation",
+      "actions": [
+        "conservation_status_lookup",
+        "population_database_update",
+        "threat_assessment_analysis",
+        "stakeholder_notification_if_rare"
+      ],
+      "conditional_logic": "if_endangered_then_immediate_alert"
+    },
+    "threat_response_workflow": {
+      "trigger": "threat_detection_alert",
+      "actions": [
+        "threat_severity_assessment",
+        "response_team_notification",
+        "evidence_collection_automation",
+        "law_enforcement_integration"
+      ],
+      "escalation_rules": "severity_based_response_escalation"
+    },
+    "research_data_workflow": {
+      "trigger": "daily_data_collection_complete",
+      "actions": [
+        "data_quality_validation",
+        "automated_backup_creation",
+        "preliminary_analysis_generation",
+        "collaboration_team_update"
+      ],
+      "scheduling": "end_of_field_day_automation"
+    }
+  },
+  "integration_apis": {
+    "gbif_integration": "global_biodiversity_data_contribution",
+    "iucn_red_list": "conservation_status_real_time_updates",
+    "movebank": "animal_movement_data_integration",
+    "ala_atlas": "occurrence_data_contribution"
+  }
+}

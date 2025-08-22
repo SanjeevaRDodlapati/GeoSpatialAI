@@ -1,0 +1,77 @@
+{
+  "model_deployment": {
+    "optimization_strategy": "mobile_first_compression",
+    "target_platforms": {
+      "ios": {
+        "format": "CoreML",
+        "optimization": "Neural_Engine_acceleration",
+        "models": [
+          {
+            "name": "yolov8_madagascar_wildlife_mobile.mlmodel",
+            "size": "8.2MB",
+            "inference_time": "45ms",
+            "accuracy": "89.2%"
+          },
+          {
+            "name": "lemur_classifier_mobile.mlmodel",
+            "size": "12.1MB",
+            "inference_time": "28ms",
+            "accuracy": "87.8%"
+          }
+        ]
+      },
+      "android": {
+        "format": "TFLite",
+        "optimization": "GPU_delegate_acceleration",
+        "models": [
+          {
+            "name": "yolov8_madagascar_wildlife_mobile.tflite",
+            "size": "7.8MB",
+            "inference_time": "52ms",
+            "accuracy": "88.9%"
+          },
+          {
+            "name": "lemur_classifier_mobile.tflite",
+            "size": "11.7MB",
+            "inference_time": "31ms",
+            "accuracy": "87.5%"
+          }
+        ]
+      }
+    }
+  },
+  "processing_pipeline": {
+    "image_preprocessing": {
+      "resize_strategy": "smart_crop_maintain_aspect",
+      "normalization": "imagenet_standards",
+      "augmentation": "field_conditions_simulation",
+      "quality_filtering": "automatic_blur_exposure_detection"
+    },
+    "model_inference": {
+      "batch_processing": "optimized_for_mobile_memory",
+      "confidence_thresholding": "conservation_weighted_scoring",
+      "result_filtering": "species_relevance_filtering",
+      "performance_monitoring": "inference_time_tracking"
+    },
+    "result_processing": {
+      "species_ranking": "conservation_priority_weighted",
+      "confidence_calibration": "field_validated_thresholds",
+      "metadata_enrichment": "conservation_status_location",
+      "result_caching": "intelligent_local_storage"
+    }
+  },
+  "offline_capability": {
+    "model_storage": {
+      "core_models": "always_available_locally",
+      "extended_models": "download_on_demand",
+      "model_updates": "wifi_only_automatic_sync",
+      "storage_optimization": "intelligent_cache_management"
+    },
+    "processing_fallback": {
+      "connectivity_detection": "automatic_online_offline_switching",
+      "local_processing": "full_capability_offline",
+      "result_queuing": "sync_when_connected",
+      "performance_degradation": "graceful_offline_performance"
+    }
+  }
+}

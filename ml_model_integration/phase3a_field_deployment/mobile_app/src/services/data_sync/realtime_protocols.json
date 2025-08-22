@@ -1,0 +1,26 @@
+{
+  "websocket_integration": {
+    "connection_management": "automatic_reconnection_exponential_backoff",
+    "message_queuing": "persistent_queue_with_priority",
+    "heartbeat_monitoring": "30_second_keepalive",
+    "failover_handling": "graceful_degradation_to_polling"
+  },
+  "push_notifications": {
+    "conservation_alerts": {
+      "critical_threats": "immediate_push_with_sound",
+      "rare_species": "standard_push_notification",
+      "system_updates": "silent_background_update"
+    },
+    "collaboration": {
+      "team_observations": "shared_sighting_notifications",
+      "data_requests": "research_collaboration_requests",
+      "system_messages": "maintenance_update_announcements"
+    }
+  },
+  "offline_sync_queue": {
+    "queue_management": "priority_fifo_with_conservation_urgency",
+    "retry_logic": "exponential_backoff_max_7_days",
+    "data_compression": "adaptive_based_on_content_type",
+    "integrity_verification": "hash_based_corruption_detection"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "main_interface": {
+    "dashboard": {
+      "components": [
+        "real_time_species_counter",
+        "conservation_alerts_feed",
+        "recent_detections_gallery",
+        "system_status_indicator",
+        "quick_action_buttons"
+      ],
+      "layout": "conservation_focused_design",
+      "accessibility": "field_optimized_large_buttons"
+    },
+    "species_identification": {
+      "camera_interface": {
+        "capture_modes": [
+          "single_shot",
+          "burst_mode",
+          "video_analysis"
+        ],
+        "real_time_overlay": "species_prediction_confidence",
+        "flash_options": [
+          "auto",
+          "on",
+          "off",
+          "infrared_simulation"
+        ],
+        "zoom_capability": "digital_10x_optical_quality"
+      },
+      "results_display": {
+        "species_name": "english_scientific_malagasy",
+        "confidence_score": "percentage_with_conservation_weight",
+        "conservation_status": "iucn_status_with_local_priority",
+        "behavioral_notes": "automatic_behavior_detection",
+        "population_context": "local_abundance_information"
+      }
+    },
+    "data_collection": {
+      "photo_management": {
+        "storage_options": [
+          "local_high_res",
+          "cloud_compressed",
+          "field_optimized"
+        ],
+        "metadata_capture": [
+          "gps",
+          "timestamp",
+          "weather",
+          "habitat_type"
+        ],
+        "batch_processing": "multiple_species_single_session",
+        "quality_assessment": "automatic_image_quality_scoring"
+      },
+      "field_notes": {
+        "input_methods": [
+          "voice_to_text",
+          "quick_templates",
+          "free_form_notes"
+        ],
+        "templates": [
+          "species_observation",
+          "threat_assessment",
+          "habitat_evaluation"
+        ],
+        "attachments": [
+          "photos",
+          "audio_recordings",
+          "gps_tracks"
+        ],
+        "offline_sync": "automatic_when_connected"
+      }
+    }
+  },
+  "conservation_interface": {
+    "threat_reporting": {
+      "alert_types": [
+        "poaching_activity",
+        "illegal_logging",
+        "habitat_disturbance",
+        "rare_species_sighting",
+        "equipment_malfunction"
+      ],
+      "priority_levels": [
+        "immediate",
+        "urgent",
+        "routine",
+        "informational"
+      ],
+      "evidence_capture": [
+        "photos",
+        "audio",
+        "video",
+        "gps_coordinates"
+      ],
+      "response_tracking": "alert_status_updates"
+    },
+    "population_monitoring": {
+      "individual_tracking": "photo_based_identification",
+      "group_composition": "age_sex_class_analysis",
+      "behavioral_observations": "standardized_ethogram",
+      "population_estimates": "mark_recapture_photo_analysis"
+    },
+    "habitat_assessment": {
+      "vegetation_analysis": "ai_assisted_vegetation_classification",
+      "disturbance_indicators": "human_impact_assessment",
+      "connectivity_mapping": "corridor_identification",
+      "climate_monitoring": "microclimate_data_integration"
+    }
+  }
+}

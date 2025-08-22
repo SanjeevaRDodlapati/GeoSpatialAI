@@ -1,0 +1,39 @@
+{
+  "target_audience": [
+    "Field researchers",
+    "Park rangers",
+    "Conservation managers",
+    "Technical support staff"
+  ],
+  "training_modules": [
+    {
+      "module": "system_overview",
+      "duration": "2_hours",
+      "content": "AI system capabilities and conservation applications",
+      "delivery": "presentation + hands_on_demo"
+    },
+    {
+      "module": "mobile_app_usage",
+      "duration": "1_hour",
+      "content": "Species identification and data collection",
+      "delivery": "practical_training"
+    },
+    {
+      "module": "alert_response",
+      "duration": "1_hour",
+      "content": "Conservation threat response protocols",
+      "delivery": "scenario_based_training"
+    },
+    {
+      "module": "system_maintenance",
+      "duration": "2_hours",
+      "content": "Basic troubleshooting and maintenance",
+      "delivery": "technical_workshop"
+    }
+  ],
+  "certification": {
+    "basic_user": "mobile_app + alert_response",
+    "advanced_user": "all_modules + practical_test",
+    "system_admin": "technical_certification + maintenance_skills"
+  }
+}

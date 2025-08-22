@@ -1,0 +1,73 @@
+{
+  "madagascar_national_parks": {
+    "coordination_level": "full_operational_integration",
+    "key_contacts": [
+      {
+        "role": "Director of Conservation",
+        "responsibilities": [
+          "policy_approval",
+          "resource_allocation"
+        ],
+        "communication_frequency": "weekly_updates"
+      },
+      {
+        "role": "Field Operations Manager",
+        "responsibilities": [
+          "daily_operations",
+          "ranger_coordination"
+        ],
+        "communication_frequency": "daily_briefings"
+      },
+      {
+        "role": "Research Coordinator",
+        "responsibilities": [
+          "data_management",
+          "research_protocols"
+        ],
+        "communication_frequency": "bi_weekly_meetings"
+      }
+    ],
+    "data_sharing_agreement": {
+      "scope": "conservation_monitoring_data",
+      "restrictions": "sensitive_location_data_protected",
+      "reporting": "monthly_conservation_impact_reports",
+      "access_levels": "role_based_permissions"
+    },
+    "operational_integration": {
+      "patrol_integration": "ai_alerts_integrated_patrol_routes",
+      "ranger_training": "comprehensive_ai_system_training",
+      "equipment_support": "maintenance_backup_systems",
+      "emergency_protocols": "integrated_threat_response"
+    }
+  },
+  "research_institutions": {
+    "centre_valbio": {
+      "research_focus": "lemur_ecology_behavior_conservation",
+      "ai_integration": "species_monitoring_population_studies",
+      "student_involvement": "graduate_research_projects",
+      "data_contribution": "long_term_ecological_datasets",
+      "facilities": "research_station_laboratory_equipment"
+    },
+    "stony_brook_university": {
+      "academic_programs": "conservation_biology_primatology",
+      "faculty_expertise": "lemur_research_ecosystem_ecology",
+      "student_research": "thesis_dissertation_projects",
+      "publication_goals": "peer_reviewed_research_papers",
+      "capacity_building": "malagasy_student_training"
+    }
+  },
+  "conservation_organizations": {
+    "collaboration_framework": {
+      "wwf_madagascar": "policy_advocacy_conservation_strategy",
+      "durrell_wildlife": "lemur_conservation_expertise",
+      "conservation_international": "ecosystem_services_valuation",
+      "fauna_flora_international": "community_conservation_programs"
+    },
+    "shared_objectives": [
+      "madagascar_biodiversity_protection",
+      "anti_poaching_effectiveness",
+      "community_conservation_engagement",
+      "sustainable_conservation_financing"
+    ]
+  }
+}

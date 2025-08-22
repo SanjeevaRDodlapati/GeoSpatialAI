@@ -1,0 +1,70 @@
+{
+  "supported_cameras": [
+    {
+      "brand": "Reconyx",
+      "models": [
+        "HC600",
+        "HC900"
+      ],
+      "connection": "USB/SD Card",
+      "image_format": "JPEG",
+      "integration_method": "automated_transfer"
+    },
+    {
+      "brand": "Bushnell",
+      "models": [
+        "Trophy Cam",
+        "Core DS"
+      ],
+      "connection": "WiFi/Cellular",
+      "image_format": "JPEG",
+      "integration_method": "wireless_sync"
+    },
+    {
+      "brand": "Stealth Cam",
+      "models": [
+        "G45NG",
+        "DS4K"
+      ],
+      "connection": "SD Card/USB",
+      "image_format": "JPEG/MP4",
+      "integration_method": "scheduled_collection"
+    }
+  ],
+  "data_pipeline": {
+    "ingestion": {
+      "method": "automated_folder_watch",
+      "formats": [
+        "JPEG",
+        "TIFF",
+        "MP4"
+      ],
+      "max_file_size": "50MB",
+      "processing_queue": "FIFO with priority"
+    },
+    "preprocessing": {
+      "image_standardization": true,
+      "metadata_extraction": true,
+      "quality_filtering": true,
+      "duplicate_detection": true
+    },
+    "ai_processing": {
+      "wildlife_detection": "YOLOv8 Madagascar",
+      "lemur_classification": "Specialized classifier",
+      "ecosystem_analysis": "Segmentation model",
+      "confidence_threshold": 0.7
+    },
+    "post_processing": {
+      "conservation_metrics": true,
+      "threat_assessment": true,
+      "population_tracking": true,
+      "alert_generation": true
+    }
+  },
+  "storage_management": {
+    "local_storage": "1TB NVMe SSD per site",
+    "cloud_backup": "AWS S3 + Azure Blob",
+    "retention_policy": "6 months local, 2 years cloud",
+    "compression": "lossless for analysis, lossy for archive"
+  }
+}

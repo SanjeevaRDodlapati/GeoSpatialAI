@@ -1,0 +1,34 @@
+{
+  "reporting_schedule": {
+    "monthly_reports": {
+      "audience": "operational_stakeholders",
+      "content": "performance_metrics_operational_updates",
+      "format": "dashboard_summary_brief_narrative",
+      "distribution": "email_dashboard_access"
+    },
+    "quarterly_assessments": {
+      "audience": "strategic_stakeholders_partners",
+      "content": "conservation_impact_analysis_recommendations",
+      "format": "comprehensive_report_presentation",
+      "distribution": "formal_presentation_document_sharing"
+    },
+    "annual_evaluation": {
+      "audience": "all_stakeholders_scientific_community",
+      "content": "comprehensive_impact_assessment_lessons_learned",
+      "format": "scientific_report_peer_review_publication",
+      "distribution": "conference_presentation_journal_submission"
+    }
+  },
+  "communication_strategy": {
+    "internal_communication": {
+      "staff_updates": "regular_performance_feedback_recognition",
+      "management_briefings": "strategic_decision_support_information",
+      "partner_coordination": "collaborative_planning_resource_sharing"
+    },
+    "external_communication": {
+      "scientific_community": "research_publications_conference_presentations",
+      "conservation_community": "best_practices_sharing_model_replication",
+      "public_awareness": "conservation_success_stories_technology_benefits"
+    }
+  }
+}

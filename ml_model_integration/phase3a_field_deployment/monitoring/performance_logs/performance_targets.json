@@ -1,0 +1,32 @@
+{
+  "model_performance": {
+    "wildlife_detection": {
+      "target_accuracy": 0.9,
+      "target_fps": 25.0,
+      "target_latency": "30ms"
+    },
+    "lemur_classification": {
+      "target_accuracy": 0.88,
+      "target_fps": 60.0,
+      "target_latency": "20ms"
+    },
+    "ecosystem_segmentation": {
+      "target_iou": 0.75,
+      "target_fps": 10.0,
+      "target_latency": "120ms"
+    }
+  },
+  "system_health": {
+    "cpu_usage": "max_80_percent",
+    "memory_usage": "max_75_percent",
+    "gpu_usage": "max_90_percent",
+    "temperature": "max_70_celsius",
+    "power_consumption": "within_budget"
+  },
+  "conservation_impact": {
+    "species_detections_per_day": "target_100",
+    "threat_detection_response_time": "under_5_minutes",
+    "false_positive_rate": "under_10_percent",
+    "system_uptime": "above_95_percent"
+  }
+}

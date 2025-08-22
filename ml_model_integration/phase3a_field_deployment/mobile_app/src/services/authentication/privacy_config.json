@@ -1,0 +1,33 @@
+{
+  "data_protection": {
+    "personally_identifiable_info": {
+      "collection_minimization": "only_necessary_conservation_data",
+      "anonymization": "automatic_location_data_fuzzing",
+      "retention_limits": "research_purpose_limited_duration",
+      "user_control": "granular_privacy_settings"
+    },
+    "location_privacy": {
+      "precision_levels": [
+        "exact",
+        "100m_radius",
+        "1km_radius",
+        "general_area"
+      ],
+      "sensitive_species": "automatic_location_obscuring",
+      "historical_data": "time_based_precision_degradation",
+      "sharing_controls": "per_observation_privacy_settings"
+    },
+    "conservation_sensitivity": {
+      "endangered_species": "restricted_access_need_to_know",
+      "poaching_data": "encrypted_law_enforcement_only",
+      "research_locations": "researcher_permission_required",
+      "indigenous_areas": "community_consent_protocols"
+    }
+  },
+  "compliance": {
+    "gdpr_compliance": "eu_data_protection_full_compliance",
+    "local_regulations": "madagascar_data_sovereignty_respect",
+    "research_ethics": "institutional_review_board_approved",
+    "conservation_protocols": "cites_iucn_guidelines_adherence"
+  }
+}
