@@ -53,7 +53,30 @@ Welcome to the GeoSpatialAI FAQ! This document addresses common questions about 
 - **Use conda-forge channel**: `conda install -c conda-forge geopandas`
 - **Pip alternative**: Works but may require additional system dependencies
 
-### **Q: I'm getting GDAL/GEOS/PROJ errors. How do I fix this?**
+### **Q: The test script says packages are missing, but I installed them. What's wrong?**
+**A:** This usually means you're not using the correct Python interpreter:
+
+```bash
+# Check which Python you're using
+which python
+
+# For virtual environment, should show:
+/path/to/GeoSpatialAI/.venv/bin/python
+
+# Run test with explicit path
+./.venv/bin/python test_environment.py
+
+# Or activate environment first
+source .venv/bin/activate  # Check: echo $VIRTUAL_ENV
+python test_environment.py
+```
+
+### **Q: How do I know if my virtual environment is properly activated?**
+**A:** Check these indicators:
+- Command prompt shows `(.venv)` prefix
+- `which python` points to `.venv/bin/python`
+- `echo $VIRTUAL_ENV` shows the .venv path
+- `python --version` matches expected version
 **A:** 
 ```bash
 # Conda solution (recommended)

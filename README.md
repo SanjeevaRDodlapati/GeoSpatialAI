@@ -235,21 +235,67 @@ GeoSpatialAI/
 - Internet connection for real-time data streams
 
 ### **Quick Installation**
+
+#### **Option 1: Using Conda (Recommended for Geospatial)**
 ```bash
 # Clone repository
 git clone https://github.com/SanjeevaRDodlapati/GeoSpatialAI.git
 cd GeoSpatialAI
 
-# Setup environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# Create conda environment
+conda create -n geospatial python=3.10
+conda activate geospatial
+
+# Install core packages from conda-forge
+conda install -c conda-forge geopandas rasterio xarray matplotlib contextily mapclassify osmnx folium jupyter cartopy plotly streamlit
+
+# Install additional packages with pip
 pip install -r requirements.txt
 
 # Test installation
 python test_environment.py
+```
 
-# Launch interactive systems
+#### **Option 2: Using pip with Virtual Environment**
+```bash
+# Clone repository
+git clone https://github.com/SanjeevaRDodlapati/GeoSpatialAI.git
+cd GeoSpatialAI
+
+# Setup virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# IMPORTANT: Verify you're using the virtual environment Python
+which python  # Should show: /path/to/GeoSpatialAI/.venv/bin/python
+
+# Install all packages
+pip install -r requirements.txt
+
+# Test installation (use full path to ensure correct Python)
+./.venv/bin/python test_environment.py
+```
+
+#### **🔧 Environment Verification**
+Always verify your environment is properly activated:
+```bash
+# Quick diagnostic tool
+./check_env.sh
+
+# Manual checks
+which python  # Should show: /path/to/GeoSpatialAI/.venv/bin/python
+echo $VIRTUAL_ENV  # Should show: /path/to/GeoSpatialAI/.venv
+
+# Run test with explicit Python path
+./.venv/bin/python test_environment.py
+```
+
+#### **Launch Interactive Systems**
+```bash
+# Launch real-time monitoring dashboard
 streamlit run research_applications/real_time_monitoring/outputs/dashboards/conservation_monitoring_dashboard.py --server.port 8501
+
+# Launch stakeholder decision support dashboard  
 streamlit run research_applications/stakeholder_decision_support/outputs/dashboards/conservation_dashboard.py --server.port 8503
 ```
 

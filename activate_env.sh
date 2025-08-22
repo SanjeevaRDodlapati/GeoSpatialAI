@@ -23,6 +23,14 @@ fi
 echo "🐍 Python: $(which python)"
 echo "📦 Python Version: $(python --version)"
 
+# Verify virtual environment is properly activated
+if [[ "$VIRTUAL_ENV" == *".venv"* ]]; then
+    echo "✅ Virtual environment properly activated: $VIRTUAL_ENV"
+else
+    echo "⚠️  Warning: Virtual environment may not be properly activated"
+    echo "   Current VIRTUAL_ENV: $VIRTUAL_ENV"
+fi
+
 # Check if Jupyter is available
 if command -v jupyter &> /dev/null; then
     echo "📓 Jupyter available: $(which jupyter)"

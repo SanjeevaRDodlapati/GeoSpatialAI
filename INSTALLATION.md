@@ -19,8 +19,11 @@ conda install -c conda-forge geopandas rasterio xarray matplotlib contextily map
 # Install additional packages
 conda install -c conda-forge cartopy matplotlib-scalebar rioxarray pyproj shapely requests
 
-# Install optional packages for advanced features
-conda install -c conda-forge pykrige scikit-learn seaborn plotly
+# Install ML and advanced packages
+conda install -c conda-forge pykrige scikit-learn seaborn plotly streamlit tensorflow xgboost
+
+# Install spatial statistics packages
+conda install -c conda-forge libpysal esda
 ```
 
 ### Option 2: Using pip
@@ -38,7 +41,8 @@ source geospatial_env/bin/activate
 # Install packages
 pip install geopandas[complete] rasterio xarray matplotlib contextily mapclassify osmnx folium jupyter
 pip install cartopy matplotlib-scalebar rioxarray pyproj shapely requests
-pip install pykrige scikit-learn seaborn plotly
+pip install pykrige scikit-learn seaborn plotly streamlit tensorflow xgboost
+pip install libpysal esda rasterstats earthpy
 ```
 
 ## Package List and Purposes
@@ -57,11 +61,25 @@ pip install pykrige scikit-learn seaborn plotly
 - **cartopy** (≥0.21.0): Advanced cartographic projections
 - **folium** (≥0.14.0): Interactive web maps
 - **plotly** (≥5.11.0): Interactive visualizations
+- **seaborn** (≥0.11.0): Statistical data visualization
+- **matplotlib-scalebar** (≥0.8.0): Scale bars for maps
+
+### Interactive Dashboards
+- **streamlit** (≥1.28.0): Web app framework for dashboards
 
 ### Analysis and Classification
 - **mapclassify** (≥2.4.0): Statistical data classification for maps
 - **scikit-learn** (≥1.1.0): Machine learning algorithms
 - **scipy** (≥1.9.0): Scientific computing functions
+- **pykrige** (≥1.6.0): Spatial interpolation methods
+
+### Machine Learning & Advanced Analytics
+- **tensorflow** (≥2.13.0): Deep learning framework
+- **xgboost** (≥1.7.0): Gradient boosting framework
+
+### Spatial Statistics
+- **libpysal** (≥4.7.0): Spatial analysis library
+- **esda** (≥2.4.0): Exploratory spatial data analysis
 
 ### Network Analysis
 - **osmnx** (≥1.6.0): Work with OpenStreetMap street networks
@@ -74,6 +92,21 @@ pip install pykrige scikit-learn seaborn plotly
 ## Verification Script
 
 Save this as `test_installation.py` and run it to verify your setup:
+
+**IMPORTANT: Always run the test with the correct Python interpreter:**
+
+```bash
+# For virtual environment (.venv)
+./.venv/bin/python test_environment.py
+
+# For conda environment
+conda activate geospatial
+python test_environment.py
+
+# Or use the project's activation script
+bash activate_env.sh
+python test_environment.py
+```
 
 ```python
 import sys
@@ -190,9 +223,16 @@ dependencies:
   - scipy>=1.9.0
   - scikit-learn>=1.1.0
   - seaborn
-  - plotly
-  - matplotlib-scalebar
-  - pykrige
+  - plotly>=5.11.0
+  - streamlit>=1.28.0
+  - tensorflow>=2.13.0
+  - xgboost>=1.7.0
+  - libpysal>=4.7.0
+  - esda>=2.4.0
+  - matplotlib-scalebar>=0.8.0
+  - pykrige>=1.6.0
+  - rasterstats>=0.17.0
+  - earthpy>=0.9.0
 ```
 
 Save as `environment.yml` and create with:
