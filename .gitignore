@@ -61,3 +61,9 @@ env/
 
 # Cache
 .cache/
+# .gitignore additions for ML models
+models/sam/*.pth
+yolov8*.pt
+*.h5
+*.onnx
+*.tflite
