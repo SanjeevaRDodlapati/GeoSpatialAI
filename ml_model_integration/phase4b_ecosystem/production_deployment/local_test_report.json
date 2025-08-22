@@ -1,0 +1,32 @@
+{
+  "test_summary": {
+    "total_tests": 6,
+    "passed_tests": 6,
+    "failed_tests": 0,
+    "success_rate": 100.0,
+    "test_duration": "0:00:00.041776"
+  },
+  "test_results": {
+    "orchestrator_init": true,
+    "communication_init": true,
+    "dashboard_init": true,
+    "workflow_init": true,
+    "error_handling": true,
+    "performance_metrics": {
+      "messages_per_second": 90336.08,
+      "success_rate": 100.0,
+      "total_duration": 0.0,
+      "successful_messages": 100,
+      "total_messages": 100
+    }
+  },
+  "performance_metrics": {
+    "messages_per_second": 90336.08,
+    "success_rate": 100.0,
+    "total_duration": 0.0,
+    "successful_messages": 100,
+    "total_messages": 100
+  },
+  "timestamp": "2025-08-22T16:14:18.450102",
+  "test_environment": "local_development"
+}

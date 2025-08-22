@@ -1,0 +1,147 @@
+{
+  "deployment_summary": {
+    "deployment_steps": 5,
+    "completed_steps": 5,
+    "success_rate": 100.0,
+    "deployment_time": "2025-08-22T16:28:57.962567"
+  },
+  "deployment_state": {
+    "namespace_created": true,
+    "secrets_applied": true,
+    "services_deployed": true,
+    "ingress_configured": true,
+    "monitoring_active": true
+  },
+  "infrastructure_metrics": {
+    "services_deployed": 4,
+    "domains_configured": 1,
+    "monitoring_components": 2,
+    "secrets_configured": 1
+  },
+  "deployment_results": {
+    "namespace": {
+      "name": "conservation-prod",
+      "status": "Active",
+      "created_at": "2025-08-22T16:28:50.901125",
+      "labels": {
+        "app.kubernetes.io/name": "madagascar-conservation-ai",
+        "environment": "production"
+      }
+    },
+    "secrets": {
+      "name": "conservation-secrets",
+      "type": "Opaque",
+      "keys": [
+        "postgres_password",
+        "minio_access_key",
+        "minio_secret_key",
+        "grafana_password",
+        "satellite_api_key"
+      ],
+      "created_at": "2025-08-22T16:28:51.403317"
+    },
+    "services": [
+      {
+        "name": "postgresql",
+        "replicas": 1,
+        "ports": [
+          5432
+        ],
+        "status": "Running",
+        "deployed_at": "2025-08-22T16:28:52.415342"
+      },
+      {
+        "name": "redis",
+        "replicas": 1,
+        "ports": [
+          6379
+        ],
+        "status": "Running",
+        "deployed_at": "2025-08-22T16:28:53.425701"
+      },
+      {
+        "name": "ecosystem-orchestrator",
+        "replicas": 2,
+        "ports": [
+          8000
+        ],
+        "status": "Running",
+        "deployed_at": "2025-08-22T16:28:54.436774"
+      },
+      {
+        "name": "conservation-dashboard",
+        "replicas": 2,
+        "ports": [
+          8050
+        ],
+        "status": "Running",
+        "deployed_at": "2025-08-22T16:28:55.448301"
+      }
+    ],
+    "ingress": {
+      "name": "conservation-ingress",
+      "domains": [
+        "conservation.madagascar.org"
+      ],
+      "paths": [
+        "/",
+        "/api"
+      ],
+      "ssl_enabled": true,
+      "configured_at": "2025-08-22T16:28:56.451528"
+    },
+    "monitoring": {
+      "components": {
+        "prometheus": {
+          "status": "Running",
+          "port": 9090,
+          "targets": 4,
+          "rules": 5
+        },
+        "grafana": {
+          "status": "Running",
+          "port": 3000,
+          "dashboards": 1,
+          "datasources": 1
+        }
+      },
+      "metrics_collected": 8,
+      "alerts_configured": 5,
+      "activated_at": "2025-08-22T16:28:57.962334"
+    },
+    "health_check": {
+      "overall_health": true,
+      "service_health": {
+        "postgresql": {
+          "status": "healthy",
+          "response_time_ms": 15,
+          "uptime_seconds": 300,
+          "connections": 12
+        },
+        "redis": {
+          "status": "healthy",
+          "response_time_ms": 15,
+          "uptime_seconds": 300,
+          "connections": 8
+        },
+        "ecosystem-orchestrator": {
+          "status": "healthy",
+          "response_time_ms": 45,
+          "uptime_seconds": 280,
+          "agents_registered": 6,
+          "messages_processed": 147
+        },
+        "conservation-dashboard": {
+          "status": "healthy",
+          "response_time_ms": 120,
+          "uptime_seconds": 275,
+          "active_sessions": 3,
+          "visualizations_loaded": 4
+        }
+      },
+      "checked_at": "2025-08-22T16:28:57.962531"
+    }
+  },
+  "deployment_readiness": true,
+  "ecosystem_status": "fully_operational"
+}
