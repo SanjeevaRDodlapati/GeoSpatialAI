@@ -1,0 +1,337 @@
+{
+  "deployment_info": {
+    "site_name": "Masoala_National_Park",
+    "coordinates": [
+      -15.7,
+      50.2
+    ],
+    "research_station": "Masoala_Research_Station",
+    "deployment_date": "2025-08-22T17:29:10.386050",
+    "runtime_hours": 0.000815795
+  },
+  "detection_statistics": {
+    "total_detections": 5,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:29:10.386065",
+    "last_activity": "2025-08-22 17:29:12.411795"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 4,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 328.896701335907,
+      "peak_time_ms": 992.7458763122559,
+      "throughput_images_per_second": 3.0404683170679947
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 4,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 0,
+        "indri_indri": 0,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 4,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 0,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "propithecus_diadema"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:10.985893",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898151.994902",
+      "event_type": "species_detection",
+      "species": "propithecus_diadema",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:11.994920",
+      "confidence": 0.14625082015991211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.12045969665050506,
+            "propithecus_diadema": 0.14625082015991211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.2007661610841751
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.3656270503997803
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Monitor feeding behavior and tree species preference",
+            "Document vertical forest usage patterns",
+            "Record group dynamics and social interactions",
+            "Assess canopy connectivity for movement corridors",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898152.098896",
+      "event_type": "species_detection",
+      "species": "propithecus_diadema",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:12.098910",
+      "confidence": 0.14625082015991211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.12045969665050506,
+            "propithecus_diadema": 0.14625082015991211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.2007661610841751
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.3656270503997803
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Monitor feeding behavior and tree species preference",
+            "Document vertical forest usage patterns",
+            "Record group dynamics and social interactions",
+            "Assess canopy connectivity for movement corridors",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898152.213637",
+      "event_type": "species_detection",
+      "species": "propithecus_diadema",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:12.213650",
+      "confidence": 0.14625082015991211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.12045969665050506,
+            "propithecus_diadema": 0.14625082015991211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.2007661610841751
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.3656270503997803
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Monitor feeding behavior and tree species preference",
+            "Document vertical forest usage patterns",
+            "Record group dynamics and social interactions",
+            "Assess canopy connectivity for movement corridors",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898152.318017",
+      "event_type": "species_detection",
+      "species": "propithecus_diadema",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:12.318028",
+      "confidence": 0.14625082015991211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.12045969665050506,
+            "propithecus_diadema": 0.14625082015991211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.2007661610841751
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.3656270503997803
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Monitor feeding behavior and tree species preference",
+            "Document vertical forest usage patterns",
+            "Record group dynamics and social interactions",
+            "Assess canopy connectivity for movement corridors",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

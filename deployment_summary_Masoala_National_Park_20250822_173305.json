@@ -1,0 +1,455 @@
+{
+  "deployment_info": {
+    "site_name": "Masoala_National_Park",
+    "coordinates": [
+      -15.7,
+      50.2
+    ],
+    "research_station": "Masoala_Research_Station",
+    "deployment_date": "2025-08-22T17:33:02.325320",
+    "runtime_hours": 0.0008622174999999999
+  },
+  "detection_statistics": {
+    "total_detections": 7,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:33:02.325336",
+    "last_activity": "2025-08-22 17:33:04.515043"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 6,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 243.39715639750162,
+      "peak_time_ms": 945.9371566772461,
+      "throughput_images_per_second": 4.108511433744361
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 6,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 0,
+        "indri_indri": 0,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 6,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "brookesia_micra"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:02.925020",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898383.871689",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:03.871700",
+      "confidence": 0.2405355453491211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.10719878375530242,
+            "brookesia_micra": 0.2405355453491211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.17866463959217072
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.6013388633728027
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898384.018562",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:04.018572",
+      "confidence": 0.20035440921783448,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.08843835890293121,
+            "brookesia_micra": 0.20035440921783448
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.1473972648382187
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.5008860230445862
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898384.12342",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:04.123431",
+      "confidence": 0.2405355453491211,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.10719878375530242,
+            "brookesia_micra": 0.2405355453491211
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.17866463959217072
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.6013388633728027
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898384.225399",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:04.225410",
+      "confidence": 0.2349501371383667,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.10397290885448456,
+            "brookesia_micra": 0.2349501371383667
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.17328818142414093
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.5873753428459167
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898384.326499",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:04.326510",
+      "confidence": 0.2252405881881714,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.08876112699508666,
+            "brookesia_micra": 0.2252405881881714
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.14793521165847778
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.5631014704704285
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898384.425787",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:04.425797",
+      "confidence": 0.2569645643234253,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.0848697155714035,
+            "brookesia_micra": 0.2569645643234253
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.14144952595233917
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.6424114108085632
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

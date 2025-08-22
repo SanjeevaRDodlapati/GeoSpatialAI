@@ -1,0 +1,455 @@
+{
+  "deployment_info": {
+    "site_name": "Andasibe_Mantadia_NP",
+    "coordinates": [
+      -18.9333,
+      48.4167
+    ],
+    "research_station": "Centre_ValBio",
+    "deployment_date": "2025-08-22T17:32:06.846004",
+    "runtime_hours": 0.0030404025
+  },
+  "detection_statistics": {
+    "total_detections": 7,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:32:06.846011",
+    "last_activity": "2025-08-22 17:32:16.830582"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 6,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 256.99520111083984,
+      "peak_time_ms": 981.1210632324219,
+      "throughput_images_per_second": 3.891123241514181
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 6,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 0,
+        "indri_indri": 0,
+        "eulemur_fulvus": 4,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 2,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "eulemur_fulvus"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:15.196739",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.19192",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.191935",
+      "confidence": 0.1027103066444397,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.09103052616119385,
+            "brookesia_micra": 0.1027103066444397
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.15171754360198975
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.25677576661109924
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.353036",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.353049",
+      "confidence": 0.11634215712547302,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.11634215712547302,
+            "uroplatus_phantasticus": 0.1056534767150879
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1939035952091217
+            },
+            {
+              "model": "tensorflow",
+              "species": "uroplatus_phantasticus",
+              "confidence": 0.2641336917877197
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.464789",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.464802",
+      "confidence": 0.1027103066444397,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.09103052616119385,
+            "brookesia_micra": 0.1027103066444397
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.15171754360198975
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.25677576661109924
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.576477",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.576488",
+      "confidence": 0.11053045392036438,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.11053045392036438,
+            "lemur_catta": 0.08426902294158936
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1842174232006073
+            },
+            {
+              "model": "tensorflow",
+              "species": "lemur_catta",
+              "confidence": 0.2106725573539734
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.682895",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.682906",
+      "confidence": 0.11191664636135101,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.11191664636135101,
+            "lemur_catta": 0.1075571894645691
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.18652774393558502
+            },
+            {
+              "model": "tensorflow",
+              "species": "lemur_catta",
+              "confidence": 0.26889297366142273
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898336.789023",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:32:16.789033",
+      "confidence": 0.11488217711448669,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.11488217711448669,
+            "brookesia_micra": 0.10856797695159913
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.19147029519081116
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.2714199423789978
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

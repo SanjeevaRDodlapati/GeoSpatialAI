@@ -1,0 +1,451 @@
+{
+  "deployment_info": {
+    "site_name": "Masoala_National_Park",
+    "coordinates": [
+      -15.7,
+      50.2
+    ],
+    "research_station": "Masoala_Research_Station",
+    "deployment_date": "2025-08-22T17:33:49.400637",
+    "runtime_hours": 0.0008731172222222223
+  },
+  "detection_statistics": {
+    "total_detections": 7,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:33:49.400656",
+    "last_activity": "2025-08-22 17:33:51.623221"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 6,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 242.6994244257609,
+      "peak_time_ms": 936.7468357086182,
+      "throughput_images_per_second": 4.12032291533468
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 6,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 2,
+        "indri_indri": 2,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 1,
+        "brookesia_micra": 0,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 1
+      },
+      "most_detected_species": "lemur_catta"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:49.999569",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898430.937067",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:50.937077",
+      "confidence": 0.0913797229528427,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0913797229528427,
+            "unknown_species": 0.09032098054885865
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.15229953825473785
+            },
+            {
+              "model": "tensorflow",
+              "species": "unknown_species",
+              "confidence": 0.2258024513721466
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898431.129255",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:51.129265",
+      "confidence": 0.11742724180221559,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.08929031789302826,
+            "microcebus_murinus": 0.11742724180221559
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.14881719648838043
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.29356810450553894
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898431.229315",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:51.229325",
+      "confidence": 0.0913797229528427,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0913797229528427,
+            "unknown_species": 0.09032098054885865
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.15229953825473785
+            },
+            {
+              "model": "tensorflow",
+              "species": "unknown_species",
+              "confidence": 0.2258024513721466
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898431.331788",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:51.331798",
+      "confidence": 0.11469405591487884,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.11469405591487884,
+            "microcebus_murinus": 0.10086065530776978
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.1911567598581314
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.25215163826942444
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898431.440677",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:51.440687",
+      "confidence": 0.09722518622875213,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.09722518622875213,
+            "unknown_species": 0.09593979120254517
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.16204197704792023
+            },
+            {
+              "model": "tensorflow",
+              "species": "unknown_species",
+              "confidence": 0.23984947800636292
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898431.540025",
+      "event_type": "species_detection",
+      "species": "unknown_species",
+      "location": "Masoala_National_Park_FINAL_TEST_002",
+      "timestamp": "2025-08-22 17:33:51.540036",
+      "confidence": 0.09739039540290834,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "indri_indri": 0.08720664381980896,
+            "unknown_species": 0.09739039540290834
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "indri_indri",
+              "confidence": 0.14534440636634827
+            },
+            {
+              "model": "tensorflow",
+              "species": "unknown_species",
+              "confidence": 0.2434759885072708
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "unknown",
+          "priority_score": 2,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

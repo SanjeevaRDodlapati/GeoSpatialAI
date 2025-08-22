@@ -1,0 +1,333 @@
+{
+  "deployment_info": {
+    "site_name": "Masoala_National_Park",
+    "coordinates": [
+      -15.7,
+      50.2
+    ],
+    "research_station": "Masoala_Research_Station",
+    "deployment_date": "2025-08-22T17:29:57.755679",
+    "runtime_hours": 0.0008199633333333334
+  },
+  "detection_statistics": {
+    "total_detections": 5,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:29:57.755696",
+    "last_activity": "2025-08-22 17:29:59.782730"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 4,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 331.9860100746155,
+      "peak_time_ms": 983.9520454406738,
+      "throughput_images_per_second": 3.01217512079875
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 4,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 0,
+        "indri_indri": 0,
+        "eulemur_fulvus": 4,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 0,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "eulemur_fulvus"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:58.359559",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898199.359816",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:59.359833",
+      "confidence": 0.17317927181720733,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.17317927181720733
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1452675610780716
+            },
+            {
+              "model": "tensorflow",
+              "species": "eulemur_fulvus",
+              "confidence": 0.21504683792591095
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898199.473737",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:59.473749",
+      "confidence": 0.17317927181720733,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.17317927181720733
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1452675610780716
+            },
+            {
+              "model": "tensorflow",
+              "species": "eulemur_fulvus",
+              "confidence": 0.21504683792591095
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898199.591789",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:59.591800",
+      "confidence": 0.17317927181720733,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.17317927181720733
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1452675610780716
+            },
+            {
+              "model": "tensorflow",
+              "species": "eulemur_fulvus",
+              "confidence": 0.21504683792591095
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898199.704073",
+      "event_type": "species_detection",
+      "species": "eulemur_fulvus",
+      "location": "Masoala_National_Park_CAM_PIPELINE_001",
+      "timestamp": "2025-08-22 17:29:59.704085",
+      "confidence": 0.17317927181720733,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "eulemur_fulvus": 0.17317927181720733
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "eulemur_fulvus",
+              "confidence": 0.1452675610780716
+            },
+            {
+              "model": "tensorflow",
+              "species": "eulemur_fulvus",
+              "confidence": 0.21504683792591095
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -15.7,
+          50.2
+        ],
+        "research_station": "Masoala_Research_Station"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

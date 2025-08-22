@@ -1,0 +1,453 @@
+{
+  "deployment_info": {
+    "site_name": "Andasibe_Mantadia_NP",
+    "coordinates": [
+      -18.9333,
+      48.4167
+    ],
+    "research_station": "Centre_ValBio",
+    "deployment_date": "2025-08-22T17:33:38.316087",
+    "runtime_hours": 0.003077453611111111
+  },
+  "detection_statistics": {
+    "total_detections": 7,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:33:38.316096",
+    "last_activity": "2025-08-22 17:33:48.416816"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 6,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 279.025673866272,
+      "peak_time_ms": 1094.602108001709,
+      "throughput_images_per_second": 3.583899596562816
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 6,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 1,
+        "indri_indri": 0,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 5,
+        "brookesia_micra": 0,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "microcebus_murinus"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:46.655591",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898427.764474",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:47.764489",
+      "confidence": 0.169457221031189,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.10120521783828736,
+            "microcebus_murinus": 0.169457221031189
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.16867536306381226
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.4236430525779724
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898427.969113",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:47.969126",
+      "confidence": 0.23549250960350038,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.23549250960350038
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.17779436707496643
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.32203972339630127
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898428.084996",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:48.085009",
+      "confidence": 0.169457221031189,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.10120521783828736,
+            "microcebus_murinus": 0.169457221031189
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.16867536306381226
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.4236430525779724
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898428.188607",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:48.188618",
+      "confidence": 0.12058669030666351,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.12058669030666351,
+            "microcebus_murinus": 0.11684558391571045
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.20097781717777252
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.2921139597892761
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898428.29012",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:48.290129",
+      "confidence": 0.28822475373744966,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "microcebus_murinus": 0.28822475373744966
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "microcebus_murinus",
+              "confidence": 0.17631228268146515
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.4560934603214264
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898428.392868",
+      "event_type": "species_detection",
+      "species": "microcebus_murinus",
+      "location": "Andasibe_Mantadia_NP_FINAL_TEST_001",
+      "timestamp": "2025-08-22 17:33:48.392879",
+      "confidence": 0.16256716251373293,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0996452271938324,
+            "microcebus_murinus": 0.16256716251373293
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.16607537865638733
+            },
+            {
+              "model": "tensorflow",
+              "species": "microcebus_murinus",
+              "confidence": 0.4064179062843323
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "vulnerable",
+          "priority_score": 7,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

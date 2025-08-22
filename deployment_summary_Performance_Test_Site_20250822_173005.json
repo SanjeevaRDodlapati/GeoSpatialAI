@@ -1,0 +1,656 @@
+{
+  "deployment_info": {
+    "site_name": "Performance_Test_Site",
+    "coordinates": [
+      -20.0,
+      47.0
+    ],
+    "research_station": "Test_Station",
+    "deployment_date": "2025-08-22T17:30:00.713129",
+    "runtime_hours": 0.001265108888888889
+  },
+  "detection_statistics": {
+    "total_detections": 21,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:30:00.713134",
+    "last_activity": "2025-08-22 17:30:04.326024"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 20,
+      "success_rate_percent": 100.0,
+      "average_time_ms": 147.28363752365112,
+      "peak_time_ms": 934.8838329315186,
+      "throughput_images_per_second": 6.789620468461188
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 20,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 13,
+        "indri_indri": 0,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 7,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "lemur_catta"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_ensemble_detection_1755898203.343386",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.343396",
+      "confidence": 0.08918848037719727,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0732207477092743,
+            "brookesia_micra": 0.08918848037719727
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.12203457951545715
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22297120094299316
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.446042",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.446052",
+      "confidence": 0.12381751835346222,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.12381751835346222,
+            "brookesia_micra": 0.08932541012763978
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.2063625305891037
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22331352531909943
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.545908",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.545919",
+      "confidence": 0.0891003280878067,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0891003280878067,
+            "propithecus_diadema": 0.08887799978256226
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.14850054681301117
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.22219499945640564
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.648882",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.648892",
+      "confidence": 0.08918848037719727,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0732207477092743,
+            "brookesia_micra": 0.08918848037719727
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.12203457951545715
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22297120094299316
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.749769",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.749780",
+      "confidence": 0.12381751835346222,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.12381751835346222,
+            "brookesia_micra": 0.08932541012763978
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.2063625305891037
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22331352531909943
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.850523",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.850534",
+      "confidence": 0.0891003280878067,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0891003280878067,
+            "propithecus_diadema": 0.08887799978256226
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.14850054681301117
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.22219499945640564
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898203.952842",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:03.952852",
+      "confidence": 0.08918848037719727,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0732207477092743,
+            "brookesia_micra": 0.08918848037719727
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.12203457951545715
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22297120094299316
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898204.063166",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:04.063177",
+      "confidence": 0.12381751835346222,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.12381751835346222,
+            "brookesia_micra": 0.08932541012763978
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.2063625305891037
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22331352531909943
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898204.162741",
+      "event_type": "species_detection",
+      "species": "lemur_catta",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:04.162751",
+      "confidence": 0.0891003280878067,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0891003280878067,
+            "propithecus_diadema": 0.08887799978256226
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.14850054681301117
+            },
+            {
+              "model": "tensorflow",
+              "species": "propithecus_diadema",
+              "confidence": 0.22219499945640564
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "endangered",
+          "priority_score": 8,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Record behavioral observations",
+            "Document habitat characteristics",
+            "Note time of activity for behavioral patterns",
+            "Check for human activity indicators nearby",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    },
+    {
+      "event_id": "field_ensemble_detection_1755898204.262997",
+      "event_type": "species_detection",
+      "species": "brookesia_micra",
+      "location": "Performance_Test_Site_CAM_PERF_001",
+      "timestamp": "2025-08-22 17:30:04.263008",
+      "confidence": 0.08918848037719727,
+      "threat_level": "low",
+      "metadata": {
+        "detection_metadata": {
+          "model_type": "ensemble",
+          "component_models": [
+            "pytorch",
+            "tensorflow"
+          ],
+          "ensemble_weights": {
+            "pytorch": 0.6,
+            "tensorflow": 0.4
+          },
+          "species_votes": {
+            "lemur_catta": 0.0732207477092743,
+            "brookesia_micra": 0.08918848037719727
+          },
+          "individual_predictions": [
+            {
+              "model": "pytorch",
+              "species": "lemur_catta",
+              "confidence": 0.12203457951545715
+            },
+            {
+              "model": "tensorflow",
+              "species": "brookesia_micra",
+              "confidence": 0.22297120094299316
+            }
+          ]
+        },
+        "conservation_priority": {
+          "is_priority": false,
+          "conservation_status": "near_threatened",
+          "priority_score": 6,
+          "threat_level": "low",
+          "requires_immediate_attention": false,
+          "field_recommendations": [
+            "Document microhabitat preferences",
+            "Record temperature and humidity conditions",
+            "Note vegetation structure at detection site",
+            "Survey for other micro-chameleon species",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -20.0,
+          47.0
+        ],
+        "research_station": "Test_Station"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}

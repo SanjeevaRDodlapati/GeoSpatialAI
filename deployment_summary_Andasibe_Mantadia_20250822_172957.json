@@ -1,0 +1,101 @@
+{
+  "deployment_info": {
+    "site_name": "Andasibe_Mantadia",
+    "coordinates": [
+      -18.9333,
+      48.4167
+    ],
+    "research_station": "Centre_ValBio",
+    "deployment_date": "2025-08-22T17:29:48.421380",
+    "runtime_hours": 0.002591545
+  },
+  "detection_statistics": {
+    "total_detections": 1,
+    "high_priority_detections": 1,
+    "conservation_alerts": 2,
+    "deployment_start": "2025-08-22 17:29:48.421385",
+    "last_activity": "2025-08-22 17:29:56.746652"
+  },
+  "performance_metrics": {
+    "model_configuration": {
+      "model_type": "ensemble",
+      "device": "cpu",
+      "gpu_enabled": false
+    },
+    "performance_metrics": {
+      "total_processed": 0,
+      "success_rate_percent": 0.0,
+      "average_time_ms": 0.0,
+      "peak_time_ms": 0.0,
+      "throughput_images_per_second": 1000.0
+    },
+    "detection_statistics": {
+      "confidence_distribution": {
+        "very_low": 0,
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "very_high": 0
+      },
+      "species_distribution": {
+        "lemur_catta": 0,
+        "indri_indri": 0,
+        "eulemur_fulvus": 0,
+        "propithecus_diadema": 0,
+        "microcebus_murinus": 0,
+        "brookesia_micra": 0,
+        "furcifer_pardalis": 0,
+        "uroplatus_phantasticus": 0,
+        "unknown_species": 0
+      },
+      "most_detected_species": "lemur_catta"
+    }
+  },
+  "recent_activity": [
+    {
+      "event_id": "field_integration_test",
+      "event_type": "species_detection",
+      "species": "indri_indri",
+      "location": "Andasibe_Mantadia_CAM_TEST_001",
+      "timestamp": "2025-08-22 17:29:56.746641",
+      "confidence": 0.95,
+      "threat_level": "high",
+      "metadata": {
+        "detection_metadata": {
+          "test": true
+        },
+        "conservation_priority": {
+          "is_priority": true,
+          "conservation_status": "critically_endangered",
+          "priority_score": 10,
+          "threat_level": "high",
+          "requires_immediate_attention": true,
+          "field_recommendations": [
+            "Document vocalization patterns if audio available",
+            "Record GPS coordinates for territory mapping",
+            "Note group size and composition",
+            "Check for signs of habitat disturbance",
+            "Update species occurrence database",
+            "Coordinate with local conservation partners",
+            "Document any threats or disturbances observed"
+          ]
+        },
+        "site_coordinates": [
+          -18.9333,
+          48.4167
+        ],
+        "research_station": "Centre_ValBio"
+      }
+    }
+  ],
+  "conservation_priorities": {
+    "species_of_interest": [
+      "indri_indri",
+      "propithecus_diadema",
+      "microcebus_murinus",
+      "brookesia_micra"
+    ],
+    "detection_threshold": 0.7,
+    "alert_threshold": 0.8
+  }
+}
