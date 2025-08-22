@@ -9,13 +9,22 @@ cd "$(dirname "$0")"
 PROJECT_DIR=$(pwd)
 echo "📁 Project Directory: $PROJECT_DIR"
 
-# Activate virtual environment
-if [ -d ".venv" ]; then
-    source .venv/bin/activate
-    echo "✅ Virtual environment (.venv) activated"
+# Check if conda geo_env is available and activate it
+if conda env list | grep -q "geo_env"; then
+    echo "🐍 Activating conda geo_env environment..."
+    # Note: This script should be run with: source activate_env.sh
+    # For direct activation, use: conda activate geo_env
+    echo "   Run: conda activate geo_env"
+    
+    # Check if already activated
+    if [[ "$CONDA_DEFAULT_ENV" == "geo_env" ]]; then
+        echo "✅ geo_env environment already active"
+    else
+        echo "⚠️  Please run: conda activate geo_env"
+    fi
 else
-    echo "❌ Virtual environment (.venv) not found!"
-    echo "Please run: python3 -m venv .venv"
+    echo "❌ Conda geo_env environment not found!"
+    echo "Please create it with: conda create -n geo_env python=3.9"
     exit 1
 fi
 
@@ -23,12 +32,11 @@ fi
 echo "🐍 Python: $(which python)"
 echo "📦 Python Version: $(python --version)"
 
-# Verify virtual environment is properly activated
-if [[ "$VIRTUAL_ENV" == *".venv"* ]]; then
-    echo "✅ Virtual environment properly activated: $VIRTUAL_ENV"
+# Verify conda environment is properly activated
+if [[ "$CONDA_DEFAULT_ENV" == "geo_env" ]]; then
+    echo "✅ Conda environment properly activated: $CONDA_DEFAULT_ENV"
 else
-    echo "⚠️  Warning: Virtual environment may not be properly activated"
-    echo "   Current VIRTUAL_ENV: $VIRTUAL_ENV"
+    echo "⚠️  Warning: Expected geo_env, currently using: $CONDA_DEFAULT_ENV"
 fi
 
 # Check if Jupyter is available
