@@ -413,6 +413,10 @@ Monitor your learning journey with built-in checkpoints:
 
 ## 📈 **RESEARCH APPLICATIONS & IMPACT**
 
+<div align="center">
+  <img src="assets/head_img3.png" alt="Madagascar Biodiversity Showcase" width="100%" style="max-width: 800px; border-radius: 10px; margin: 20px 0;"/>
+</div>
+
 ### **🌿 Conservation Science Applications**
 - **Madagascar Biodiversity:** Complete analysis of 6 endemic species
 - **Climate Adaptation:** Future habitat projections under climate change
