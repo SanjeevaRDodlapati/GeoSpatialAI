@@ -1,12 +1,16 @@
 # 🌍 GeoSpatialAI - Comprehensive Conservation Technology Platform
 
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![GeoPandas](https://img.shields.io/badge/GeoPandas-0.13+-green.svg)](https://geopandas.org/)
-[![Conservation Science](https://img.shields.io/badge/Conservation-Science-brightgreen.svg)](https://github.com/SanjeevaRDodlapati/GeoSpatialAI)
-[![Educational](https://img.shields.io/badge/Purpose-Educational-orange.svg)](https://github.com/SanjeevaRDodlapati/GeoSpatialAI)
-[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](https://github.com/SanjeevaRDodlapati/GeoSpatialAI)
-[![Interactive Dashboards](https://img.shields.io/badge/Dashboards-Interactive-blue.svg)](http://localhost:8501)
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-1.0+-green.svg)](https://geopandas.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13+-orange.svg)](https://tensorflow.org/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SanjeevaRDodlapati/GeoSpatialAI/HEAD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SanjeevaRDodlapati/GeoSpatialAI)
+
+<div align="center">
+  <img src="assets/head_img1.jpg" alt="GeoSpatialAI - Advanced Geospatial Data Analysis Platform" width="100%" style="max-width: 800px; border-radius: 10px; margin: 20px 0;"/>
+</div>
 
 ## 🚀 **Production-Ready Conservation AI System**
 
@@ -125,6 +129,10 @@ The Project 1 Census Analysis trilogy demonstrates progression from foundation t
 - **Health Integration:** CDC data integration, policy analysis, health disparities mapping
 
 ---
+
+<div align="center">
+  <img src="assets/head_img2.jpg" alt="GeoSpatialAI - Conservation Research Applications" width="100%" style="max-width: 800px; border-radius: 10px; margin: 20px 0;"/>
+</div>
 
 ## 🔬 **PHASE 2: ADVANCED RESEARCH APPLICATIONS (4/4 Complete)**
 
