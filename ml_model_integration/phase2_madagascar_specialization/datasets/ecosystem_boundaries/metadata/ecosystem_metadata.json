@@ -1,0 +1,124 @@
+{
+  "dataset_info": {
+    "name": "Madagascar Ecosystem Segmentation",
+    "version": "1.0",
+    "description": "Satellite imagery with ecosystem boundary annotations",
+    "total_images": 5000,
+    "image_size": [
+      1024,
+      1024
+    ],
+    "channels": [
+      "Red",
+      "Green",
+      "Blue",
+      "NIR",
+      "SWIR1",
+      "SWIR2"
+    ],
+    "spatial_resolution": "10m"
+  },
+  "ecosystem_classes": {
+    "Spiny_Forest": {
+      "region": "South",
+      "threats": [
+        "Deforestation",
+        "Agriculture"
+      ],
+      "area_km2": 17000
+    },
+    "Dry_Deciduous_Forest": {
+      "region": "West",
+      "threats": [
+        "Logging",
+        "Fires"
+      ],
+      "area_km2": 20000
+    },
+    "Eastern_Rainforest": {
+      "region": "East",
+      "threats": [
+        "Slash-burn",
+        "Mining"
+      ],
+      "area_km2": 11000
+    },
+    "Central_Highland": {
+      "region": "Central",
+      "threats": [
+        "Agriculture",
+        "Erosion"
+      ],
+      "area_km2": 18000
+    },
+    "Mangrove": {
+      "region": "Coast",
+      "threats": [
+        "Aquaculture",
+        "Development"
+      ],
+      "area_km2": 3000
+    },
+    "Coastal_Dune": {
+      "region": "Coast",
+      "threats": [
+        "Tourism",
+        "Development"
+      ],
+      "area_km2": 1000
+    },
+    "Agricultural_Land": {
+      "region": "Various",
+      "threats": [
+        "Expansion",
+        "Chemicals"
+      ],
+      "area_km2": 35000
+    },
+    "Urban_Area": {
+      "region": "Various",
+      "threats": [
+        "Expansion",
+        "Pollution"
+      ],
+      "area_km2": 2000
+    },
+    "Water_Body": {
+      "region": "Various",
+      "threats": [
+        "Pollution",
+        "Overfishing"
+      ],
+      "area_km2": 5000
+    },
+    "Degraded_Forest": {
+      "region": "Various",
+      "threats": [
+        "Continued_degradation"
+      ],
+      "area_km2": 15000
+    },
+    "Grassland": {
+      "region": "Central",
+      "threats": [
+        "Overgrazing",
+        "Fires"
+      ],
+      "area_km2": 10000
+    },
+    "Rocky_Outcrop": {
+      "region": "Various",
+      "threats": [
+        "Mining",
+        "Tourism"
+      ],
+      "area_km2": 3000
+    }
+  },
+  "annotation_format": "polygon_masks",
+  "data_splits": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  }
+}

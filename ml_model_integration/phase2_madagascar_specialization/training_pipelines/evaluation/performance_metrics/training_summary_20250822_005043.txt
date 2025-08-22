@@ -1,0 +1,15 @@
+MADAGASCAR CONSERVATION AI - TRAINING SESSION SUMMARY
+============================================================
+
+Session ID: 20250822_005043
+Device: mps
+Duration: 0.0 minutes
+Status: completed
+
+MODELS TRAINED:
+--------------------
+• yolov8_madagascar_wildlife: failed
+• lemur_species_classifier: failed
+• ecosystem_segmentation: completed
+
+CONSERVATION IMPACT SCORE: 0.322

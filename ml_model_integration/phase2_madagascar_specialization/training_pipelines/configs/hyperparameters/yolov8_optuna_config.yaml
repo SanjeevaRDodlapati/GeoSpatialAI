@@ -1,0 +1,45 @@
+conservation_constraints:
+  max_model_size_mb: 50
+  min_anti_poaching_precision: 0.95
+  min_field_deployment_fps: 10
+direction: maximize
+metric: mAP50-95
+n_trials: 50
+parameters:
+  augmentation:
+    copy_paste:
+      high: 0.3
+      low: 0.0
+      type: uniform
+    mixup:
+      high: 0.3
+      low: 0.0
+      type: uniform
+    mosaic:
+      high: 1.0
+      low: 0.5
+      type: uniform
+  batch_size:
+    choices:
+    - 8
+    - 16
+    - 24
+    - 32
+    type: categorical
+  learning_rate:
+    high: 0.1
+    low: 0.0001
+    type: loguniform
+  momentum:
+    high: 0.99
+    low: 0.8
+    type: uniform
+  warmup_epochs:
+    high: 5
+    low: 1
+    type: int
+  weight_decay:
+    high: 0.001
+    low: 1.0e-06
+    type: loguniform
+study_name: yolov8_madagascar_wildlife_optimization

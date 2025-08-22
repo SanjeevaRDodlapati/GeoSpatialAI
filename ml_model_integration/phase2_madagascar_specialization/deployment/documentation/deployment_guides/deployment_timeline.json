@@ -1,0 +1,93 @@
+{
+  "immediate_deployment": {
+    "timeframe": "0-2 weeks",
+    "activities": [
+      "Model export finalization",
+      "Hardware configuration setup",
+      "Initial field site preparation",
+      "Team training initiation"
+    ],
+    "deliverables": [
+      "Production-ready model exports",
+      "Hardware deployment kits",
+      "Field testing protocols",
+      "Training materials"
+    ],
+    "locations": [
+      "Centre ValBio",
+      "Maromizaha Forest Station"
+    ],
+    "models_deployed": [
+      "yolov8_madagascar_wildlife",
+      "lemur_species_classifier"
+    ]
+  },
+  "short_term_deployment": {
+    "timeframe": "2-8 weeks",
+    "activities": [
+      "Phase 1 controlled testing execution",
+      "Camera trap network integration",
+      "Mobile app beta testing",
+      "Initial performance validation"
+    ],
+    "deliverables": [
+      "Phase 1 testing results",
+      "Camera trap AI integration",
+      "Mobile app beta versions",
+      "Performance optimization recommendations"
+    ],
+    "locations": [
+      "Andasibe-Mantadia",
+      "Ranomafana"
+    ],
+    "models_deployed": [
+      "All models",
+      "Ecosystem segmentation"
+    ]
+  },
+  "medium_term_deployment": {
+    "timeframe": "2-6 months",
+    "activities": [
+      "Phase 2 field deployment",
+      "Multi-site testing expansion",
+      "Anti-poaching system implementation",
+      "Conservation organization integration"
+    ],
+    "deliverables": [
+      "Multi-site deployment success",
+      "Anti-poaching AI systems",
+      "Conservation workflow integration",
+      "Scalability validation"
+    ],
+    "locations": [
+      "Ankarafantsika",
+      "Zombitse-Vohibasia",
+      "Additional sites"
+    ],
+    "models_deployed": [
+      "All models optimized"
+    ]
+  },
+  "long_term_deployment": {
+    "timeframe": "6-12 months",
+    "activities": [
+      "Phase 3 optimization and scaling",
+      "National conservation network integration",
+      "Research collaboration expansion",
+      "International best practices development"
+    ],
+    "deliverables": [
+      "National AI conservation network",
+      "International collaboration frameworks",
+      "Best practices documentation",
+      "Sustainability planning"
+    ],
+    "locations": [
+      "Madagascar-wide",
+      "International partnerships"
+    ],
+    "models_deployed": [
+      "Next-generation models"
+    ]
+  }
+}

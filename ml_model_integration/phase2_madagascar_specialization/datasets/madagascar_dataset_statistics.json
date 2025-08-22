@@ -1,0 +1,83 @@
+{
+  "madagascar_conservation_datasets": {
+    "creation_date": "2025-08-22",
+    "purpose": "Conservation AI model specialization",
+    "geographic_focus": "Madagascar",
+    "conservation_priority": "Endemic species protection"
+  },
+  "datasets": {
+    "wildlife_detection": {
+      "total_images": 15000,
+      "species_count": 20,
+      "annotation_format": "YOLO",
+      "primary_habitats": [
+        "Rainforest",
+        "Dry Forest",
+        "Spiny Forest"
+      ],
+      "data_sources": [
+        "Camera traps",
+        "Field surveys",
+        "iNaturalist"
+      ],
+      "splits": {
+        "train": 10500,
+        "val": 3000,
+        "test": 1500
+      }
+    },
+    "lemur_classification": {
+      "total_images": 25000,
+      "species_count": 108,
+      "genera_count": 15,
+      "annotation_format": "Species labels",
+      "behavioral_features": true,
+      "conservation_status": true,
+      "splits": {
+        "train": 17500,
+        "val": 5000,
+        "test": 2500
+      }
+    },
+    "bird_audio": {
+      "total_recordings": 8000,
+      "species_count": 250,
+      "endemic_families": [
+        "Vangidae",
+        "Bernieridae",
+        "Mesitornithidae"
+      ],
+      "recording_duration": "3-10 seconds",
+      "sample_rate": "22050 Hz",
+      "splits": {
+        "train": 5600,
+        "val": 1600,
+        "test": 800
+      }
+    },
+    "ecosystem_segmentation": {
+      "total_images": 5000,
+      "ecosystem_types": 12,
+      "image_size": "1024x1024",
+      "spatial_resolution": "10m",
+      "satellite_sources": [
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "annotation_format": "Polygon masks",
+      "splits": {
+        "train": 3500,
+        "val": 1000,
+        "test": 500
+      }
+    }
+  },
+  "conservation_impact": {
+    "protected_areas_covered": 30,
+    "endemic_species_focus": 128,
+    "threatened_species_priority": 85,
+    "habitat_types_monitored": 12,
+    "anti_poaching_coverage": "Real-time",
+    "biodiversity_assessment": "Automated"
+  }
+}

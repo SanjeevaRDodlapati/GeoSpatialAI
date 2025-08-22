@@ -1,0 +1,69 @@
+custom_metrics:
+  anti_poaching_effectiveness:
+    components:
+    - detection_speed
+    - accuracy
+    - false_positive_rate
+    description: Model effectiveness for anti-poaching applications
+  conservation_impact_score:
+    description: Weighted score based on conservation priority
+    formula: CR_weight * CR_accuracy + EN_weight * EN_accuracy + VU_weight * VU_accuracy
+  field_deployment_readiness:
+    description: Readiness score for field deployment
+    factors:
+    - model_size
+    - inference_speed
+    - power_consumption
+    - accuracy
+entity: conservation_ai_team
+experiment_groups:
+  ecosystem_segmentation:
+    description: Madagascar ecosystem segmentation experiments
+    metrics_to_track:
+    - iou
+    - dice_coefficient
+    - pixel_accuracy
+    - mean_iou
+    - class_iou
+    - deforestation_detection_rate
+    - habitat_connectivity_score
+    tags:
+    - segmentation
+    - ecosystem
+    - satellite
+    - habitat
+  lemur_classification:
+    description: Lemur species classification experiments
+    metrics_to_track:
+    - accuracy
+    - top5_accuracy
+    - conservation_weighted_accuracy
+    - per_species_precision
+    - per_species_recall
+    - confusion_matrix
+    - training_loss
+    - validation_loss
+    - endemic_species_performance
+    tags:
+    - classification
+    - lemur
+    - species
+    - conservation
+  wildlife_detection:
+    description: YOLOv8 Madagascar wildlife detection experiments
+    metrics_to_track:
+    - mAP50
+    - mAP50-95
+    - precision
+    - recall
+    - f1_score
+    - training_loss
+    - validation_loss
+    - learning_rate
+    - conservation_impact_score
+    tags:
+    - yolov8
+    - wildlife
+    - detection
+    - madagascar
+project_name: madagascar_conservation_ai

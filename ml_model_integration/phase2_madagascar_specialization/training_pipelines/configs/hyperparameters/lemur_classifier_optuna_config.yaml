@@ -1,0 +1,40 @@
+conservation_priorities:
+  critically_endangered_weight: 5.0
+  endangered_weight: 3.0
+  endemic_bonus: 1.5
+  vulnerable_weight: 2.0
+direction: maximize
+metric: conservation_weighted_accuracy
+n_trials: 30
+parameters:
+  architecture:
+    choices:
+    - efficientnet_b0
+    - efficientnet_b3
+    - resnet50
+    - vit_base_patch16_224
+    type: categorical
+  batch_size:
+    choices:
+    - 16
+    - 32
+    - 48
+    - 64
+    type: categorical
+  dropout_rate:
+    high: 0.5
+    low: 0.1
+    type: uniform
+  label_smoothing:
+    high: 0.2
+    low: 0.0
+    type: uniform
+  learning_rate:
+    high: 0.01
+    low: 1.0e-05
+    type: loguniform
+  mixup_alpha:
+    high: 0.5
+    low: 0.0
+    type: uniform
+study_name: lemur_species_classifier_optimization

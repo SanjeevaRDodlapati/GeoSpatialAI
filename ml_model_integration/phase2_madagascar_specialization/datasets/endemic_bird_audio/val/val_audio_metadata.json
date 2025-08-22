@@ -1,0 +1,41 @@
+{
+  "dataset_info": {
+    "split": "val",
+    "sample_rate": 22050,
+    "duration_seconds": 3.0,
+    "format": "wav",
+    "quality": "16-bit"
+  },
+  "species_list": [
+    "Coua_caerulea",
+    "Vanga_curvirostris",
+    "Neodrepanis_coruscans",
+    "Tylas_eduardi",
+    "Calicalicus_madagascariensis",
+    "Leptopterus_chabert",
+    "Xenopirostris_xenopirostris",
+    "Oriolia_bernieri",
+    "Hypositta_corallirostris",
+    "Atelornis_pittoides",
+    "Brachypteracias_leptosomus",
+    "Monias_benschi",
+    "Mesitornis_variegatus",
+    "Leptosomus_discolor",
+    "Anas_melleri",
+    "Tachybaptus_pelzelnii",
+    "Lophotibis_cristata",
+    "Threskiornis_bernieri",
+    "Ardeola_idae",
+    "Circus_maillardi"
+  ],
+  "recording_locations": [
+    "Andasibe-Mantadia",
+    "Ranomafana",
+    "Masoala",
+    "Ankarafantsika",
+    "Zombitse-Vohibasia",
+    "Andohahela",
+    "Marojejy",
+    "Amber Mountain"
+  ]
+}
