@@ -116,7 +116,7 @@ GeoSpatialAI/
 │   ├── project_0_cartography_practice/
 │   ├── project_1_census_analysis/
 │   └── ...
-├── research_applications/       # Phase 2: Advanced Applications
+├── applications/                # Phase 2: Advanced Applications
 │   ├── real_time_monitoring/
 │   ├── predictive_modeling/
 │   └── ...

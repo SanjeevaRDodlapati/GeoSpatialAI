@@ -96,7 +96,7 @@ Memory: 86MB model size
 - [ ] Integrate with existing monitoring dashboard
 
 **Integration Points:**
-- `research_applications/real_time_monitoring/` - Camera trap analysis
+- `applications/real_time_monitoring/` - Camera trap analysis
 - `projects/project_7_advanced_species_habitat_dl/` - Species validation
 - Existing CNN habitat models for cross-validation
 
@@ -125,7 +125,7 @@ Accuracy: 91.2% on test data
 - [ ] Integrate with acoustic sensor network
 
 **Integration Points:**
-- `research_applications/real_time_monitoring/` - Acoustic monitoring
+- `applications/real_time_monitoring/` - Acoustic monitoring
 - `projects/project_5_species_mapping/` - Audio-based occurrence data
 - Existing species models (Vanga curvirostris, Coua caerulea)
 
@@ -188,7 +188,7 @@ Temporal Coverage: Global, 2013-present
 **Integration Points:**
 - `projects/project_4_land_cover_analysis/` - Enhanced classification
 - `projects/project_6_natural_hazard_analysis/` - Risk assessment
-- `research_applications/real_time_monitoring/` - Change detection
+- `applications/real_time_monitoring/` - Change detection
 
 **Expected Outcomes:**
 - Superior land cover classification accuracy

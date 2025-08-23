@@ -83,7 +83,7 @@ GeoSpatialAI/
 │   └── logs/
 │       └── deployment_summaries/
 ├── 📁 projects/                      # Research projects (existing)
-├── 📁 research_applications/         # Research applications (existing)
+├── 📁 applications/                  # Research applications (existing)
 ├── 📁 ml_model_integration/          # ML components (existing)
 ├── 📁 data/                          # Data directory
 │   ├── 📁 cache/                     # API response cache

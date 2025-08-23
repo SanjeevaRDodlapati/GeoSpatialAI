@@ -6,7 +6,7 @@ This module integrates YOLOv8 pre-trained wildlife detection models for
 real-time species identification in camera trap images and video streams.
 
 Integration with GeoSpatialAI Platform:
-- Real-time monitoring: research_applications/real_time_monitoring/
+- Real-time monitoring: applications/real_time_monitoring/
 - Species validation: projects/project_7_advanced_species_habitat_dl/
 - Conservation insights: Automated species occurrence tracking
 

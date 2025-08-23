@@ -8,7 +8,7 @@ habitat boundary detection and ecosystem segmentation in satellite imagery.
 Integration with GeoSpatialAI Platform:
 - Land cover analysis: projects/project_4_land_cover_analysis/
 - Connectivity mapping: projects/project_8_landscape_connectivity/
-- Real-time monitoring: research_applications/real_time_monitoring/
+- Real-time monitoring: applications/real_time_monitoring/
 
 Author: GeoSpatialAI Development Team
 Date: August 21, 2025

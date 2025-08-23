@@ -38,7 +38,7 @@ GeoSpatialAI/
 │   ├── phase2_madagascar_specialization/    # Species-specific models
 │   └── phase3a_field_deployment/           # Production infrastructure
 ├── projects/                               # 9 conservation projects
-└── research_applications/                  # Field validation protocols
+└── applications/                       # Field validation protocols
 ```
 
 #### Technical Capabilities Inventory

@@ -6,7 +6,7 @@ This module integrates BirdNET pre-trained audio classification models for
 real-time bird species identification in acoustic monitoring data.
 
 Integration with GeoSpatialAI Platform:
-- Real-time monitoring: research_applications/real_time_monitoring/
+- Real-time monitoring: applications/real_time_monitoring/
 - Species validation: projects/project_5_species_mapping/
 - Madagascar focus: Vanga curvirostris, Coua caerulea, and other endemic birds
 

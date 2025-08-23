@@ -60,7 +60,7 @@ GeoSpatialAI/
 │   ├── project_7_advanced_species_habitat_dl/
 │   ├── project_8_landscape_connectivity/
 │   └── project_9_conservation_optimization/
-├── research_applications/            # Advanced Research Applications
+├── applications/                     # Advanced Research Applications
 │   ├── real_time_monitoring/         # IoT sensors & satellite monitoring
 │   ├── predictive_modeling/          # ML models & predictions  
 │   ├── stakeholder_decision_support/ # Decision support systems
@@ -504,7 +504,7 @@ GeoSpatialAI/
 │   ├── project_7_advanced_species_habitat_dl/
 │   ├── project_8_landscape_connectivity/
 │   └── project_9_conservation_optimization/
-├── research_applications/              # Phase 2: Advanced Applications
+├── applications/                       # Phase 2: Advanced Applications
 │   ├── real_time_monitoring/          # IoT sensors & satellite data
 │   ├── predictive_modeling/           # ML models & predictions
 │   ├── stakeholder_decision_support/  # Decision support systems
@@ -582,10 +582,10 @@ echo $VIRTUAL_ENV  # Should show: /path/to/GeoSpatialAI/.venv
 #### **Launch Interactive Systems**
 ```bash
 # Launch real-time monitoring dashboard
-streamlit run research_applications/real_time_monitoring/outputs/dashboards/conservation_monitoring_dashboard.py --server.port 8501
+streamlit run applications/real_time_monitoring/outputs/dashboards/conservation_monitoring_dashboard.py --server.port 8501
 
 # Launch stakeholder decision support dashboard  
-streamlit run research_applications/stakeholder_decision_support/outputs/dashboards/conservation_dashboard.py --server.port 8503
+streamlit run applications/stakeholder_decision_support/outputs/dashboards/conservation_dashboard.py --server.port 8503
 ```
 
 ### **Core Technologies**

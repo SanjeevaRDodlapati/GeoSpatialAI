@@ -339,7 +339,7 @@ Dashboard APIs ← Alert Systems ← Stakeholder Reports ← Field Validation
 
 ### **Technical Documentation**
 - **Conservation AI Orchestrator**: `/ml_model_integration/conservation_ai_orchestrator.py`
-- **Real-Time Monitoring**: `/research_applications/real_time_monitoring/`
+- **Real-Time Monitoring**: `/applications/real_time_monitoring/`
 - **Field Integration**: `/ml_model_integration/phase4a_agents/step5_section4_test.py`
 - **Frontend Interface**: `/madagascar-conservation-ui/`
 
