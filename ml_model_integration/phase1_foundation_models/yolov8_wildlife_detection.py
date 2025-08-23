@@ -101,7 +101,15 @@ class MadagascarWildlifeDetector:
             else:
                 # Use pre-trained YOLOv8 model (will be enhanced with wildlife-specific training)
                 logger.info("🌐 Loading pre-trained YOLOv8 model")
-                self.model = YOLO('yolov8n.pt')  # Start with nano for speed
+                
+                # Import centralized model path configuration
+                import sys
+                from pathlib import Path
+                project_root = Path(__file__).parent.parent.parent
+                sys.path.append(str(project_root))
+                from src.utils.model_paths import get_yolo_path
+                
+                self.model = YOLO(get_yolo_path())  # Use centralized path configuration
                 
             # Configure device
             if self.device != 'cpu':

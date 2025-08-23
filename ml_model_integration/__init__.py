@@ -96,7 +96,14 @@ def verify_model_availability():
     # Check YOLOv8
     try:
         from ultralytics import YOLO
-        yolo_model = YOLO('yolov8n.pt')  # Will download if not available
+        # Import centralized model path configuration
+        import sys
+        from pathlib import Path
+        project_root = Path(__file__).parent.parent
+        sys.path.append(str(project_root))
+        from src.utils.model_paths import get_yolo_path
+        
+        yolo_model = YOLO(get_yolo_path())  # Will download if not available
         model_status['yolov8'] = 'Available'
         logger.info("✅ YOLOv8 model available")
     except Exception as e:
