@@ -23,12 +23,8 @@ GeoSpatialAI/
 ├── docs/                             # Documentation
 ├── projects/                         # Educational projects (10 projects)
 ├── applications/                     # Real-world applications
-├── ml_model_integration/             # ML model integration and agents
 ├── models/                           # ML models storage
-├── scripts/                          # Utility scripts
-├── assets/                           # Project assets and screenshots
-├── deployment/                       # Deployment configurations
-└── archive/                          # Archived legacy files
+└── archive/                          # Legacy files
 ```
 
 ## 🚀 Quick Start
@@ -79,16 +75,6 @@ python src/web/server.py
 
 **Access dashboard:** Open `http://localhost:8000`
 
-### Alternative Dashboards
-
-```bash
-# Real-time monitoring dashboard
-streamlit run applications/real_time_monitoring/outputs/dashboards/conservation_monitoring_dashboard.py --server.port 8501
-
-# Stakeholder decision support dashboard  
-streamlit run applications/stakeholder_decision_support/outputs/dashboards/conservation_dashboard.py --server.port 8503
-```
-
 ## 🎯 Key Features
 
 - **Real-time Environmental Monitoring**: IoT sensors & satellite data
@@ -102,7 +88,7 @@ streamlit run applications/stakeholder_decision_support/outputs/dashboards/conse
 - **Geospatial**: GeoPandas, Rasterio, Folium
 - **ML/AI**: TensorFlow, Scikit-learn, YOLOv8
 - **Visualization**: Plotly, Matplotlib, Streamlit
-- **Web**: Custom HTTP Server, HTML/CSS/JavaScript
+- **Web**: Flask, HTML/CSS/JavaScript
 
 ## 📚 Documentation
 
@@ -124,7 +110,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
-- **Email**: sdodlapa@gmail.com
+- **Email**: s.dodlapati@outlook.com
 - **Issues**: [GitHub Issues](https://github.com/SanjeevaRDodlapati/GeoSpatialAI/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/SanjeevaRDodlapati/GeoSpatialAI/discussions)
 
