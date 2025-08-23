@@ -13,21 +13,33 @@ from datetime import datetime
 import sys
 import os
 
-# Add current directory to path to import our real API modules
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Add project root to path to import our API modules
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(os.path.dirname(current_dir))
+sys.path.insert(0, project_root)
 
-# Import the WORKING real API wrapper functions
+# Import the conservation API functions
 try:
-    from working_real_api_wrappers import (
-        trigger_location_analysis,
-        trigger_emergency_response,
-        trigger_species_monitoring,
-        trigger_threat_scanning
-    )
+    # Try new structure first
+    try:
+        from src.api.conservation_apis import (
+            trigger_location_analysis,
+            trigger_emergency_response,
+            trigger_species_monitoring,
+            trigger_threat_scanning
+        )
+    except ImportError:
+        # Fallback to original for compatibility
+        from working_real_api_wrappers import (
+            trigger_location_analysis,
+            trigger_emergency_response,
+            trigger_species_monitoring,
+            trigger_threat_scanning
+        )
     REAL_API_AVAILABLE = True
-    print("✅ WORKING Real API wrapper modules loaded successfully!")
+    print("✅ Conservation API modules loaded successfully!")
 except ImportError as e:
-    print(f"⚠️ Could not import WORKING real API modules: {e}")
+    print(f"⚠️ Could not import conservation API modules: {e}")
     REAL_API_AVAILABLE = False
 
 class TracedConservationHandler(BaseHTTPRequestHandler):
