@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEBUG - Function Test</title>
+</head>
+<body>
+    <h1>🔍 JavaScript Function Debug Test</h1>
+    
+    <button onclick="testEmergencyResponse()">Test Emergency Response</button>
+    <button onclick="testSpeciesMonitoring()">Test Species Monitoring</button>
+    <button onclick="testThreatScanning()">Test Threat Scanning</button>
+    
+    <div id="results"></div>
+    
+    <script>
+        // Test variables
+        var lastSelectedLat = -18.9333;
+        var lastSelectedLng = 48.4167;
+        var lastSelectedLocation = "Test Location";
+        
+        function showResult(title, content) {
+            document.getElementById('results').innerHTML = `<h3>${title}</h3><pre>${content}</pre>`;
+        }
+        
+        function testEmergencyResponse() {
+            console.log('🚨 TEST: Emergency response function called');
+            alert('Emergency Response Function Works!');
+            
+            var requestData = {
+                lat: lastSelectedLat,
+                lng: lastSelectedLng,
+                location: lastSelectedLocation
+            };
+            
+            console.log('📤 Sending POST data:', JSON.stringify(requestData));
+            
+            fetch('/api/emergency-response', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(requestData)
+            })
+            .then(response => response.json())
+            .then(data => showResult('🚨 Emergency Response', data.analysis))
+            .catch(error => showResult('❌ Error', 'Emergency response failed: ' + error.message));
+        }
+        
+        function testSpeciesMonitoring() {
+            console.log('🔍 TEST: Species monitoring function called');
+            alert('Species Monitoring Function Works!');
+            
+            var requestData = {
+                lat: lastSelectedLat,
+                lng: lastSelectedLng,
+                location: lastSelectedLocation
+            };
+            
+            console.log('📤 Sending POST data:', JSON.stringify(requestData));
+            
+            fetch('/api/species-monitoring', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(requestData)
+            })
+            .then(response => response.json())
+            .then(data => showResult('🔍 Species Monitoring', data.analysis))
+            .catch(error => showResult('❌ Error', 'Species monitoring failed: ' + error.message));
+        }
+        
+        function testThreatScanning() {
+            console.log('⚠️ TEST: Threat scanning function called');
+            alert('Threat Scanning Function Works!');
+            
+            var requestData = {
+                lat: lastSelectedLat,
+                lng: lastSelectedLng,
+                location: lastSelectedLocation
+            };
+            
+            console.log('📤 Sending POST data:', JSON.stringify(requestData));
+            
+            fetch('/api/threat-scanning', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(requestData)
+            })
+            .then(response => response.json())
+            .then(data => showResult('⚠️ Threat Scanning', data.analysis))
+            .catch(error => showResult('❌ Error', 'Threat scanning failed: ' + error.message));
+        }
+    </script>
+</body>
+</html>

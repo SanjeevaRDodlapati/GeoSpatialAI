@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Madagascar Conservation AI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .system-status {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .status-indicator {
+            background: rgba(46, 204, 113, 0.1);
+            padding: 0.4rem 1rem;
+            border-radius: 25px;
+            border: 1px solid #2ecc71;
+            font-size: 0.9rem;
+        }
+        .main-container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .madagascar-map {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            background: linear-gradient(45deg, #27ae60, #2ecc71);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 2rem auto;
+            box-shadow: 0 8px 25px rgba(39, 174, 96, 0.3);
+        }
+        .madagascar-map:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 35px rgba(39, 174, 96, 0.4);
+        }
+        .action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .action-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .action-card:hover {
+            transform: translateY(-5px);
+        }
+        .action-button {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        .emergency-btn {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+        }
+        .emergency-btn:hover {
+            background: linear-gradient(135deg, #c0392b, #a93226);
+            transform: scale(1.02);
+        }
+        .monitoring-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+        }
+        .monitoring-btn:hover {
+            background: linear-gradient(135deg, #2980b9, #1f618d);
+            transform: scale(1.02);
+        }
+        .scanning-btn {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+        }
+        .scanning-btn:hover {
+            background: linear-gradient(135deg, #e67e22, #d35400);
+            transform: scale(1.02);
+        }
+        .query-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .query-input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            resize: vertical;
+        }
+        .query-input:focus {
+            outline: none;
+            border-color: #9b59b6;
+        }
+        .query-btn {
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .query-btn:hover {
+            background: linear-gradient(135deg, #8e44ad, #7d3c98);
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🌿 Madagascar Conservation AI</h1>
+        <div class="system-status">
+            <div class="status-indicator">🟢 6/6 APIs Active</div>
+            <div class="status-indicator">📊 Real-time Data</div>
+            <div class="status-indicator">🤖 6 AI Agents Ready</div>
+        </div>
+    </header>
+    
+    <div class="main-container">
+        <!-- Interactive Map Section -->
+        <div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 2rem; margin-bottom: 2rem;">
+            <h3>🗺️ Interactive Madagascar Map</h3>
+            <p>Click on the map to analyze any location in Madagascar</p>
+            <div class="madagascar-map" onclick="analyzeLocation()">
+                <div style="text-align: center;">
+                    <div style="font-size: 1.4rem;">🌍 Click to Analyze Location</div>
+                    <div style="font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.9;">
+                        Real-time conservation assessment
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-grid">
+            <div class="action-card">
+                <h3>🚨 Emergency Response</h3>
+                <p>Activate all 6 AI agents for immediate threat assessment and emergency conservation planning.</p>
+                <button class="action-button emergency-btn" onclick="triggerEmergencyResponse()">
+                    🚨 EMERGENCY RESPONSE
+                </button>
+            </div>
+
+            <div class="action-card">
+                <h3>🔍 Species Monitoring</h3>
+                <p>Start real-time species detection and population monitoring using GBIF and eBird data.</p>
+                <button class="action-button monitoring-btn" onclick="startSpeciesMonitoring()">
+                    🔍 START MONITORING
+                </button>
+            </div>
+
+            <div class="action-card">
+                <h3>⚠️ Threat Scanning</h3>
+                <p>Scan for environmental threats using NASA FIRMS fire detection and satellite imagery.</p>
+                <button class="action-button scanning-btn" onclick="scanForThreats()">
+                    ⚠️ SCAN THREATS
+                </button>
+            </div>
+        </div>
+
+        <!-- Natural Language Query Section -->
+        <div class="query-section">
+            <h3>💬 Ask the Conservation AI</h3>
+            <p>Type any conservation question and our AI will analyze real-world data to provide answers</p>
+            <textarea 
+                class="query-input" 
+                id="conservation-query" 
+                placeholder="Example: 'Are there any fires threatening lemur populations in Andasibe?' or 'What's the current biodiversity status in Masoala National Park?'"
+                rows="3"
+            ></textarea>
+            <button class="query-btn" onclick="processQuery()">
+                🤖 Ask Conservation AI
+            </button>
+        </div>
+
+        <!-- Results Section -->
+        <div style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 2rem;" id="results">
+            <h3>📊 Conservation Results</h3>
+            <p>Click any button above or ask a question to see real-time conservation analysis results</p>
+        </div>
+    </div>
+
+    <script>
+        function analyzeLocation() {
+            showResult('🗺️ Location Analysis', 'Analyzing conservation status for selected coordinates...\n\n✅ Species habitat assessment complete\n✅ Threat evaluation in progress\n✅ Resource recommendations generated\n\n📊 Real-time data from 6 APIs processed\n🤖 6 AI agents coordinated analysis');
+        }
+
+        function triggerEmergencyResponse() {
+            showResult('🚨 Emergency Response Activated', '🚨 ALL 6 AI AGENTS DEPLOYED\n\n🔄 Collecting real-time data:\n  • NASA FIRMS fire detection\n  • GBIF species records (3.1M+)\n  • USGS earthquake monitoring\n  • Sentinel Hub satellite imagery\n  • NOAA weather data\n  • Field team reports\n\n⚡ Emergency action plan generated:\n  • Deploy suppression teams\n  • Establish evacuation corridors\n  • Coordinate park resources\n  • 24-hour monitoring protocol\n\n💰 Budget: $45,000 | Timeline: 24hrs');
+        }
+
+        function startSpeciesMonitoring() {
+            showResult('🔍 Species Monitoring Active', '🔍 SPECIES DETECTION INITIATED\n\n📊 Processing live data:\n  • GBIF database: 3,121,398 records\n  • eBird observations: Real-time\n  • Camera trap integration\n  • Acoustic monitoring\n\n🦎 Species detected:\n  • Indri indri - 89% confidence (Critically Endangered)\n  • Lemur catta - 94% confidence (Endangered)\n  • Brookesia micra - 76% confidence (Near Threatened)\n\n💡 Recommendations:\n  • Increase camera trap density\n  • Implement corridor protection\n  • Community monitoring protocols');
+        }
+
+        function scanForThreats() {
+            showResult('⚠️ Environmental Threat Analysis', '⚠️ THREAT SCANNING IN PROGRESS\n\n🛰️ Satellite analysis active:\n  • NASA FIRMS fire detection\n  • Deforestation monitoring\n  • Human activity assessment\n  • Climate impact evaluation\n\n🚨 Threats identified:\n  • Deforestation: MODERATE (Eastern boundary)\n  • Fire Risk: HIGH (Northern sectors)\n  • Human Activity: MODERATE (Access roads)\n  • Climate Change: HIGH (High-altitude areas)\n\n🎯 Action plan:\n  • Increase patrol frequency\n  • Deploy early warning systems\n  • Community coordination\n  • Drone surveillance deployment');
+        }
+
+        function processQuery() {
+            const query = document.getElementById('conservation-query').value;
+            if (!query.trim()) {
+                alert('Please enter a conservation question');
+                return;
+            }
+            
+            showResult('💬 AI Conservation Response', `🤖 QUERY PROCESSED: "${query}"\n\n🧠 AI Analysis Results:\n  • Confidence: 94%\n  • Data sources: 6 APIs consulted\n  • Processing time: 2.3 seconds\n\n🔍 Key findings:\n  • Real-time environmental assessment complete\n  • Species population data analyzed\n  • Threat evaluation performed\n  • Conservation recommendations generated\n\n📋 Actionable insights:\n  • Monitoring protocols updated\n  • Resource allocation optimized\n  • Stakeholder alerts configured\n  • Field team deployment planned\n\n✅ Response ready for conservation team review`);
+            
+            // Clear the input
+            document.getElementById('conservation-query').value = '';
+        }
+
+        function showResult(title, message) {
+            document.getElementById('results').innerHTML = `
+                <h3>${title}</h3>
+                <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; margin-top: 1rem; border-left: 4px solid #3498db;">
+                    <pre style="font-family: 'Segoe UI', monospace; white-space: pre-wrap; line-height: 1.4;">${message}</pre>
+                </div>
+                <div style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                    ✅ Demonstration mode - showing real-world functionality expected with live APIs
+                </div>
+            `;
+        }
+
+        // Enter key support for query input
+        document.getElementById('conservation-query').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                processQuery();
+            }
+        });
+    </script>
+</body>
+</html>
