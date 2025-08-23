@@ -440,8 +440,12 @@ class MadagascarFieldAgent:
         # Save final deployment summary
         summary = self.get_deployment_summary()
         
-        # Save to file (in practice, would transmit to research station)
-        summary_file = f"deployment_summary_{self.config.site_name}_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+        # Create deployment logs directory if it doesn't exist
+        deployment_dir = Path("deployment/logs")
+        deployment_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Save to deployment logs directory
+        summary_file = deployment_dir / f"deployment_summary_{self.config.site_name}_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
         with open(summary_file, 'w') as f:
             json.dump(summary, f, indent=2, default=str)
         
