@@ -98,7 +98,7 @@ class TracedConservationHandler(BaseHTTPRequestHandler):
         """Serve the main conservation dashboard."""
         print("🏠 Serving dashboard...")
         try:
-            with open('dashboard_real_map.html', 'r') as f:
+            with open('web/templates/dashboard.html', 'r') as f:
                 html_content = f.read()
             
             # Inject JavaScript debugging
