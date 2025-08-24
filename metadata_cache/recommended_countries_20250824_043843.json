@@ -1,0 +1,82 @@
+[
+  {
+    "country": "US",
+    "occurrences": 1145764668
+  },
+  {
+    "country": "FR",
+    "occurrences": 205908907
+  },
+  {
+    "country": "CA",
+    "occurrences": 186137536
+  },
+  {
+    "country": "GB",
+    "occurrences": 185359956
+  },
+  {
+    "country": "SE",
+    "occurrences": 162035712
+  },
+  {
+    "country": "AU",
+    "occurrences": 143034423
+  },
+  {
+    "country": "NL",
+    "occurrences": 131073263
+  },
+  {
+    "country": "ES",
+    "occurrences": 77306161
+  },
+  {
+    "country": "DE",
+    "occurrences": 66534926
+  },
+  {
+    "country": "DK",
+    "occurrences": 62008596
+  },
+  {
+    "country": "NO",
+    "occurrences": 58533779
+  },
+  {
+    "country": "IN",
+    "occurrences": 52316384
+  },
+  {
+    "country": "FI",
+    "occurrences": 48344597
+  },
+  {
+    "country": "ZA",
+    "occurrences": 43485254
+  },
+  {
+    "country": "BE",
+    "occurrences": 42636549
+  },
+  {
+    "country": "BR",
+    "occurrences": 36680568
+  },
+  {
+    "country": "MX",
+    "occurrences": 35417054
+  },
+  {
+    "country": "CO",
+    "occurrences": 34139206
+  },
+  {
+    "country": "CR",
+    "occurrences": 32350920
+  },
+  {
+    "country": "CH",
+    "occurrences": 30118266
+  }
+]

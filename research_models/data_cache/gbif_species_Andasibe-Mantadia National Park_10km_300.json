@@ -1,0 +1,5307 @@
+{
+  "area_name": "Andasibe-Mantadia National Park",
+  "coordinates": [
+    -18.9333,
+    48.4167
+  ],
+  "search_radius_km": 10,
+  "total_occurrences": 272,
+  "unique_species_count": 81,
+  "species_list": [
+    "Zosterops maderaspatanus",
+    "Nomia scutellaris",
+    "Rattus rattus",
+    "Zonosaurus madagascariensis",
+    "Mantidactylus eulenbergeri",
+    "Strumigenys dicomas",
+    "Tenrec ecaudatus",
+    "Coua caerulea",
+    "Apis mellifera",
+    "Furcifer willsii",
+    "Plagiochila flabellata",
+    "Phelsuma quadriocellata",
+    "Newtonia amphichroa",
+    "Newtonia brunneicauda",
+    "Phelsuma madagascariensis",
+    "Liotrigona madecassa",
+    "Holocerus lucifer",
+    "Patellapis castanea",
+    "Simulium adersi",
+    "Copsychus albospecularis",
+    "Tetramorium ranarum",
+    "Hypsipetes madagascariensis",
+    "Brookesia superciliaris",
+    "Uroplatus fimbriatus",
+    "Calumma hilleniusi",
+    "Stenus colonus",
+    "Calumma nasutum",
+    "Megachile albiscopa",
+    "Eupetersia atrocoerulea",
+    "Halictus jucundus",
+    "Mantidactylus katae",
+    "Tetramorium dysalum",
+    "Megachile piliceps",
+    "Foudia madagascariensis",
+    "Terpsiphone mutata",
+    "Phelsuma lineata",
+    "Eupetersia sakalava",
+    "Furcifer rhinoceratus",
+    "Leptopterus chabert",
+    "Tetramorium cognatum",
+    "Strumigenys chilo",
+    "Tetraponera longula",
+    "Laephotis matroka",
+    "Philepitta castanea",
+    "Xanthomixis zosterops",
+    "Hemicentetes semispinosus",
+    "Orectogyrus cyanicollis",
+    "Thrinchostoma sakalavum",
+    "Calumma gastrotaenia",
+    "Ploceus nelicourvi",
+    "Ceratina azurea",
+    "Nesillas typica",
+    "Dineutus proximus",
+    "Saxicola sibilla",
+    "Tetramorium proximum",
+    "Bernieria madagascariensis",
+    "Trirhithrum argenteocuneatum",
+    "Tetramorium bicarinatum",
+    "Nomia gorytoides",
+    "Thrinchostoma fulvipes",
+    "Calumma brevicorne",
+    "Mops leucostigma",
+    "Frea sparsa",
+    "Calumma parsonii",
+    "Neodrepanis coruscans",
+    "Leptosomus discolor",
+    "Pseudoxyrhopus quinquelineatus",
+    "Cinnyris sovimanga",
+    "Enicophlebia pallida",
+    "Brachyseps gastrostictus",
+    "Chaerephon pusillus",
+    "Centropus toulou",
+    "Calumma boettgeri",
+    "Sanzinia madagascariensis",
+    "Dicrurus forficatus",
+    "Calicalicus madagascariensis",
+    "Mystacornis crossleyi",
+    "Amegilla antimena",
+    "Oxylabes madagascariensis",
+    "Dacus demmerezi",
+    "Coracopsis nigra"
+  ],
+  "detailed_occurrences": [
+    {
+      "species_name": "Plagiochila flabellata",
+      "scientific_name": "Plagiochila flabellata Steph.",
+      "common_name": "",
+      "family": "Plagiochilaceae",
+      "order": "Jungermanniales",
+      "class": "Jungermanniopsida",
+      "kingdom": "Plantae",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "2003-03-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "",
+      "gbif_id": 1990640507
+    },
+    {
+      "species_name": "Mantidactylus eulenbergeri",
+      "scientific_name": "Mantidactylus eulenbergeri Scherz, Crottini, Hutter, Hildenbrand, Andreone, Fulgence, K\u00f6hler, Ndriantsoa, Ohler, Preick, Rakotoarison, Rancilhac, Raselimanana, Riemann, R\u00f6del, Rosa, Streicher, Vieites, K\u00f6hler, Hofreiter, Glaw & Vences, 2022",
+      "common_name": "",
+      "family": "Mantellidae",
+      "order": "Anura",
+      "class": "Amphibia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "2001-11-23",
+      "basis_of_record": "MATERIAL_CITATION",
+      "institution": "ZSM",
+      "gbif_id": 4010830364
+    },
+    {
+      "species_name": "Mantidactylus katae",
+      "scientific_name": "Mantidactylus katae Scherz, Crottini, Hutter, Hildenbrand, Andreone, Fulgence, K\u00f6hler, Ndriantsoa, Ohler, Preick, Rakotoarison, Rancilhac, Raselimanana, Riemann, R\u00f6del, Rosa, Streicher, Vieites, K\u00f6hler, Hofreiter, Glaw & Vences, 2022",
+      "common_name": "",
+      "family": "Mantellidae",
+      "order": "Anura",
+      "class": "Amphibia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "2001-12-01",
+      "basis_of_record": "MATERIAL_CITATION",
+      "institution": "ZSM, FGMV",
+      "gbif_id": 4010830322
+    },
+    {
+      "species_name": "Mantidactylus katae",
+      "scientific_name": "Mantidactylus katae Scherz, Crottini, Hutter, Hildenbrand, Andreone, Fulgence, K\u00f6hler, Ndriantsoa, Ohler, Preick, Rakotoarison, Rancilhac, Raselimanana, Riemann, R\u00f6del, Rosa, Streicher, Vieites, K\u00f6hler, Hofreiter, Glaw & Vences, 2022",
+      "common_name": "",
+      "family": "Mantellidae",
+      "order": "Anura",
+      "class": "Amphibia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "2001-12-01",
+      "basis_of_record": "MATERIAL_CITATION",
+      "institution": "ZSM, FGMV",
+      "gbif_id": 4010830384
+    },
+    {
+      "species_name": "Holocerus lucifer",
+      "scientific_name": "Holocerus lucifer (Serville, 1838)",
+      "common_name": "",
+      "family": "Tetrigidae",
+      "order": "Orthoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1995-03",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "ZFMK",
+      "gbif_id": 3774680196
+    },
+    {
+      "species_name": "Dacus demmerezi",
+      "scientific_name": "Dacus demmerezi (Bezzi, 1917)",
+      "common_name": "",
+      "family": "Tephritidae",
+      "order": "Diptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1993-02-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MRAC",
+      "gbif_id": 142745896
+    },
+    {
+      "species_name": "Trirhithrum argenteocuneatum",
+      "scientific_name": "Trirhithrum argenteocuneatum Hancock, 1984",
+      "common_name": "",
+      "family": "Tephritidae",
+      "order": "Diptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1991-04-16/1991-04-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MRAC",
+      "gbif_id": 46829567
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1990-12-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1945410259
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1990-12-12",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1945410262
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1990-12-12",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1945410288
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1990-12-12",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 2252113612
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779229
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791092
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791093
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791094
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791095
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791096
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791097
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791098
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791099
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791100
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791101
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791102
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791103
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791104
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791105
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791106
+    },
+    {
+      "species_name": "Nomia scutellaris",
+      "scientific_name": "Nomia scutellaris Saussure, 1890",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684791107
+    },
+    {
+      "species_name": "Thrinchostoma sakalavum",
+      "scientific_name": "Thrinchostoma sakalavum Bl\u00fcthgen, 1930",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 686217341
+    },
+    {
+      "species_name": "Amegilla antimena",
+      "scientific_name": "Amegilla antimena (Saussure, 1890)",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1092722759
+    },
+    {
+      "species_name": "Frea sparsa",
+      "scientific_name": "Frea sparsa (Klug, 1833)",
+      "common_name": "",
+      "family": "Cerambycidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-01-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 2447392707
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779238
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779239
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779240
+    },
+    {
+      "species_name": "Patellapis castanea",
+      "scientific_name": "Patellapis castanea (Benoist, 1962)",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1985-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 686216880
+    },
+    {
+      "species_name": "Stenus colonus",
+      "scientific_name": "Stenus colonus Erichson, 1840",
+      "common_name": "",
+      "family": "Staphylinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 658211130
+    },
+    {
+      "species_name": "Eupetersia atrocoerulea",
+      "scientific_name": "Eupetersia atrocoerulea Pauly & Brooks, 2001",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 658473035
+    },
+    {
+      "species_name": "Eupetersia sakalava",
+      "scientific_name": "Eupetersia sakalava Bl\u00fcthgen, 1936",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 658473062
+    },
+    {
+      "species_name": "Eupetersia sakalava",
+      "scientific_name": "Eupetersia sakalava Bl\u00fcthgen, 1936",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 658473063
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779243
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779244
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779245
+    },
+    {
+      "species_name": "Halictus jucundus",
+      "scientific_name": "Halictus jucundus madecassus Pauly, 1984",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684779246
+    },
+    {
+      "species_name": "Nomia gorytoides",
+      "scientific_name": "Nomia gorytoides Strand, 1911",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 684792368
+    },
+    {
+      "species_name": "Patellapis castanea",
+      "scientific_name": "Patellapis castanea (Benoist, 1962)",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 686216879
+    },
+    {
+      "species_name": "Thrinchostoma fulvipes",
+      "scientific_name": "Thrinchostoma fulvipes Bl\u00fcthgen, 1933",
+      "common_name": "",
+      "family": "Halictidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 686217333
+    },
+    {
+      "species_name": "Megachile albiscopa",
+      "scientific_name": "Megachile albiscopa Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856588994
+    },
+    {
+      "species_name": "Megachile albiscopa",
+      "scientific_name": "Megachile albiscopa Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856588995
+    },
+    {
+      "species_name": "Megachile piliceps",
+      "scientific_name": "Megachile piliceps Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856610270
+    },
+    {
+      "species_name": "Megachile piliceps",
+      "scientific_name": "Megachile piliceps Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856610271
+    },
+    {
+      "species_name": "Megachile piliceps",
+      "scientific_name": "Megachile piliceps Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856610272
+    },
+    {
+      "species_name": "Megachile piliceps",
+      "scientific_name": "Megachile piliceps Saussure, 1890",
+      "common_name": "",
+      "family": "Megachilidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 856610273
+    },
+    {
+      "species_name": "Ceratina azurea",
+      "scientific_name": "Ceratina azurea Benoist, 1955",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 894555842
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613164
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613194
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613225
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613252
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613647
+    },
+    {
+      "species_name": "Apis mellifera",
+      "scientific_name": "Apis mellifera unicolor Latreille, 1804",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 911613673
+    },
+    {
+      "species_name": "Liotrigona madecassa",
+      "scientific_name": "Liotrigona madecassa (Saussure, 1890)",
+      "common_name": "",
+      "family": "Apidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1092738556
+    },
+    {
+      "species_name": "Simulium adersi",
+      "scientific_name": "Simulium adersi Pomeroy, 1922",
+      "common_name": "",
+      "family": "Simuliidae",
+      "order": "Diptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1092819251
+    },
+    {
+      "species_name": "Dineutus proximus",
+      "scientific_name": "Dineutus proximus Aube, 1838",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1141864509
+    },
+    {
+      "species_name": "Dineutus proximus",
+      "scientific_name": "Dineutus proximus Aube, 1838",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1141864522
+    },
+    {
+      "species_name": "Orectogyrus cyanicollis",
+      "scientific_name": "Orectogyrus cyanicollis",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1234307449
+    },
+    {
+      "species_name": "Orectogyrus cyanicollis",
+      "scientific_name": "Orectogyrus cyanicollis",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1234307461
+    },
+    {
+      "species_name": "Orectogyrus cyanicollis",
+      "scientific_name": "Orectogyrus cyanicollis",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1234307463
+    },
+    {
+      "species_name": "Orectogyrus cyanicollis",
+      "scientific_name": "Orectogyrus cyanicollis",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1234307465
+    },
+    {
+      "species_name": "Orectogyrus cyanicollis",
+      "scientific_name": "Orectogyrus cyanicollis",
+      "common_name": "",
+      "family": "Gyrinidae",
+      "order": "Coleoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1984-11-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "KU",
+      "gbif_id": 1234307475
+    },
+    {
+      "species_name": "Ploceus nelicourvi",
+      "scientific_name": "Ploceus nelicourvi (Scopoli, 1786)",
+      "common_name": "Nelicourvi Weaver; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039530764
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039542692
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039569222
+    },
+    {
+      "species_name": "Foudia madagascariensis",
+      "scientific_name": "Foudia madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red Fody; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-22",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039575179
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039596811
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-24",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039598788
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-23",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039608494
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-24",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039623407
+    },
+    {
+      "species_name": "Hypsipetes madagascariensis",
+      "scientific_name": "Hypsipetes madagascariensis madagascariensis (Statius Muller, 1776)",
+      "common_name": "Madagascar Bulbul; Bulbuls; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Pycnonotidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039634744
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039636827
+    },
+    {
+      "species_name": "Foudia madagascariensis",
+      "scientific_name": "Foudia madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red Fody; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-25",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039640407
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039642700
+    },
+    {
+      "species_name": "Copsychus albospecularis",
+      "scientific_name": "Copsychus albospecularis inexspectatus Richmond, 1897",
+      "common_name": "Madagascar Magpie-Robin; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039645280
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039648022
+    },
+    {
+      "species_name": "Neodrepanis coruscans",
+      "scientific_name": "Neodrepanis coruscans Sharpe, 1875",
+      "common_name": "Wattled Asity; Broadbills; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Philepittidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-24",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039649668
+    },
+    {
+      "species_name": "Neodrepanis coruscans",
+      "scientific_name": "Neodrepanis coruscans Sharpe, 1875",
+      "common_name": "Wattled Asity; Broadbills; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Philepittidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-25",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039661082
+    },
+    {
+      "species_name": "Hypsipetes madagascariensis",
+      "scientific_name": "Hypsipetes madagascariensis madagascariensis (Statius Muller, 1776)",
+      "common_name": "Madagascar Bulbul; Bulbuls; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Pycnonotidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-08-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039670799
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039535932
+    },
+    {
+      "species_name": "Philepitta castanea",
+      "scientific_name": "Philepitta castanea (Statius Muller, 1776)",
+      "common_name": "Velvet Asity; Broadbills; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Philepittidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039536668
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039537592
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-29",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039538809
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039541979
+    },
+    {
+      "species_name": "Newtonia brunneicauda",
+      "scientific_name": "Newtonia brunneicauda brunneicauda (A.Newton, 1863)",
+      "common_name": "Common Newtonia; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-29",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039542197
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039545663
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039546421
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-25",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039546606
+    },
+    {
+      "species_name": "Terpsiphone mutata",
+      "scientific_name": "Terpsiphone mutata mutata (Linnaeus, 1766)",
+      "common_name": "Madagascar Paradise-Flycatcher; Monarchs; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Monarchidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039547365
+    },
+    {
+      "species_name": "Terpsiphone mutata",
+      "scientific_name": "Terpsiphone mutata mutata (Linnaeus, 1766)",
+      "common_name": "Madagascar Paradise-Flycatcher; Monarchs; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Monarchidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-22",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039551420
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-24",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039553771
+    },
+    {
+      "species_name": "Copsychus albospecularis",
+      "scientific_name": "Copsychus albospecularis inexspectatus Richmond, 1897",
+      "common_name": "Madagascar Magpie-Robin; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039567728
+    },
+    {
+      "species_name": "Cinnyris sovimanga",
+      "scientific_name": "Cinnyris sovimanga sovimanga (Gmelin, 1788)",
+      "common_name": "Souimanga Sunbird; Sunbirds; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Nectariniidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039572430
+    },
+    {
+      "species_name": "Terpsiphone mutata",
+      "scientific_name": "Terpsiphone mutata mutata (Linnaeus, 1766)",
+      "common_name": "Madagascar Paradise-Flycatcher; Monarchs; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Monarchidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039581740
+    },
+    {
+      "species_name": "Ploceus nelicourvi",
+      "scientific_name": "Ploceus nelicourvi (Scopoli, 1786)",
+      "common_name": "Nelicourvi Weaver; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039586038
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039586200
+    },
+    {
+      "species_name": "Copsychus albospecularis",
+      "scientific_name": "Copsychus albospecularis inexspectatus Richmond, 1897",
+      "common_name": "Madagascar Magpie-Robin; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-23",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039594750
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039600430
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039603291
+    },
+    {
+      "species_name": "Copsychus albospecularis",
+      "scientific_name": "Copsychus albospecularis inexspectatus Richmond, 1897",
+      "common_name": "Madagascar Magpie-Robin; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-28",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039608755
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039614801
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039614950
+    },
+    {
+      "species_name": "Zosterops maderaspatanus",
+      "scientific_name": "Zosterops maderaspatanus maderaspatanus (Linnaeus, 1766)",
+      "common_name": "Madagascar White-eye; White-eyes; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Zosteropidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-29",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039617805
+    },
+    {
+      "species_name": "Copsychus albospecularis",
+      "scientific_name": "Copsychus albospecularis inexspectatus Richmond, 1897",
+      "common_name": "Madagascar Magpie-Robin; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039619969
+    },
+    {
+      "species_name": "Calicalicus madagascariensis",
+      "scientific_name": "Calicalicus madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red-tailed Vanga; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039620656
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039622304
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-29",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039626704
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-25",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039629055
+    },
+    {
+      "species_name": "Ploceus nelicourvi",
+      "scientific_name": "Ploceus nelicourvi (Scopoli, 1786)",
+      "common_name": "Nelicourvi Weaver; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-21",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039632670
+    },
+    {
+      "species_name": "Terpsiphone mutata",
+      "scientific_name": "Terpsiphone mutata mutata (Linnaeus, 1766)",
+      "common_name": "Madagascar Paradise-Flycatcher; Monarchs; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Monarchidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-23",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039632930
+    },
+    {
+      "species_name": "Hypsipetes madagascariensis",
+      "scientific_name": "Hypsipetes madagascariensis madagascariensis (Statius Muller, 1776)",
+      "common_name": "Madagascar Bulbul; Bulbuls; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Pycnonotidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039644289
+    },
+    {
+      "species_name": "Nesillas typica",
+      "scientific_name": "Nesillas typica typica (Hartlaub, 1860)",
+      "common_name": "Common Tsikirity; Reed Warblers and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Acrocephalidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039645947
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-28",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039672753
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-11-23",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039673991
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-12-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039549337
+    },
+    {
+      "species_name": "Nesillas typica",
+      "scientific_name": "Nesillas typica typica (Hartlaub, 1860)",
+      "common_name": "Common Tsikirity; Reed Warblers and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Acrocephalidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-12-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039644921
+    },
+    {
+      "species_name": "Nesillas typica",
+      "scientific_name": "Nesillas typica typica (Hartlaub, 1860)",
+      "common_name": "Common Tsikirity; Reed Warblers and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Acrocephalidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-12-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039646069
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-12-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039647748
+    },
+    {
+      "species_name": "Hypsipetes madagascariensis",
+      "scientific_name": "Hypsipetes madagascariensis madagascariensis (Statius Muller, 1776)",
+      "common_name": "Madagascar Bulbul; Bulbuls; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Pycnonotidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1972-12-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039667267
+    },
+    {
+      "species_name": "Tetramorium bicarinatum",
+      "scientific_name": "Tetramorium bicarinatum (Nylander, 1846)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865115124
+    },
+    {
+      "species_name": "Tetramorium proximum",
+      "scientific_name": "Tetramorium proximum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865115975
+    },
+    {
+      "species_name": "Tetramorium proximum",
+      "scientific_name": "Tetramorium proximum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865115997
+    },
+    {
+      "species_name": "Tetramorium ranarum",
+      "scientific_name": "Tetramorium ranarum Forel, 1895",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865116017
+    },
+    {
+      "species_name": "Tetramorium cognatum",
+      "scientific_name": "Tetramorium cognatum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865116021
+    },
+    {
+      "species_name": "Tetramorium cognatum",
+      "scientific_name": "Tetramorium cognatum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865116043
+    },
+    {
+      "species_name": "Tetramorium dysalum",
+      "scientific_name": "Tetramorium dysalum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865116142
+    },
+    {
+      "species_name": "Tetramorium dysalum",
+      "scientific_name": "Tetramorium dysalum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865116164
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865171575
+    },
+    {
+      "species_name": "Tetramorium proximum",
+      "scientific_name": "Tetramorium proximum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865190269
+    },
+    {
+      "species_name": "Tetramorium cognatum",
+      "scientific_name": "Tetramorium cognatum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865190450
+    },
+    {
+      "species_name": "Tetramorium proximum",
+      "scientific_name": "Tetramorium proximum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865267055
+    },
+    {
+      "species_name": "Tetramorium dysalum",
+      "scientific_name": "Tetramorium dysalum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 865267087
+    },
+    {
+      "species_name": "Tetramorium cognatum",
+      "scientific_name": "Tetramorium cognatum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1085679921
+    },
+    {
+      "species_name": "Tetramorium proximum",
+      "scientific_name": "Tetramorium proximum Bolton, 1979",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1085679922
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234558
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234559
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234560
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234562
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234564
+    },
+    {
+      "species_name": "Strumigenys chilo",
+      "scientific_name": "Strumigenys chilo Fisher",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1420234568
+    },
+    {
+      "species_name": "Strumigenys dicomas",
+      "scientific_name": "Strumigenys dicomas Fisher, 2000",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1969-03-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1457831724
+    },
+    {
+      "species_name": "Phelsuma lineata",
+      "scientific_name": "Phelsuma lineata chloroscelis Mertens, 1962",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317266085
+    },
+    {
+      "species_name": "Phelsuma madagascariensis",
+      "scientific_name": "Phelsuma madagascariensis Gray, 1831",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318246442
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317257355
+    },
+    {
+      "species_name": "Uroplatus fimbriatus",
+      "scientific_name": "Uroplatus fimbriatus (Schneider, 1797)",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317445015
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317528282
+    },
+    {
+      "species_name": "Phelsuma lineata",
+      "scientific_name": "Phelsuma lineata Gray, 1842",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317557038
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317721923
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317929874
+    },
+    {
+      "species_name": "Calumma parsonii",
+      "scientific_name": "Calumma parsonii (Cuvier, 1825)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318002596
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318102843
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318188316
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318347033
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318513796
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318546777
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318587947
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318593031
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318793822
+    },
+    {
+      "species_name": "Calumma parsonii",
+      "scientific_name": "Calumma parsonii (Cuvier, 1825)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318906769
+    },
+    {
+      "species_name": "Calumma parsonii",
+      "scientific_name": "Calumma parsonii (Cuvier, 1825)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319038887
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319938191
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319963410
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320126549
+    },
+    {
+      "species_name": "Brookesia superciliaris",
+      "scientific_name": "Brookesia superciliaris (Kuhl, 1820)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320352017
+    },
+    {
+      "species_name": "Calumma parsonii",
+      "scientific_name": "Calumma parsonii (Cuvier, 1825)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320439328
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320849849
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321387588
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321415831
+    },
+    {
+      "species_name": "Phelsuma lineata",
+      "scientific_name": "Phelsuma lineata Gray, 1842",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321587665
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321834011
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322083880
+    },
+    {
+      "species_name": "Sanzinia madagascariensis",
+      "scientific_name": "Sanzinia madagascariensis (Dum\u00e9ril & Bibron, 1844)",
+      "common_name": "",
+      "family": "Boidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322201268
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322566935
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322654182
+    },
+    {
+      "species_name": "Uroplatus fimbriatus",
+      "scientific_name": "Uroplatus fimbriatus (Schneider, 1797)",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1968",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322968355
+    },
+    {
+      "species_name": "Zonosaurus madagascariensis",
+      "scientific_name": "Zonosaurus madagascariensis (Gray, 1831)",
+      "common_name": "",
+      "family": "Gerrhosauridae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-03",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320740619
+    },
+    {
+      "species_name": "Oxylabes madagascariensis",
+      "scientific_name": "Oxylabes madagascariensis (Gmelin, 1789)",
+      "common_name": "White-throated Oxylabes; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-20",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039561830
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039571568
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039577915
+    },
+    {
+      "species_name": "Mystacornis crossleyi",
+      "scientific_name": "Mystacornis crossleyi (A.Grandidier, 1870)",
+      "common_name": "Crossley's Babbler; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-23",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039602852
+    },
+    {
+      "species_name": "Calicalicus madagascariensis",
+      "scientific_name": "Calicalicus madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red-tailed Vanga; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-19",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039614168
+    },
+    {
+      "species_name": "Leptosomus discolor",
+      "scientific_name": "Leptosomus discolor discolor (Hermann, 1783)",
+      "common_name": "Couroul; Cuckoo-Roller; Birds; vertebrates; chordates; animals",
+      "family": "Leptosomidae",
+      "order": "Leptosomiformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039640897
+    },
+    {
+      "species_name": "Xanthomixis zosterops",
+      "scientific_name": "Xanthomixis zosterops zosterops (Sharpe, 1875)",
+      "common_name": "Short-billed Tetraka; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039648595
+    },
+    {
+      "species_name": "Calicalicus madagascariensis",
+      "scientific_name": "Calicalicus madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red-tailed Vanga; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-04",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039653903
+    },
+    {
+      "species_name": "Dicrurus forficatus",
+      "scientific_name": "Dicrurus forficatus forficatus (Linnaeus, 1766)",
+      "common_name": "Crested Drongo; Drongos; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Dicruridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-04-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039667472
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039604992
+    },
+    {
+      "species_name": "Calumma parsonii",
+      "scientific_name": "Calumma parsonii (Cuvier, 1825)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318138655
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318253778
+    },
+    {
+      "species_name": "Brookesia superciliaris",
+      "scientific_name": "Brookesia superciliaris (Kuhl, 1820)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319529926
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319949200
+    },
+    {
+      "species_name": "Furcifer willsii",
+      "scientific_name": "Furcifer willsii (G\u00fcnther, 1890)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319970226
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320393052
+    },
+    {
+      "species_name": "Furcifer willsii",
+      "scientific_name": "Furcifer willsii (G\u00fcnther, 1890)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321503248
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1967-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322311177
+    },
+    {
+      "species_name": "Phelsuma madagascariensis",
+      "scientific_name": "Phelsuma madagascariensis Gray, 1831",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-04-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318189760
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-04-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1320580070
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-04-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1321853856
+    },
+    {
+      "species_name": "Phelsuma lineata",
+      "scientific_name": "Phelsuma lineata Gray, 1842",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-04-24",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1322332535
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039454178
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039454458
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-16",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039454609
+    },
+    {
+      "species_name": "Calumma hilleniusi",
+      "scientific_name": "Calumma hilleniusi (Brygoo, Blanc & Domergue, 1973)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039457153
+    },
+    {
+      "species_name": "Furcifer willsii",
+      "scientific_name": "Furcifer willsii (G\u00fcnther, 1890)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039457268
+    },
+    {
+      "species_name": "Phelsuma quadriocellata",
+      "scientific_name": "Phelsuma quadriocellata Peters, 1883",
+      "common_name": "Geckos; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-16",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039457882
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039458119
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039462771
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039462779
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039464454
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039465120
+    },
+    {
+      "species_name": "Calumma hilleniusi",
+      "scientific_name": "Calumma hilleniusi (Brygoo, Blanc & Domergue, 1973)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039468344
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039469387
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039470267
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039471717
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039473633
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039474109
+    },
+    {
+      "species_name": "Calumma boettgeri",
+      "scientific_name": "Calumma boettgeri (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039476119
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039476216
+    },
+    {
+      "species_name": "Furcifer rhinoceratus",
+      "scientific_name": "Furcifer rhinoceratus (Gray, 1845)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039476606
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039479125
+    },
+    {
+      "species_name": "Calumma brevicorne",
+      "scientific_name": "Calumma brevicornis (G\u00fcnther, 1879)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-09",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039485388
+    },
+    {
+      "species_name": "Calumma boettgeri",
+      "scientific_name": "Calumma boettgeri (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039485734
+    },
+    {
+      "species_name": "Calumma nasutum",
+      "scientific_name": "Calumma nasutum (Dum\u00e9ril & Bibron, 1836)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039486052
+    },
+    {
+      "species_name": "Calumma gastrotaenia",
+      "scientific_name": "Calumma gastrotaenia (Boulenger, 1888)",
+      "common_name": "Chameleons; Iguanas; Lizards and Snakes; Reptiles; vertebrates; chordates; animals",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039487741
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039515849
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039516231
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039516728
+    },
+    {
+      "species_name": "Mops leucostigma",
+      "scientific_name": "Mops leucostigma (G.M.Allen, 1918)",
+      "common_name": "Malagasy White-bellied Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039517008
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039517685
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-03",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039518798
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039519445
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039519628
+    },
+    {
+      "species_name": "Rattus rattus",
+      "scientific_name": "Rattus rattus (Linnaeus, 1758)",
+      "common_name": "Roof Rat; mice; rodents; mammals; vertebrates; chordates; animals",
+      "family": "Muridae",
+      "order": "Rodentia",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039519842
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039521060
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039521541
+    },
+    {
+      "species_name": "Rattus rattus",
+      "scientific_name": "Rattus rattus (Linnaeus, 1758)",
+      "common_name": "Roof Rat; mice; rodents; mammals; vertebrates; chordates; animals",
+      "family": "Muridae",
+      "order": "Rodentia",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039522093
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039522399
+    },
+    {
+      "species_name": "Tenrec ecaudatus",
+      "scientific_name": "Tenrec ecaudatus (Schreber, 1778)",
+      "common_name": "Common Tenrec; tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039522443
+    },
+    {
+      "species_name": "Tenrec ecaudatus",
+      "scientific_name": "Tenrec ecaudatus (Schreber, 1778)",
+      "common_name": "Common Tenrec; tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039523330
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-16",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039523563
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039524781
+    },
+    {
+      "species_name": "Rattus rattus",
+      "scientific_name": "Rattus rattus (Linnaeus, 1758)",
+      "common_name": "Roof Rat; mice; rodents; mammals; vertebrates; chordates; animals",
+      "family": "Muridae",
+      "order": "Rodentia",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039525344
+    },
+    {
+      "species_name": "Rattus rattus",
+      "scientific_name": "Rattus rattus (Linnaeus, 1758)",
+      "common_name": "Roof Rat; mice; rodents; mammals; vertebrates; chordates; animals",
+      "family": "Muridae",
+      "order": "Rodentia",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-10",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039525434
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039525915
+    },
+    {
+      "species_name": "Hemicentetes semispinosus",
+      "scientific_name": "Hemicentetes semispinosus (G.Cuvier, 1798)",
+      "common_name": "Streaked Tenrec; streaked tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-15",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039526089
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039526804
+    },
+    {
+      "species_name": "Laephotis matroka",
+      "scientific_name": "Eptesicus matroka (Thomas & Schwann, 1905)",
+      "common_name": "brown bats; vespertilionid bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Vespertilionidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039528015
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039528681
+    },
+    {
+      "species_name": "Chaerephon pusillus",
+      "scientific_name": "Mops pusillus (Miller, 1902)",
+      "common_name": "Little Free-tailed Bat; free-tailed bats; bats; mammals; vertebrates; chordates; animals",
+      "family": "Molossidae",
+      "order": "Chiroptera",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-13",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039529072
+    },
+    {
+      "species_name": "Tenrec ecaudatus",
+      "scientific_name": "Tenrec ecaudatus (Schreber, 1778)",
+      "common_name": "Common Tenrec; tenrecs; mammals; vertebrates; chordates; animals",
+      "family": "Tenrecidae",
+      "order": "Afrosoricida",
+      "class": "Mammalia",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-11",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039529145
+    },
+    {
+      "species_name": "Enicophlebia pallida",
+      "scientific_name": "Enicophlebia pallida Westwood, 1889",
+      "common_name": "",
+      "family": "Nanomantidae",
+      "order": "Mantodea",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "Cleveland Museum of Natural History, OH (CLEV)",
+      "gbif_id": 1313498489
+    },
+    {
+      "species_name": "Brookesia superciliaris",
+      "scientific_name": "Brookesia superciliaris (Kuhl, 1820)",
+      "common_name": "",
+      "family": "Chamaeleonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-02",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1317693875
+    },
+    {
+      "species_name": "Pseudoxyrhopus quinquelineatus",
+      "scientific_name": "Pseudoxyrhopus quinquelineatus (G\u00fcnther, 1881)",
+      "common_name": "",
+      "family": "Pseudoxyrhophiidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-07",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318731257
+    },
+    {
+      "species_name": "Phelsuma lineata",
+      "scientific_name": "Phelsuma lineata Gray, 1842",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-05-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1319914937
+    },
+    {
+      "species_name": "Uroplatus fimbriatus",
+      "scientific_name": "Uroplatus fimbriatus (Schneider, 1797)",
+      "common_name": "",
+      "family": "Gekkonidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963-09-05",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318834047
+    },
+    {
+      "species_name": "Brachyseps gastrostictus",
+      "scientific_name": "Amphiglossus gastrostictus (O'Shaughnessy, 1879)",
+      "common_name": "",
+      "family": "Scincidae",
+      "order": "",
+      "class": "Squamata",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1963",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "USNM",
+      "gbif_id": 1318782636
+    },
+    {
+      "species_name": "Newtonia amphichroa",
+      "scientific_name": "Newtonia amphichroa Reichenow, 1891",
+      "common_name": "Tulear Newtonia; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-25",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039535781
+    },
+    {
+      "species_name": "Coua caerulea",
+      "scientific_name": "Coua caerulea (Linnaeus, 1766)",
+      "common_name": "Blue Coua; Cuckoos; Birds; vertebrates; chordates; animals",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039544312
+    },
+    {
+      "species_name": "Foudia madagascariensis",
+      "scientific_name": "Foudia madagascariensis (Linnaeus, 1766)",
+      "common_name": "Red Fody; Weavers, Widowbirds and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Ploceidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-28",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039546517
+    },
+    {
+      "species_name": "Leptopterus chabert",
+      "scientific_name": "Leptopterus chabert chabert (Statius Muller, 1776)",
+      "common_name": "Chabert Vanga; Vangas, Helmetshrikes and allies; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Vangidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-28",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039553943
+    },
+    {
+      "species_name": "Centropus toulou",
+      "scientific_name": "Centropus toulou toulou (Statius Muller, 1776)",
+      "common_name": "Madagascar Coucal; Cuckoos; Birds; vertebrates; chordates; animals",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039556398
+    },
+    {
+      "species_name": "Coracopsis nigra",
+      "scientific_name": "Coracopsis nigra nigra (Linnaeus, 1758)",
+      "common_name": "Black Parrot; Parrots; Birds; vertebrates; chordates; animals",
+      "family": "Psittacidae",
+      "order": "Psittaciformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-28",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039562192
+    },
+    {
+      "species_name": "Dicrurus forficatus",
+      "scientific_name": "Dicrurus forficatus forficatus (Linnaeus, 1766)",
+      "common_name": "Crested Drongo; Drongos; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Dicruridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039569388
+    },
+    {
+      "species_name": "Coua caerulea",
+      "scientific_name": "Coua caerulea (Linnaeus, 1766)",
+      "common_name": "Blue Coua; Cuckoos; Birds; vertebrates; chordates; animals",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039569593
+    },
+    {
+      "species_name": "Saxicola sibilla",
+      "scientific_name": "Saxicola sibilla (Linnaeus, 1766)",
+      "common_name": "Madagascar Stonechat; Old World Flycatchers and Chats; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Muscicapidae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039578277
+    },
+    {
+      "species_name": "Centropus toulou",
+      "scientific_name": "Centropus toulou toulou (Statius Muller, 1776)",
+      "common_name": "Madagascar Coucal; Cuckoos; Birds; vertebrates; chordates; animals",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-30",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039582489
+    },
+    {
+      "species_name": "Bernieria madagascariensis",
+      "scientific_name": "Bernieria madagascariensis (Gmelin, 1789)",
+      "common_name": "Long-billed Bernieria; Madagascan Warblers; Perching Birds; Birds; vertebrates; chordates; animals",
+      "family": "Bernieridae",
+      "order": "Passeriformes",
+      "class": "Aves",
+      "kingdom": "Animalia",
+      "latitude": -18.9333,
+      "longitude": 48.4167,
+      "date_recorded": "1962-06-26",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "YPM",
+      "gbif_id": 1039582506
+    }
+  ],
+  "family_distribution": {
+    "Plagiochilaceae": 1,
+    "Mantellidae": 3,
+    "Tetrigidae": 1,
+    "Tephritidae": 2,
+    "Formicidae": 26,
+    "Halictidae": 32,
+    "Apidae": 9,
+    "Cerambycidae": 1,
+    "Staphylinidae": 1,
+    "Megachilidae": 6,
+    "Simuliidae": 1,
+    "Gyrinidae": 7,
+    "Ploceidae": 6,
+    "Bernieridae": 29,
+    "Zosteropidae": 7,
+    "Pycnonotidae": 4,
+    "Muscicapidae": 6,
+    "Philepittidae": 3,
+    "Vangidae": 7,
+    "Monarchidae": 4,
+    "Nectariniidae": 1,
+    "Acrocephalidae": 3,
+    "Gekkonidae": 11,
+    "Chamaeleonidae": 62,
+    "Boidae": 1,
+    "Gerrhosauridae": 1,
+    "Leptosomidae": 1,
+    "Dicruridae": 2,
+    "Tenrecidae": 11,
+    "Molossidae": 10,
+    "Muridae": 4,
+    "Vespertilionidae": 1,
+    "Nanomantidae": 1,
+    "Pseudoxyrhophiidae": 1,
+    "Scincidae": 1,
+    "Cuculidae": 4,
+    "Psittacidae": 1
+  },
+  "coordinates_list": [
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ],
+    [
+      -18.9333,
+      48.4167
+    ]
+  ],
+  "data_source": "GBIF",
+  "query_timestamp": "2025-08-24T04:06:59.247672",
+  "cache_expires": "2025-08-25T04:06:59.247680"
+}

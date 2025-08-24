@@ -1,0 +1,86 @@
+{
+  "area_info": {
+    "name": "Isalo National Park",
+    "coordinates": [
+      -22.55,
+      45.3167
+    ],
+    "area_km2": 815,
+    "ecosystem_type": "sandstone_plateau",
+    "country_code": "MG",
+    "priority_level": "moderate"
+  },
+  "data_collection_timestamp": "2025-08-24T04:22:41.633620",
+  "raw_data_sources": {
+    "species_data": {
+      "area_name": "Isalo National Park",
+      "coordinates": [
+        -22.55,
+        45.3167
+      ],
+      "search_radius_km": 10,
+      "total_occurrences": 0,
+      "unique_species_count": 0,
+      "species_list": [],
+      "detailed_occurrences": [],
+      "family_distribution": {},
+      "coordinates_list": [],
+      "data_source": "GBIF",
+      "query_timestamp": "2025-08-24T04:13:58.242889",
+      "cache_expires": "2025-08-25T04:13:58.242898"
+    },
+    "fire_data": {
+      "area_name": "Isalo National Park",
+      "coordinates": [
+        -22.55,
+        45.3167
+      ],
+      "search_radius_km": 25,
+      "days_searched": 7,
+      "total_fire_detections": 0,
+      "high_confidence_fires": 0,
+      "total_fire_radiative_power": 0,
+      "fire_detections": [],
+      "threat_level": "low",
+      "data_source": "NASA FIRMS",
+      "query_timestamp": "2025-08-24T04:13:58.331994",
+      "cache_expires": "2025-08-24T07:13:58.332008"
+    },
+    "satellite_metadata": {
+      "area_name": "Isalo National Park",
+      "coordinates": [
+        -22.55,
+        45.3167
+      ],
+      "date_range": "2025-07-25 to 2025-08-24",
+      "max_cloud_cover": 20,
+      "available_scenes": [],
+      "search_bbox": {
+        "north": -22.45,
+        "south": -22.650000000000002,
+        "east": 45.4167,
+        "west": 45.216699999999996
+      },
+      "data_source": "Sentinel-2/Copernicus",
+      "query_timestamp": "2025-08-24T04:13:58.333585",
+      "note": "Metadata search structure - full imagery requires Copernicus authentication",
+      "cache_expires": "2025-08-25T04:13:58.333594"
+    }
+  },
+  "conservation_metrics": {
+    "biodiversity_index": 0,
+    "species_richness": 0,
+    "bird_species_richness": 0,
+    "fire_threat_level": "low",
+    "conservation_priority_score": 0.0,
+    "ecosystem_health": "poor",
+    "recommended_monitoring_frequency": "quarterly"
+  },
+  "data_quality": {
+    "sources_available": 3,
+    "total_species_records": 0,
+    "bird_observations": 0,
+    "fire_detections": 0,
+    "data_completeness_score": 0.5
+  }
+}

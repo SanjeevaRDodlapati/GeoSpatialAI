@@ -1,0 +1,17 @@
+{
+  "area_name": "Isalo National Park",
+  "coordinates": [
+    -22.55,
+    45.3167
+  ],
+  "search_radius_km": 10,
+  "total_occurrences": 0,
+  "unique_species_count": 0,
+  "species_list": [],
+  "detailed_occurrences": [],
+  "family_distribution": {},
+  "coordinates_list": [],
+  "data_source": "GBIF",
+  "query_timestamp": "2025-08-24T04:13:58.242889",
+  "cache_expires": "2025-08-25T04:13:58.242898"
+}

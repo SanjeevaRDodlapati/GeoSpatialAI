@@ -1,0 +1,366 @@
+{
+  "area_name": "Ranomafana National Park",
+  "coordinates": [
+    -21.25,
+    47.4167
+  ],
+  "search_radius_km": 10,
+  "total_occurrences": 17,
+  "unique_species_count": 12,
+  "species_list": [
+    "Rinorea urschii",
+    "Antidesma madagascariense",
+    "Tetraponera longula",
+    "Dypsis thermarum",
+    "Crocosmia crocosmiiflora",
+    "Gouania mauritiana",
+    "Dypsis catatiana",
+    "Embelia madagascariensis",
+    "Gymnanthemum antanalus",
+    "Maesa lanceolata",
+    "Halleria ligustrifolia",
+    "Colea floribunda"
+  ],
+  "detailed_occurrences": [
+    {
+      "species_name": "Dypsis catatiana",
+      "scientific_name": "Dypsis catatiana (Baill.) Beentje & J.Dransf.",
+      "common_name": "",
+      "family": "Arecaceae",
+      "order": "Arecales",
+      "class": "Liliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-10-31",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "NY",
+      "gbif_id": 1929891760
+    },
+    {
+      "species_name": "Embelia madagascariensis",
+      "scientific_name": "Embelia madagascariensis A.DC.",
+      "common_name": "",
+      "family": "Primulaceae",
+      "order": "Ericales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 1258091718
+    },
+    {
+      "species_name": "Embelia madagascariensis",
+      "scientific_name": "Embelia madagascariensis A.DC.",
+      "common_name": "",
+      "family": "Primulaceae",
+      "order": "Ericales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-17",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 1258091720
+    },
+    {
+      "species_name": "Embelia madagascariensis",
+      "scientific_name": "Embelia madagascariensis A.DC.",
+      "common_name": "",
+      "family": "Primulaceae",
+      "order": "Ericales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 1258091760
+    },
+    {
+      "species_name": "Maesa lanceolata",
+      "scientific_name": "Maesa lanceolata Forssk.",
+      "common_name": "",
+      "family": "Primulaceae",
+      "order": "Ericales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 1258091851
+    },
+    {
+      "species_name": "Rinorea urschii",
+      "scientific_name": "Rinorea urschii H.Perrier",
+      "common_name": "",
+      "family": "Violaceae",
+      "order": "Malpighiales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "P",
+      "gbif_id": 1258194767
+    },
+    {
+      "species_name": "Dypsis thermarum",
+      "scientific_name": "Dypsis thermarum J.Dransf.",
+      "common_name": "",
+      "family": "Arecaceae",
+      "order": "Arecales",
+      "class": "Liliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-01",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "NY",
+      "gbif_id": 1929545105
+    },
+    {
+      "species_name": "Crocosmia crocosmiiflora",
+      "scientific_name": "Crocosmia \u00d7 crocosmiiflora (Lemoine) N.E.Br.",
+      "common_name": "",
+      "family": "Iridaceae",
+      "order": "Asparagales",
+      "class": "Liliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 2268945964
+    },
+    {
+      "species_name": "Gymnanthemum antanalus",
+      "scientific_name": "Gymnanthemum antanalus (Humbert) H.Rob.",
+      "common_name": "",
+      "family": "Asteraceae",
+      "order": "Asterales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-09",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "US",
+      "gbif_id": 3745064314
+    },
+    {
+      "species_name": "Crocosmia crocosmiiflora",
+      "scientific_name": "Crocosmia \u00d7 crocosmiiflora (Lemoine) N.E.Br.",
+      "common_name": "",
+      "family": "Iridaceae",
+      "order": "Asparagales",
+      "class": "Liliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 4032118886
+    },
+    {
+      "species_name": "Gouania mauritiana",
+      "scientific_name": "Gouania mauritiana Lam.",
+      "common_name": "",
+      "family": "Rhamnaceae",
+      "order": "Rosales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 4416185552
+    },
+    {
+      "species_name": "Gouania mauritiana",
+      "scientific_name": "Gouania mauritiana Lam.",
+      "common_name": "",
+      "family": "Rhamnaceae",
+      "order": "Rosales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-06",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MO",
+      "gbif_id": 4416240397
+    },
+    {
+      "species_name": "Colea floribunda",
+      "scientific_name": "Ophiocolea floribunda (Bojer ex Lindl.) H.Perrier",
+      "common_name": "",
+      "family": "Bignoniaceae",
+      "order": "Lamiales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1998-11-03",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "NY",
+      "gbif_id": 4511460485
+    },
+    {
+      "species_name": "Antidesma madagascariense",
+      "scientific_name": "Antidesma madagascariense Lam.",
+      "common_name": "",
+      "family": "Phyllanthaceae",
+      "order": "Malpighiales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1993-03-18",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MA",
+      "gbif_id": 1936642014
+    },
+    {
+      "species_name": "Halleria ligustrifolia",
+      "scientific_name": "Halleria tetragona Baker",
+      "common_name": "",
+      "family": "Stilbaceae",
+      "order": "Lamiales",
+      "class": "Magnoliopsida",
+      "kingdom": "Plantae",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1992-08-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "MA",
+      "gbif_id": 1936231793
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1989-04-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1852377030
+    },
+    {
+      "species_name": "Tetraponera longula",
+      "scientific_name": "Tetraponera longula (Emery, 1895)",
+      "common_name": "",
+      "family": "Formicidae",
+      "order": "Hymenoptera",
+      "class": "Insecta",
+      "kingdom": "Animalia",
+      "latitude": -21.25,
+      "longitude": 47.4167,
+      "date_recorded": "1989-04-27",
+      "basis_of_record": "PRESERVED_SPECIMEN",
+      "institution": "CAS",
+      "gbif_id": 1945410282
+    }
+  ],
+  "family_distribution": {
+    "Arecaceae": 2,
+    "Primulaceae": 4,
+    "Violaceae": 1,
+    "Iridaceae": 2,
+    "Asteraceae": 1,
+    "Rhamnaceae": 2,
+    "Bignoniaceae": 1,
+    "Phyllanthaceae": 1,
+    "Stilbaceae": 1,
+    "Formicidae": 2
+  },
+  "coordinates_list": [
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ],
+    [
+      -21.25,
+      47.4167
+    ]
+  ],
+  "data_source": "GBIF",
+  "query_timestamp": "2025-08-24T04:11:14.580970",
+  "cache_expires": "2025-08-25T04:11:14.580981"
+}

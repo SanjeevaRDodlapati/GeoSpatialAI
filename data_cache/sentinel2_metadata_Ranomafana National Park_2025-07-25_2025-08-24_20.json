@@ -1,0 +1,20 @@
+{
+  "area_name": "Ranomafana National Park",
+  "coordinates": [
+    -21.25,
+    47.4167
+  ],
+  "date_range": "2025-07-25 to 2025-08-24",
+  "max_cloud_cover": 20,
+  "available_scenes": [],
+  "search_bbox": {
+    "north": -21.15,
+    "south": -21.35,
+    "east": 47.5167,
+    "west": 47.3167
+  },
+  "data_source": "Sentinel-2/Copernicus",
+  "query_timestamp": "2025-08-24T04:11:14.711163",
+  "note": "Metadata search structure - full imagery requires Copernicus authentication",
+  "cache_expires": "2025-08-25T04:11:14.711172"
+}

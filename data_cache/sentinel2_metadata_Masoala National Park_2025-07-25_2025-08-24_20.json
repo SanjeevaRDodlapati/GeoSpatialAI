@@ -1,0 +1,20 @@
+{
+  "area_name": "Masoala National Park",
+  "coordinates": [
+    -15.7,
+    50.2333
+  ],
+  "date_range": "2025-07-25 to 2025-08-24",
+  "max_cloud_cover": 20,
+  "available_scenes": [],
+  "search_bbox": {
+    "north": -15.6,
+    "south": -15.799999999999999,
+    "east": 50.3333,
+    "west": 50.1333
+  },
+  "data_source": "Sentinel-2/Copernicus",
+  "query_timestamp": "2025-08-24T04:11:15.010250",
+  "note": "Metadata search structure - full imagery requires Copernicus authentication",
+  "cache_expires": "2025-08-25T04:11:15.010259"
+}

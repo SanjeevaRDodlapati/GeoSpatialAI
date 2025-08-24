@@ -1,0 +1,20 @@
+{
+  "area_name": "Andasibe-Mantadia National Park",
+  "coordinates": [
+    -18.9333,
+    48.4167
+  ],
+  "date_range": "2025-07-25 to 2025-08-24",
+  "max_cloud_cover": 20,
+  "available_scenes": [],
+  "search_bbox": {
+    "north": -18.833299999999998,
+    "south": -19.0333,
+    "east": 48.5167,
+    "west": 48.3167
+  },
+  "data_source": "Sentinel-2/Copernicus",
+  "query_timestamp": "2025-08-24T04:11:14.331335",
+  "note": "Metadata search structure - full imagery requires Copernicus authentication",
+  "cache_expires": "2025-08-25T04:11:14.331344"
+}

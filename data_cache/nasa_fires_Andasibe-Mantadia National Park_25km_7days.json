@@ -1,0 +1,17 @@
+{
+  "area_name": "Andasibe-Mantadia National Park",
+  "coordinates": [
+    -18.9333,
+    48.4167
+  ],
+  "search_radius_km": 25,
+  "days_searched": 7,
+  "total_fire_detections": 0,
+  "high_confidence_fires": 0,
+  "total_fire_radiative_power": 0,
+  "fire_detections": [],
+  "threat_level": "low",
+  "data_source": "NASA FIRMS",
+  "query_timestamp": "2025-08-24T04:11:14.329584",
+  "cache_expires": "2025-08-24T07:11:14.329599"
+}

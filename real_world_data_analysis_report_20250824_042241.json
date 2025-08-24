@@ -1,0 +1,661 @@
+{
+  "analysis_timestamp": "2025-08-24T04:22:41.610317",
+  "data_sources_analyzed": [
+    "GBIF",
+    "NASA_FIRMS",
+    "Sentinel-2",
+    "Conservation_Areas"
+  ],
+  "conservation_areas": {
+    "Andasibe-Mantadia National Park": {
+      "area_name": "Andasibe-Mantadia National Park",
+      "coordinates": [
+        -18.9333,
+        48.4167
+      ],
+      "area_km2": 155,
+      "ecosystem_type": "montane_rainforest",
+      "priority_level": "critical",
+      "species_analysis": {
+        "total_occurrences": 272,
+        "unique_species_count": 81,
+        "species_density_per_km2": 0.5226,
+        "occurrence_density_per_km2": 1.75,
+        "species_list": [
+          "Mantidactylus katae",
+          "Strumigenys dicomas",
+          "Enicophlebia pallida",
+          "Terpsiphone mutata",
+          "Patellapis castanea",
+          "Halictus jucundus",
+          "Holocerus lucifer",
+          "Calumma boettgeri",
+          "Nesillas typica",
+          "Orectogyrus cyanicollis",
+          "Eupetersia sakalava",
+          "Megachile albiscopa",
+          "Phelsuma quadriocellata",
+          "Tetramorium proximum",
+          "Newtonia brunneicauda",
+          "Dineutus proximus",
+          "Megachile piliceps",
+          "Liotrigona madecassa",
+          "Tetramorium cognatum",
+          "Zosterops maderaspatanus"
+        ],
+        "taxonomic_patterns": {
+          "counts": {
+            "birds": 7,
+            "reptiles_amphibians": 13,
+            "mammals": 2,
+            "insects": 13,
+            "plants": 0,
+            "other": 46
+          },
+          "percentages": {
+            "birds": 8.6,
+            "reptiles_amphibians": 16.0,
+            "mammals": 2.5,
+            "insects": 16.0,
+            "plants": 0.0,
+            "other": 56.8
+          },
+          "dominant_group": "other",
+          "taxonomic_diversity": 5
+        },
+        "endemic_indicators": {
+          "potential_endemic_species": 11,
+          "madagascar_named_species": 8,
+          "endemic_percentage": 13.6,
+          "madagascar_percentage": 9.9,
+          "endemism_level": "low"
+        },
+        "conservation_indicators": {
+          "potential_threatened_species": 6,
+          "critically_endangered_indicators": 0,
+          "threat_percentage": 7.4,
+          "conservation_concern_level": "low"
+        },
+        "data_richness": "high",
+        "sampling_intensity": "high"
+      },
+      "fire_analysis": {
+        "total_fire_detections": 0,
+        "high_confidence_detections": 0,
+        "fire_density_per_km2": 0.0,
+        "confidence_ratio": 0,
+        "threat_level": "low",
+        "fire_status": "no_current_fires",
+        "monitoring_priority": "routine"
+      },
+      "satellite_analysis": {
+        "data_available": true,
+        "coverage_area": [
+          -18.9333,
+          48.4167
+        ],
+        "monitoring_capability": "available",
+        "recommended_frequency": "monthly"
+      },
+      "conservation_metrics": {
+        "biodiversity_index": 81,
+        "species_richness": 81,
+        "bird_species_richness": 0,
+        "fire_threat_level": "low",
+        "conservation_priority_score": 0.171,
+        "ecosystem_health": "poor",
+        "recommended_monitoring_frequency": "quarterly"
+      },
+      "data_quality_score": 0.75,
+      "collection_time_seconds": 0
+    },
+    "Ranomafana National Park": {
+      "area_name": "Ranomafana National Park",
+      "coordinates": [
+        -21.25,
+        47.4167
+      ],
+      "area_km2": 416,
+      "ecosystem_type": "rainforest",
+      "priority_level": "high",
+      "species_analysis": {
+        "total_occurrences": 17,
+        "unique_species_count": 12,
+        "species_density_per_km2": 0.0288,
+        "occurrence_density_per_km2": 0.04,
+        "species_list": [
+          "Rinorea urschii",
+          "Antidesma madagascariense",
+          "Tetraponera longula",
+          "Dypsis thermarum",
+          "Crocosmia crocosmiiflora",
+          "Gouania mauritiana",
+          "Dypsis catatiana",
+          "Embelia madagascariensis",
+          "Gymnanthemum antanalus",
+          "Maesa lanceolata",
+          "Halleria ligustrifolia",
+          "Colea floribunda"
+        ],
+        "taxonomic_patterns": {
+          "counts": {
+            "birds": 0,
+            "reptiles_amphibians": 0,
+            "mammals": 0,
+            "insects": 0,
+            "plants": 5,
+            "other": 7
+          },
+          "percentages": {
+            "birds": 0.0,
+            "reptiles_amphibians": 0.0,
+            "mammals": 0.0,
+            "insects": 0.0,
+            "plants": 41.7,
+            "other": 58.3
+          },
+          "dominant_group": "other",
+          "taxonomic_diversity": 2
+        },
+        "endemic_indicators": {
+          "potential_endemic_species": 0,
+          "madagascar_named_species": 2,
+          "endemic_percentage": 0.0,
+          "madagascar_percentage": 16.7,
+          "endemism_level": "low"
+        },
+        "conservation_indicators": {
+          "potential_threatened_species": 0,
+          "critically_endangered_indicators": 0,
+          "threat_percentage": 0.0,
+          "conservation_concern_level": "low"
+        },
+        "data_richness": "low",
+        "sampling_intensity": "low"
+      },
+      "fire_analysis": {
+        "total_fire_detections": 0,
+        "high_confidence_detections": 0,
+        "fire_density_per_km2": 0.0,
+        "confidence_ratio": 0,
+        "threat_level": "low",
+        "fire_status": "no_current_fires",
+        "monitoring_priority": "routine"
+      },
+      "satellite_analysis": {
+        "data_available": true,
+        "coverage_area": [
+          -21.25,
+          47.4167
+        ],
+        "monitoring_capability": "available",
+        "recommended_frequency": "quarterly"
+      },
+      "conservation_metrics": {
+        "biodiversity_index": 12,
+        "species_richness": 12,
+        "bird_species_richness": 0,
+        "fire_threat_level": "low",
+        "conservation_priority_score": 0.12624000000000002,
+        "ecosystem_health": "poor",
+        "recommended_monitoring_frequency": "quarterly"
+      },
+      "data_quality_score": 0.75,
+      "collection_time_seconds": 0
+    },
+    "Masoala National Park": {
+      "area_name": "Masoala National Park",
+      "coordinates": [
+        -15.7,
+        50.2333
+      ],
+      "area_km2": 2300,
+      "ecosystem_type": "lowland_rainforest",
+      "priority_level": "critical",
+      "species_analysis": {
+        "total_occurrences": 0,
+        "unique_species_count": 0,
+        "species_density_per_km2": 0.0,
+        "occurrence_density_per_km2": 0.0,
+        "species_list": [],
+        "taxonomic_patterns": {
+          "counts": {
+            "birds": 0,
+            "reptiles_amphibians": 0,
+            "mammals": 0,
+            "insects": 0,
+            "plants": 0,
+            "other": 0
+          },
+          "percentages": {
+            "birds": 0,
+            "reptiles_amphibians": 0,
+            "mammals": 0,
+            "insects": 0,
+            "plants": 0,
+            "other": 0
+          },
+          "dominant_group": "none",
+          "taxonomic_diversity": 0
+        },
+        "endemic_indicators": {
+          "potential_endemic_species": 0,
+          "madagascar_named_species": 0,
+          "endemic_percentage": 0,
+          "madagascar_percentage": 0,
+          "endemism_level": "low"
+        },
+        "conservation_indicators": {
+          "potential_threatened_species": 0,
+          "critically_endangered_indicators": 0,
+          "threat_percentage": 0,
+          "conservation_concern_level": "low"
+        },
+        "data_richness": "low",
+        "sampling_intensity": "low"
+      },
+      "fire_analysis": {
+        "total_fire_detections": 0,
+        "high_confidence_detections": 0,
+        "fire_density_per_km2": 0.0,
+        "confidence_ratio": 0,
+        "threat_level": "low",
+        "fire_status": "no_current_fires",
+        "monitoring_priority": "routine"
+      },
+      "satellite_analysis": {
+        "data_available": true,
+        "coverage_area": [
+          -15.7,
+          50.2333
+        ],
+        "monitoring_capability": "available",
+        "recommended_frequency": "monthly"
+      },
+      "conservation_metrics": {
+        "biodiversity_index": 0,
+        "species_richness": 0,
+        "bird_species_richness": 0,
+        "fire_threat_level": "low",
+        "conservation_priority_score": 0.0,
+        "ecosystem_health": "poor",
+        "recommended_monitoring_frequency": "quarterly"
+      },
+      "data_quality_score": 0.5,
+      "collection_time_seconds": 0
+    },
+    "Isalo National Park": {
+      "area_name": "Isalo National Park",
+      "coordinates": [
+        -22.55,
+        45.3167
+      ],
+      "area_km2": 815,
+      "ecosystem_type": "sandstone_plateau",
+      "priority_level": "moderate",
+      "species_analysis": {
+        "total_occurrences": 0,
+        "unique_species_count": 0,
+        "species_density_per_km2": 0.0,
+        "occurrence_density_per_km2": 0.0,
+        "species_list": [],
+        "taxonomic_patterns": {
+          "counts": {
+            "birds": 0,
+            "reptiles_amphibians": 0,
+            "mammals": 0,
+            "insects": 0,
+            "plants": 0,
+            "other": 0
+          },
+          "percentages": {
+            "birds": 0,
+            "reptiles_amphibians": 0,
+            "mammals": 0,
+            "insects": 0,
+            "plants": 0,
+            "other": 0
+          },
+          "dominant_group": "none",
+          "taxonomic_diversity": 0
+        },
+        "endemic_indicators": {
+          "potential_endemic_species": 0,
+          "madagascar_named_species": 0,
+          "endemic_percentage": 0,
+          "madagascar_percentage": 0,
+          "endemism_level": "low"
+        },
+        "conservation_indicators": {
+          "potential_threatened_species": 0,
+          "critically_endangered_indicators": 0,
+          "threat_percentage": 0,
+          "conservation_concern_level": "low"
+        },
+        "data_richness": "low",
+        "sampling_intensity": "low"
+      },
+      "fire_analysis": {
+        "total_fire_detections": 0,
+        "high_confidence_detections": 0,
+        "fire_density_per_km2": 0.0,
+        "confidence_ratio": 0,
+        "threat_level": "low",
+        "fire_status": "no_current_fires",
+        "monitoring_priority": "routine"
+      },
+      "satellite_analysis": {
+        "data_available": true,
+        "coverage_area": [
+          -22.55,
+          45.3167
+        ],
+        "monitoring_capability": "available",
+        "recommended_frequency": "quarterly"
+      },
+      "conservation_metrics": {
+        "biodiversity_index": 0,
+        "species_richness": 0,
+        "bird_species_richness": 0,
+        "fire_threat_level": "low",
+        "conservation_priority_score": 0.0,
+        "ecosystem_health": "poor",
+        "recommended_monitoring_frequency": "quarterly"
+      },
+      "data_quality_score": 0.5,
+      "collection_time_seconds": 0
+    }
+  },
+  "global_statistics": {
+    "total_conservation_areas_analyzed": 4,
+    "areas_with_species_data": 2,
+    "total_unique_species_recorded": 93,
+    "total_species_occurrences": 289,
+    "total_conservation_area_km2": 3686,
+    "total_fire_detections": 0,
+    "average_species_richness": 46.5,
+    "species_richness_range": {
+      "minimum": 12,
+      "maximum": 81,
+      "standard_deviation": 34.5
+    },
+    "fire_detection_summary": {
+      "total_detections": 0,
+      "average_per_area": 0.0,
+      "areas_with_fires": 0
+    },
+    "data_quality_summary": {
+      "average_quality_score": 0.625,
+      "quality_range": {
+        "minimum": 0.5,
+        "maximum": 0.75
+      }
+    }
+  },
+  "data_quality_assessment": {
+    "areas_with_complete_data": 0,
+    "areas_with_partial_data": 4,
+    "areas_with_no_data": 0,
+    "data_source_availability": {
+      "gbif_species_data": 2,
+      "nasa_fire_data": 4,
+      "satellite_metadata": 4
+    },
+    "data_completeness_scores": [
+      0.75,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "collection_times": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "overall_data_quality_score": 0.625,
+    "average_collection_time_seconds": 0.0,
+    "data_availability_percentage": {
+      "gbif_species_data": 50.0,
+      "nasa_fire_data": 100.0,
+      "satellite_metadata": 100.0
+    },
+    "quality_assessment": "good"
+  },
+  "taxonomic_analysis": {
+    "global_taxonomic_distribution": {
+      "birds": 7,
+      "reptiles_amphibians": 13,
+      "mammals": 2,
+      "insects": 13,
+      "plants": 5,
+      "other": 53
+    },
+    "global_taxonomic_percentages": {
+      "birds": 7.5,
+      "reptiles_amphibians": 14.0,
+      "mammals": 2.2,
+      "insects": 14.0,
+      "plants": 5.4,
+      "other": 57.0
+    },
+    "most_abundant_group": "other",
+    "taxonomic_groups_recorded": 6,
+    "area_specific_patterns": {
+      "Andasibe-Mantadia National Park": {
+        "dominant_group": "other",
+        "diversity_score": 5,
+        "group_counts": {
+          "birds": 7,
+          "reptiles_amphibians": 13,
+          "mammals": 2,
+          "insects": 13,
+          "plants": 0,
+          "other": 46
+        }
+      },
+      "Ranomafana National Park": {
+        "dominant_group": "other",
+        "diversity_score": 2,
+        "group_counts": {
+          "birds": 0,
+          "reptiles_amphibians": 0,
+          "mammals": 0,
+          "insects": 0,
+          "plants": 5,
+          "other": 7
+        }
+      },
+      "Masoala National Park": {
+        "dominant_group": "none",
+        "diversity_score": 0,
+        "group_counts": {
+          "birds": 0,
+          "reptiles_amphibians": 0,
+          "mammals": 0,
+          "insects": 0,
+          "plants": 0,
+          "other": 0
+        }
+      },
+      "Isalo National Park": {
+        "dominant_group": "none",
+        "diversity_score": 0,
+        "group_counts": {
+          "birds": 0,
+          "reptiles_amphibians": 0,
+          "mammals": 0,
+          "insects": 0,
+          "plants": 0,
+          "other": 0
+        }
+      }
+    },
+    "biodiversity_insights": {
+      "high_diversity_areas": [
+        "Andasibe-Mantadia National Park"
+      ],
+      "specialist_areas": {
+        "Ranomafana National Park": "other",
+        "Masoala National Park": "none",
+        "Isalo National Park": "none"
+      }
+    }
+  },
+  "geographic_analysis": {
+    "ecosystem_patterns": {
+      "montane_rainforest": [
+        {
+          "area_name": "Andasibe-Mantadia National Park",
+          "species_richness": 81,
+          "coordinates": [
+            -18.9333,
+            48.4167
+          ],
+          "area_km2": 155
+        }
+      ],
+      "rainforest": [
+        {
+          "area_name": "Ranomafana National Park",
+          "species_richness": 12,
+          "coordinates": [
+            -21.25,
+            47.4167
+          ],
+          "area_km2": 416
+        }
+      ],
+      "lowland_rainforest": [
+        {
+          "area_name": "Masoala National Park",
+          "species_richness": 0,
+          "coordinates": [
+            -15.7,
+            50.2333
+          ],
+          "area_km2": 2300
+        }
+      ],
+      "sandstone_plateau": [
+        {
+          "area_name": "Isalo National Park",
+          "species_richness": 0,
+          "coordinates": [
+            -22.55,
+            45.3167
+          ],
+          "area_km2": 815
+        }
+      ]
+    },
+    "ecosystem_statistics": {
+      "montane_rainforest": {
+        "area_count": 1,
+        "average_species_richness": 81.0,
+        "total_area_km2": 155,
+        "richness_range": {
+          "min": 81,
+          "max": 81
+        }
+      },
+      "rainforest": {
+        "area_count": 1,
+        "average_species_richness": 12.0,
+        "total_area_km2": 416,
+        "richness_range": {
+          "min": 12,
+          "max": 12
+        }
+      },
+      "lowland_rainforest": {
+        "area_count": 1,
+        "average_species_richness": 0.0,
+        "total_area_km2": 2300,
+        "richness_range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sandstone_plateau": {
+        "area_count": 1,
+        "average_species_richness": 0.0,
+        "total_area_km2": 815,
+        "richness_range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "most_biodiverse_ecosystem": "montane_rainforest",
+    "geographic_coverage": {
+      "latitude_range": [
+        -18.9333,
+        -21.25,
+        -15.7,
+        -22.55
+      ],
+      "longitude_range": [
+        48.4167,
+        47.4167,
+        50.2333,
+        45.3167
+      ],
+      "total_protected_area_km2": 3686
+    }
+  },
+  "conservation_insights": {
+    "biodiversity_hotspots": [
+      "Andasibe-Mantadia National Park"
+    ],
+    "high_priority_conservation_areas": [
+      "Andasibe-Mantadia National Park",
+      "Masoala National Park"
+    ],
+    "areas_needing_fire_monitoring": [],
+    "data_gap_areas": [
+      "Masoala National Park",
+      "Isalo National Park"
+    ],
+    "conservation_success_indicators": {
+      "areas_with_no_fires": 4,
+      "high_biodiversity_areas": 1,
+      "well_monitored_areas": 2
+    }
+  },
+  "temporal_analysis": {
+    "data_collection_performance": {
+      "average_collection_time": 0,
+      "fastest_collection": 0,
+      "slowest_collection": 0
+    },
+    "temporal_coverage": "current_snapshot",
+    "historical_data_availability": "limited",
+    "recommended_monitoring_frequency": {
+      "high_priority_areas": "monthly",
+      "standard_areas": "quarterly",
+      "data_gap_areas": "immediate_survey_needed"
+    }
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Conduct biodiversity surveys in 2 data-deficient areas"
+    ],
+    "short_term_goals": [
+      "Establish regular monitoring protocols for all conservation areas",
+      "Improve data collection frequency in high-priority areas",
+      "Implement real-time fire detection alerts"
+    ],
+    "long_term_strategies": [
+      "Maintain species richness above current average of 46.5 species per area",
+      "Develop corridor connections between high-biodiversity areas",
+      "Establish community-based conservation programs"
+    ],
+    "data_improvement_priorities": [
+      "Enhance data collection protocols to achieve >80% quality score"
+    ],
+    "research_opportunities": [
+      "Conduct detailed taxonomic research in 1 biodiversity hotspots"
+    ]
+  }
+}

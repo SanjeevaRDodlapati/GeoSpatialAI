@@ -1,0 +1,20 @@
+{
+  "area_name": "Isalo National Park",
+  "coordinates": [
+    -22.55,
+    45.3167
+  ],
+  "date_range": "2025-07-25 to 2025-08-24",
+  "max_cloud_cover": 20,
+  "available_scenes": [],
+  "search_bbox": {
+    "north": -22.45,
+    "south": -22.650000000000002,
+    "east": 45.4167,
+    "west": 45.216699999999996
+  },
+  "data_source": "Sentinel-2/Copernicus",
+  "query_timestamp": "2025-08-24T04:13:58.333585",
+  "note": "Metadata search structure - full imagery requires Copernicus authentication",
+  "cache_expires": "2025-08-25T04:13:58.333594"
+}

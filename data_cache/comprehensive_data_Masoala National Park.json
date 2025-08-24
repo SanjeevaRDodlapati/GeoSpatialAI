@@ -1,0 +1,86 @@
+{
+  "area_info": {
+    "name": "Masoala National Park",
+    "coordinates": [
+      -15.7,
+      50.2333
+    ],
+    "area_km2": 2300,
+    "ecosystem_type": "lowland_rainforest",
+    "country_code": "MG",
+    "priority_level": "critical"
+  },
+  "data_collection_timestamp": "2025-08-24T04:22:41.629181",
+  "raw_data_sources": {
+    "species_data": {
+      "area_name": "Masoala National Park",
+      "coordinates": [
+        -15.7,
+        50.2333
+      ],
+      "search_radius_km": 10,
+      "total_occurrences": 0,
+      "unique_species_count": 0,
+      "species_list": [],
+      "detailed_occurrences": [],
+      "family_distribution": {},
+      "coordinates_list": [],
+      "data_source": "GBIF",
+      "query_timestamp": "2025-08-24T04:11:14.896015",
+      "cache_expires": "2025-08-25T04:11:14.896024"
+    },
+    "fire_data": {
+      "area_name": "Masoala National Park",
+      "coordinates": [
+        -15.7,
+        50.2333
+      ],
+      "search_radius_km": 25,
+      "days_searched": 7,
+      "total_fire_detections": 0,
+      "high_confidence_fires": 0,
+      "total_fire_radiative_power": 0,
+      "fire_detections": [],
+      "threat_level": "low",
+      "data_source": "NASA FIRMS",
+      "query_timestamp": "2025-08-24T04:11:15.008722",
+      "cache_expires": "2025-08-24T07:11:15.008737"
+    },
+    "satellite_metadata": {
+      "area_name": "Masoala National Park",
+      "coordinates": [
+        -15.7,
+        50.2333
+      ],
+      "date_range": "2025-07-25 to 2025-08-24",
+      "max_cloud_cover": 20,
+      "available_scenes": [],
+      "search_bbox": {
+        "north": -15.6,
+        "south": -15.799999999999999,
+        "east": 50.3333,
+        "west": 50.1333
+      },
+      "data_source": "Sentinel-2/Copernicus",
+      "query_timestamp": "2025-08-24T04:11:15.010250",
+      "note": "Metadata search structure - full imagery requires Copernicus authentication",
+      "cache_expires": "2025-08-25T04:11:15.010259"
+    }
+  },
+  "conservation_metrics": {
+    "biodiversity_index": 0,
+    "species_richness": 0,
+    "bird_species_richness": 0,
+    "fire_threat_level": "low",
+    "conservation_priority_score": 0.0,
+    "ecosystem_health": "poor",
+    "recommended_monitoring_frequency": "quarterly"
+  },
+  "data_quality": {
+    "sources_available": 3,
+    "total_species_records": 0,
+    "bird_observations": 0,
+    "fire_detections": 0,
+    "data_completeness_score": 0.5
+  }
+}
