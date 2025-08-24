@@ -1,0 +1,7 @@
+{
+  "top_k_predictions": 5,
+  "confidence_threshold": 0.7,
+  "conservation_weighting": true,
+  "behavioral_features": true,
+  "habitat_association": true
+}

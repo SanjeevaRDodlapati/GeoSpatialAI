@@ -26,6 +26,13 @@ from albumentations.pytorch import ToTensorV2
 import wandb
 import optuna
 
+# Import centralized model path configuration
+import sys
+from pathlib import Path
+project_root = Path(__file__).parent.parent.parent.parent.parent
+sys.path.append(str(project_root))
+from src.utils.model_paths import get_yolo_path
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -73,7 +80,7 @@ class MadagascarYOLOv8Trainer:
     def load_config(self) -> Dict:
         """Load training configuration."""
         default_config = {
-            "model": "yolov8n.pt",
+            "model": get_yolo_path(),  # Use centralized model path
             "epochs": 100,
             "batch": 16,
             "imgsz": 640,

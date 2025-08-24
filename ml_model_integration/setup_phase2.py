@@ -14,6 +14,11 @@ import os
 import sys
 import logging
 from pathlib import Path
+
+# Import centralized model path configuration
+project_root = Path(__file__).parent.parent
+sys.path.append(str(project_root))
+from src.utils.model_paths import get_yolo_path
 from typing import Dict, List
 import json
 
@@ -161,7 +166,7 @@ class Phase2Setup:
         
         # YOLOv8 training config
         yolo_config = {
-            "model": "yolov8n.pt",
+            "model": get_yolo_path(),  # Use centralized model path
             "data": "madagascar_wildlife.yaml",
             "epochs": 100,
             "batch": 16,

@@ -140,7 +140,7 @@ class MadagascarHabitatSegmenter:
         }
         
         # Create models directory
-        models_dir = Path("models/sam")
+        models_dir = Path("models/checkpoints/sam")
         models_dir.mkdir(parents=True, exist_ok=True)
         
         checkpoint_filename = f"sam_{self.model_type}.pth"

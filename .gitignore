@@ -61,9 +61,68 @@ env/
 
 # Cache
 .cache/
-# .gitignore additions for ML models
-models/sam/*.pth
-yolov8*.pt
+
+# ML Model Files and Checkpoints (typically large binary files)
+*.pth
+*.pt
+*.ckpt
 *.h5
+*.hdf5
+*.pkl
+*.pickle
 *.onnx
 *.tflite
+*.pb
+*.safetensors
+*.bin
+*.model
+*.weights
+
+# Large model directories
+models/checkpoints/**/*.pth
+models/checkpoints/**/*.pt
+models/checkpoints/**/*.ckpt
+models/checkpoints/**/*.h5
+models/checkpoints/**/*.bin
+models/checkpoints/**/*.safetensors
+
+# SAM model files (very large)
+**/sam_vit_*.pth
+**/sam_*.pth
+
+# YOLOv8 model files
+yolov8*.pt
+**/yolov8*.pt
+
+# PRITHVI model files
+**/prithvi_*.pth
+**/prithvi*.bin
+
+# Other foundation models
+**/clip_*.pt
+**/wav2vec2_*.pt
+**/detr_*.pth
+
+# Model cache directories
+.cache/huggingface/
+.cache/torch/
+.cache/transformers/
+huggingface/
+torch/hub/
+transformers/
+
+# Dataset files (can be very large)
+data/raw/**/*.zip
+data/raw/**/*.tar.gz
+data/processed/**/*.h5
+data/processed/**/*.pkl
+data/satellite/**/*.tif
+data/satellite/**/*.tiff
+
+# Output files that can be regenerated
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.mp4
+outputs/**/*.avi
+results/**/*.png
+results/**/*.jpg

@@ -66,7 +66,7 @@ class MadagascarTrainingPipelineSetup:
         configs = {
             "yolov8_madagascar_wildlife": {
                 "model_type": "detection",
-                "base_model": "yolov8n.pt",
+                "base_model": get_yolo_path(),  # Use centralized model path
                 "target_species": 20,
                 "image_size": 640,
                 "batch_size": 16,

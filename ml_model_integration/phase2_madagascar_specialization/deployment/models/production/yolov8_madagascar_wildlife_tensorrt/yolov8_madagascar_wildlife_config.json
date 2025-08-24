@@ -1,7 +1,0 @@
-{
-  "confidence_threshold": 0.25,
-  "nms_threshold": 0.45,
-  "max_detections": 100,
-  "conservation_mode": true,
-  "anti_poaching_alerts": true
-}

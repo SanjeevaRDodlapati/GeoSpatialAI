@@ -103,7 +103,14 @@ def verify_model_availability():
         sys.path.append(str(project_root))
         from src.utils.model_paths import get_yolo_path
         
-        yolo_model = YOLO(get_yolo_path())  # Will download if not available
+        # Import centralized model path configuration
+        import sys
+        from pathlib import Path
+        project_root = Path(__file__).parent.parent
+        sys.path.append(str(project_root))
+        from src.utils.model_paths import get_yolo_path
+        
+        yolo_model = YOLO(get_yolo_path())  # Use centralized path configuration
         model_status['yolov8'] = 'Available'
         logger.info("✅ YOLOv8 model available")
     except Exception as e:
@@ -140,8 +147,8 @@ def create_project_structure():
     directories = [
         'ml_model_integration/data/input',
         'ml_model_integration/data/output',
-        'ml_model_integration/models/checkpoints',
-        'ml_model_integration/models/configs',
+        'models/checkpoints',                    # Use unified models directory
+        'models/configs',                        # Use unified models directory
         'ml_model_integration/results/wildlife_detection',
         'ml_model_integration/results/acoustic_monitoring',
         'ml_model_integration/results/habitat_segmentation',
@@ -424,8 +431,9 @@ def install_models():
     # YOLOv8 model
     try:
         from ultralytics import YOLO
-        print("🔽 Downloading YOLOv8 model...")
-        yolo = YOLO('yolov8n.pt')
+        from src.utils.model_paths import get_yolo_path
+        print("🔽 Loading YOLOv8 model...")
+        yolo = YOLO(get_yolo_path())
         print("✅ YOLOv8 model ready")
     except Exception as e:
         print(f"❌ YOLOv8 download failed: {e}")
