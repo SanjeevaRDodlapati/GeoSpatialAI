@@ -1,0 +1,10 @@
+{
+  "database": "IUCN Red List",
+  "total_records_collected": 0,
+  "collection_timestamp": "2025-08-24T06:19:33.199652",
+  "api_endpoint": "https://apiv3.iucnredlist.org/api/v3",
+  "query_country": "Madagascar",
+  "data_authenticity": "100% Real API Data",
+  "note": "Limited by demo API token - full access requires registration",
+  "records": []
+}

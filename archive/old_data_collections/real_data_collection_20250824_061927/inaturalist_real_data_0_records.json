@@ -1,0 +1,9 @@
+{
+  "database": "iNaturalist",
+  "total_records_collected": 0,
+  "collection_timestamp": "2025-08-24T06:19:32.374688",
+  "api_endpoint": "https://api.inaturalist.org/v1/observations",
+  "query_location": "Madagascar (place_id: 6927)",
+  "data_authenticity": "100% Real API Data",
+  "records": []
+}

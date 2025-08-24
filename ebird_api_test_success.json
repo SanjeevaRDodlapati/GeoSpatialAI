@@ -1,0 +1,83 @@
+{
+  "api_key_status": "WORKING",
+  "total_observations": 10,
+  "collection_timestamp": "2025-08-24T07:15:36.620082",
+  "api_endpoint": "https://api.ebird.org/v2/data/obs/MG/recent",
+  "sample_records": [
+    {
+      "speciesCode": "malspi1",
+      "comName": "Madagascar Spinetail",
+      "sciName": "Zoonavena grandidieri",
+      "locId": "L4968088",
+      "locName": "Vakona marsh",
+      "obsDt": "2025-08-23 13:59",
+      "howMany": 2,
+      "lat": -18.8862478,
+      "lng": 48.4293523,
+      "obsValid": true,
+      "obsReviewed": false,
+      "locationPrivate": false,
+      "subId": "S268972607"
+    },
+    {
+      "speciesCode": "madkes1",
+      "comName": "Malagasy Kestrel",
+      "sciName": "Falco newtoni",
+      "locId": "L4968088",
+      "locName": "Vakona marsh",
+      "obsDt": "2025-08-23 13:59",
+      "howMany": 1,
+      "lat": -18.8862478,
+      "lng": 48.4293523,
+      "obsValid": true,
+      "obsReviewed": false,
+      "locationPrivate": false,
+      "subId": "S268972607"
+    },
+    {
+      "speciesCode": "madbuz1",
+      "comName": "Madagascar Buzzard",
+      "sciName": "Buteo brachypterus",
+      "locId": "L4968088",
+      "locName": "Vakona marsh",
+      "obsDt": "2025-08-23 13:59",
+      "howMany": 1,
+      "lat": -18.8862478,
+      "lng": 48.4293523,
+      "obsValid": true,
+      "obsReviewed": false,
+      "locationPrivate": false,
+      "subId": "S268972607"
+    },
+    {
+      "speciesCode": "mahhaw1",
+      "comName": "Madagascar Harrier-Hawk",
+      "sciName": "Polyboroides radiatus",
+      "locId": "L4968088",
+      "locName": "Vakona marsh",
+      "obsDt": "2025-08-23 13:59",
+      "howMany": 1,
+      "lat": -18.8862478,
+      "lng": 48.4293523,
+      "obsValid": true,
+      "obsReviewed": false,
+      "locationPrivate": false,
+      "subId": "S268972607"
+    },
+    {
+      "speciesCode": "madbul1",
+      "comName": "Malagasy Bulbul",
+      "sciName": "Hypsipetes madagascariensis",
+      "locId": "L4968088",
+      "locName": "Vakona marsh",
+      "obsDt": "2025-08-23 13:59",
+      "howMany": 2,
+      "lat": -18.8862478,
+      "lng": 48.4293523,
+      "obsValid": true,
+      "obsReviewed": false,
+      "locationPrivate": false,
+      "subId": "S268972607"
+    }
+  ]
+}

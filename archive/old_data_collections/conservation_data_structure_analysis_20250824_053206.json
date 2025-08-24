@@ -1,0 +1,1299 @@
+{
+  "analysis_timestamp": "2025-08-24T05:32:06.589496",
+  "database_structures": {
+    "gbif": {
+      "database": "GBIF (Global Biodiversity Information Facility)",
+      "total_records": "3.2+ billion",
+      "api_endpoint": "https://api.gbif.org/v1/occurrence",
+      "core_fields": {
+        "gbifID": {
+          "type": "integer",
+          "description": "Unique GBIF identifier for the occurrence",
+          "example": 2542976549,
+          "required": true,
+          "use_case": "Record linking and deduplication"
+        },
+        "datasetKey": {
+          "type": "uuid",
+          "description": "UUID of the dataset containing this record",
+          "example": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "required": true,
+          "use_case": "Data provenance and quality assessment"
+        },
+        "occurrenceID": {
+          "type": "string",
+          "description": "Original identifier from data provider",
+          "example": "urn:catalog:USNM:Mammals:12345",
+          "required": false,
+          "use_case": "Cross-referencing with source databases"
+        },
+        "kingdom": {
+          "type": "string",
+          "description": "Taxonomic kingdom",
+          "example": "Animalia",
+          "required": false,
+          "use_case": "High-level taxonomic filtering"
+        },
+        "phylum": {
+          "type": "string",
+          "description": "Taxonomic phylum",
+          "example": "Chordata",
+          "required": false,
+          "use_case": "Taxonomic classification"
+        },
+        "class": {
+          "type": "string",
+          "description": "Taxonomic class",
+          "example": "Aves",
+          "required": false,
+          "use_case": "Species group analysis (birds, mammals, etc.)"
+        },
+        "order": {
+          "type": "string",
+          "description": "Taxonomic order",
+          "example": "Passeriformes",
+          "required": false,
+          "use_case": "Detailed taxonomic analysis"
+        },
+        "family": {
+          "type": "string",
+          "description": "Taxonomic family",
+          "example": "Turdidae",
+          "required": false,
+          "use_case": "Family-level biodiversity studies"
+        },
+        "genus": {
+          "type": "string",
+          "description": "Taxonomic genus",
+          "example": "Turdus",
+          "required": false,
+          "use_case": "Genus-level distribution analysis"
+        },
+        "species": {
+          "type": "string",
+          "description": "Species epithet",
+          "example": "migratorius",
+          "required": false,
+          "use_case": "Species-specific studies"
+        },
+        "scientificName": {
+          "type": "string",
+          "description": "Complete scientific name with authorship",
+          "example": "Turdus migratorius Linnaeus, 1766",
+          "required": true,
+          "use_case": "Primary species identification"
+        },
+        "vernacularName": {
+          "type": "string",
+          "description": "Common name in local language",
+          "example": "American Robin",
+          "required": false,
+          "use_case": "Public communication and education"
+        },
+        "taxonomicStatus": {
+          "type": "string",
+          "description": "Nomenclatural status of the name",
+          "example": "ACCEPTED",
+          "required": false,
+          "use_case": "Taxonomic quality control"
+        },
+        "decimalLatitude": {
+          "type": "float",
+          "description": "Latitude in decimal degrees (WGS84)",
+          "example": 42.331429,
+          "required": false,
+          "use_case": "Spatial analysis and mapping"
+        },
+        "decimalLongitude": {
+          "type": "float",
+          "description": "Longitude in decimal degrees (WGS84)",
+          "example": -71.120611,
+          "required": false,
+          "use_case": "Spatial analysis and mapping"
+        },
+        "coordinateUncertaintyInMeters": {
+          "type": "float",
+          "description": "Uncertainty radius in meters",
+          "example": 100.0,
+          "required": false,
+          "use_case": "Spatial accuracy assessment"
+        },
+        "country": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code",
+          "example": "US",
+          "required": false,
+          "use_case": "Country-level analysis"
+        },
+        "stateProvince": {
+          "type": "string",
+          "description": "State or province name",
+          "example": "Massachusetts",
+          "required": false,
+          "use_case": "Regional distribution analysis"
+        },
+        "locality": {
+          "type": "string",
+          "description": "Specific locality description",
+          "example": "Harvard University, Cambridge",
+          "required": false,
+          "use_case": "Fine-scale habitat analysis"
+        },
+        "elevation": {
+          "type": "float",
+          "description": "Elevation above sea level in meters",
+          "example": 45.0,
+          "required": false,
+          "use_case": "Elevation range analysis"
+        },
+        "depth": {
+          "type": "float",
+          "description": "Depth below surface in meters",
+          "example": 10.5,
+          "required": false,
+          "use_case": "Marine/aquatic species analysis"
+        },
+        "eventDate": {
+          "type": "datetime",
+          "description": "Date/time of observation",
+          "example": "2023-05-15T08:30:00Z",
+          "required": false,
+          "use_case": "Temporal analysis and seasonality"
+        },
+        "year": {
+          "type": "integer",
+          "description": "Year of observation",
+          "example": 2023,
+          "required": false,
+          "use_case": "Annual trends analysis"
+        },
+        "month": {
+          "type": "integer",
+          "description": "Month of observation (1-12)",
+          "example": 5,
+          "required": false,
+          "use_case": "Seasonal pattern analysis"
+        },
+        "day": {
+          "type": "integer",
+          "description": "Day of month (1-31)",
+          "example": 15,
+          "required": false,
+          "use_case": "Daily activity patterns"
+        },
+        "basisOfRecord": {
+          "type": "string",
+          "description": "Type of observation/record",
+          "example": "HUMAN_OBSERVATION",
+          "required": true,
+          "use_case": "Data quality filtering",
+          "values": [
+            "HUMAN_OBSERVATION",
+            "PRESERVED_SPECIMEN",
+            "MACHINE_OBSERVATION",
+            "MATERIAL_SAMPLE",
+            "FOSSIL_SPECIMEN",
+            "LIVING_SPECIMEN"
+          ]
+        },
+        "institutionCode": {
+          "type": "string",
+          "description": "Institution holding the record",
+          "example": "MCZ",
+          "required": false,
+          "use_case": "Data provenance analysis"
+        },
+        "collectionCode": {
+          "type": "string",
+          "description": "Collection within institution",
+          "example": "Birds",
+          "required": false,
+          "use_case": "Collection-specific analysis"
+        },
+        "recordedBy": {
+          "type": "string",
+          "description": "Observer/collector name",
+          "example": "John Smith",
+          "required": false,
+          "use_case": "Observer effort analysis"
+        },
+        "identifiedBy": {
+          "type": "string",
+          "description": "Species identifier name",
+          "example": "Jane Doe",
+          "required": false,
+          "use_case": "Identification quality assessment"
+        },
+        "license": {
+          "type": "string",
+          "description": "Data usage license",
+          "example": "CC_BY_4_0",
+          "required": false,
+          "use_case": "Data usage rights"
+        }
+      },
+      "quality_flags": {
+        "hasCoordinate": {
+          "type": "boolean",
+          "description": "Record has valid coordinates",
+          "use_case": "Spatial analysis filtering"
+        },
+        "hasGeospatialIssue": {
+          "type": "boolean",
+          "description": "Detected geospatial problems",
+          "use_case": "Quality control"
+        },
+        "coordinateUncertaintyInMeters": {
+          "type": "float",
+          "description": "Spatial precision indicator",
+          "use_case": "Precision-based filtering"
+        }
+      },
+      "extensions": {
+        "multimedia": {
+          "type": "array",
+          "description": "Images, sounds, videos",
+          "use_case": "Visual verification and analysis"
+        },
+        "measurements": {
+          "type": "array",
+          "description": "Morphological measurements",
+          "use_case": "Trait-based ecology"
+        },
+        "identifications": {
+          "type": "array",
+          "description": "Identification history",
+          "use_case": "Taxonomic reliability assessment"
+        }
+      }
+    },
+    "ebird": {
+      "database": "eBird",
+      "total_records": "1+ billion observations",
+      "api_endpoint": "https://ebird.org/ws2.0",
+      "core_fields": {
+        "speciesCode": {
+          "type": "string",
+          "description": "eBird species code",
+          "example": "amerob",
+          "required": true,
+          "use_case": "Species identification"
+        },
+        "comName": {
+          "type": "string",
+          "description": "Common name",
+          "example": "American Robin",
+          "required": true,
+          "use_case": "User-friendly species names"
+        },
+        "sciName": {
+          "type": "string",
+          "description": "Scientific name",
+          "example": "Turdus migratorius",
+          "required": true,
+          "use_case": "Scientific identification"
+        },
+        "locId": {
+          "type": "string",
+          "description": "Location identifier",
+          "example": "L123456",
+          "required": true,
+          "use_case": "Location-based analysis"
+        },
+        "locName": {
+          "type": "string",
+          "description": "Location name",
+          "example": "Central Park",
+          "required": true,
+          "use_case": "Site-specific studies"
+        },
+        "obsDt": {
+          "type": "datetime",
+          "description": "Observation date and time",
+          "example": "2023-05-15 08:30",
+          "required": true,
+          "use_case": "Temporal analysis"
+        },
+        "howMany": {
+          "type": "integer",
+          "description": "Number of individuals observed",
+          "example": 3,
+          "required": false,
+          "use_case": "Abundance analysis"
+        },
+        "lat": {
+          "type": "float",
+          "description": "Latitude in decimal degrees",
+          "example": 40.7829,
+          "required": true,
+          "use_case": "Spatial analysis"
+        },
+        "lng": {
+          "type": "float",
+          "description": "Longitude in decimal degrees",
+          "example": -73.9654,
+          "required": true,
+          "use_case": "Spatial analysis"
+        },
+        "obsValid": {
+          "type": "boolean",
+          "description": "Observation validated by reviewers",
+          "example": true,
+          "required": true,
+          "use_case": "Quality filtering"
+        },
+        "obsReviewed": {
+          "type": "boolean",
+          "description": "Observation has been reviewed",
+          "example": true,
+          "required": true,
+          "use_case": "Quality assessment"
+        },
+        "locationPrivate": {
+          "type": "boolean",
+          "description": "Location coordinates are private",
+          "example": false,
+          "required": true,
+          "use_case": "Privacy consideration"
+        },
+        "subId": {
+          "type": "string",
+          "description": "Submission (checklist) identifier",
+          "example": "S12345678",
+          "required": true,
+          "use_case": "Checklist-based analysis"
+        }
+      },
+      "specialized_fields": {
+        "breeding_codes": {
+          "type": "string",
+          "description": "Breeding behavior indicators",
+          "use_case": "Breeding ecology studies"
+        },
+        "protocol_type": {
+          "type": "string",
+          "description": "Survey protocol used",
+          "use_case": "Effort standardization"
+        },
+        "duration_minutes": {
+          "type": "integer",
+          "description": "Survey duration",
+          "use_case": "Effort correction"
+        },
+        "distance_traveled_km": {
+          "type": "float",
+          "description": "Distance traveled during survey",
+          "use_case": "Effort standardization"
+        },
+        "number_observers": {
+          "type": "integer",
+          "description": "Number of observers",
+          "use_case": "Detection probability modeling"
+        }
+      }
+    },
+    "inaturalist": {
+      "database": "iNaturalist",
+      "total_records": "268+ million observations",
+      "api_endpoint": "https://api.inaturalist.org/v1",
+      "core_fields": {
+        "id": {
+          "type": "integer",
+          "description": "Unique observation identifier",
+          "example": 12345678,
+          "required": true,
+          "use_case": "Record identification"
+        },
+        "observed_on": {
+          "type": "date",
+          "description": "Date of observation",
+          "example": "2023-05-15",
+          "required": true,
+          "use_case": "Temporal analysis"
+        },
+        "time_observed_at": {
+          "type": "datetime",
+          "description": "Precise observation time",
+          "example": "2023-05-15T08:30:00Z",
+          "required": false,
+          "use_case": "Fine-scale temporal analysis"
+        },
+        "location": {
+          "type": "point",
+          "description": "Geographic coordinates",
+          "example": "40.7829,-73.9654",
+          "required": true,
+          "use_case": "Spatial analysis"
+        },
+        "place_guess": {
+          "type": "string",
+          "description": "Human-readable location",
+          "example": "Central Park, New York, NY, US",
+          "required": false,
+          "use_case": "Location context"
+        },
+        "quality_grade": {
+          "type": "string",
+          "description": "Data quality assessment",
+          "example": "research",
+          "required": true,
+          "use_case": "Quality filtering",
+          "values": [
+            "casual",
+            "needs_id",
+            "research"
+          ]
+        },
+        "user": {
+          "type": "object",
+          "description": "Observer information",
+          "use_case": "Community analysis"
+        },
+        "taxon": {
+          "type": "object",
+          "description": "Taxonomic information",
+          "use_case": "Species identification",
+          "subfields": {
+            "id": "integer",
+            "name": "string",
+            "rank": "string",
+            "common_name": "string",
+            "preferred_common_name": "string"
+          }
+        },
+        "photos": {
+          "type": "array",
+          "description": "Observation photos",
+          "use_case": "Visual verification and AI analysis"
+        },
+        "sounds": {
+          "type": "array",
+          "description": "Audio recordings",
+          "use_case": "Acoustic analysis"
+        },
+        "identifications": {
+          "type": "array",
+          "description": "Community identifications",
+          "use_case": "Identification confidence assessment"
+        },
+        "comments": {
+          "type": "array",
+          "description": "User comments",
+          "use_case": "Additional context and notes"
+        },
+        "faves": {
+          "type": "array",
+          "description": "User favorites/likes",
+          "use_case": "Community engagement metrics"
+        }
+      },
+      "media_fields": {
+        "photo_url": {
+          "type": "url",
+          "description": "Direct photo URL",
+          "use_case": "Image analysis and verification"
+        },
+        "photo_attribution": {
+          "type": "string",
+          "description": "Photo licensing information",
+          "use_case": "Usage rights"
+        },
+        "sound_url": {
+          "type": "url",
+          "description": "Audio file URL",
+          "use_case": "Acoustic species identification"
+        }
+      }
+    },
+    "iucn": {
+      "database": "IUCN Red List of Threatened Species",
+      "total_records": "150,000+ species assessments",
+      "api_endpoint": "https://apiv3.iucnredlist.org/api/v3",
+      "core_fields": {
+        "taxonid": {
+          "type": "integer",
+          "description": "IUCN taxon identifier",
+          "example": 12345,
+          "required": true,
+          "use_case": "Species cross-referencing"
+        },
+        "scientific_name": {
+          "type": "string",
+          "description": "Full scientific name",
+          "example": "Panthera tigris",
+          "required": true,
+          "use_case": "Species identification"
+        },
+        "kingdom": {
+          "type": "string",
+          "description": "Taxonomic kingdom",
+          "example": "ANIMALIA",
+          "required": true,
+          "use_case": "High-level taxonomy"
+        },
+        "phylum": {
+          "type": "string",
+          "description": "Taxonomic phylum",
+          "example": "CHORDATA",
+          "required": true,
+          "use_case": "Taxonomic classification"
+        },
+        "class": {
+          "type": "string",
+          "description": "Taxonomic class",
+          "example": "MAMMALIA",
+          "required": true,
+          "use_case": "Class-level analysis"
+        },
+        "order": {
+          "type": "string",
+          "description": "Taxonomic order",
+          "example": "CARNIVORA",
+          "required": true,
+          "use_case": "Order-level patterns"
+        },
+        "family": {
+          "type": "string",
+          "description": "Taxonomic family",
+          "example": "FELIDAE",
+          "required": true,
+          "use_case": "Family-level conservation"
+        },
+        "genus": {
+          "type": "string",
+          "description": "Taxonomic genus",
+          "example": "Panthera",
+          "required": true,
+          "use_case": "Genus-level analysis"
+        },
+        "main_common_name": {
+          "type": "string",
+          "description": "Primary common name",
+          "example": "Tiger",
+          "required": false,
+          "use_case": "Public communication"
+        },
+        "authority": {
+          "type": "string",
+          "description": "Taxonomic authority",
+          "example": "(Linnaeus, 1758)",
+          "required": false,
+          "use_case": "Nomenclatural reference"
+        },
+        "published_year": {
+          "type": "integer",
+          "description": "Assessment publication year",
+          "example": 2022,
+          "required": true,
+          "use_case": "Assessment currency"
+        },
+        "assessment_date": {
+          "type": "date",
+          "description": "Date of assessment",
+          "example": "2022-03-15",
+          "required": true,
+          "use_case": "Temporal analysis"
+        },
+        "category": {
+          "type": "string",
+          "description": "Conservation status category",
+          "example": "EN",
+          "required": true,
+          "use_case": "Conservation prioritization",
+          "values": [
+            "EX",
+            "EW",
+            "CR",
+            "EN",
+            "VU",
+            "NT",
+            "LC",
+            "DD",
+            "NE"
+          ]
+        },
+        "criteria": {
+          "type": "string",
+          "description": "Assessment criteria used",
+          "example": "A2acd",
+          "required": false,
+          "use_case": "Assessment methodology"
+        },
+        "population_trend": {
+          "type": "string",
+          "description": "Population trend direction",
+          "example": "Decreasing",
+          "required": false,
+          "use_case": "Population dynamics",
+          "values": [
+            "Increasing",
+            "Stable",
+            "Decreasing",
+            "Unknown"
+          ]
+        }
+      },
+      "conservation_fields": {
+        "threats": {
+          "type": "array",
+          "description": "Threat categories and details",
+          "use_case": "Threat analysis and mitigation"
+        },
+        "conservation_measures": {
+          "type": "array",
+          "description": "Conservation actions",
+          "use_case": "Conservation planning"
+        },
+        "habitat": {
+          "type": "array",
+          "description": "Habitat requirements",
+          "use_case": "Habitat conservation"
+        },
+        "geographic_range": {
+          "type": "object",
+          "description": "Range information",
+          "use_case": "Spatial conservation planning"
+        }
+      }
+    },
+    "nasa_firms": {
+      "database": "NASA Fire Information for Resource Management System",
+      "total_records": "Real-time fire detections",
+      "api_endpoint": "https://firms.modaps.eosdis.nasa.gov/api",
+      "core_fields": {
+        "latitude": {
+          "type": "float",
+          "description": "Fire detection latitude",
+          "example": -18.95,
+          "required": true,
+          "use_case": "Spatial fire analysis"
+        },
+        "longitude": {
+          "type": "float",
+          "description": "Fire detection longitude",
+          "example": 47.52,
+          "required": true,
+          "use_case": "Spatial fire analysis"
+        },
+        "brightness": {
+          "type": "float",
+          "description": "Fire brightness temperature (Kelvin)",
+          "example": 325.4,
+          "required": true,
+          "use_case": "Fire intensity analysis"
+        },
+        "scan": {
+          "type": "float",
+          "description": "Scan angle",
+          "example": 1.1,
+          "required": true,
+          "use_case": "Detection quality assessment"
+        },
+        "track": {
+          "type": "float",
+          "description": "Track angle",
+          "example": 1.0,
+          "required": true,
+          "use_case": "Detection geometry"
+        },
+        "acq_date": {
+          "type": "date",
+          "description": "Acquisition date",
+          "example": "2023-05-15",
+          "required": true,
+          "use_case": "Temporal fire analysis"
+        },
+        "acq_time": {
+          "type": "time",
+          "description": "Acquisition time (HHMM)",
+          "example": "1423",
+          "required": true,
+          "use_case": "Diurnal fire patterns"
+        },
+        "satellite": {
+          "type": "string",
+          "description": "Satellite sensor",
+          "example": "T",
+          "required": true,
+          "use_case": "Data source tracking",
+          "values": [
+            "T",
+            "A",
+            "N"
+          ]
+        },
+        "confidence": {
+          "type": "integer",
+          "description": "Detection confidence (0-100)",
+          "example": 85,
+          "required": true,
+          "use_case": "Quality filtering"
+        },
+        "version": {
+          "type": "string",
+          "description": "Data version",
+          "example": "6.0",
+          "required": true,
+          "use_case": "Version control"
+        },
+        "bright_t31": {
+          "type": "float",
+          "description": "Channel 31 brightness temperature",
+          "example": 295.8,
+          "required": true,
+          "use_case": "Fire detection algorithm"
+        },
+        "frp": {
+          "type": "float",
+          "description": "Fire Radiative Power (MW)",
+          "example": 15.7,
+          "required": true,
+          "use_case": "Fire intensity quantification"
+        },
+        "daynight": {
+          "type": "string",
+          "description": "Day or night detection",
+          "example": "D",
+          "required": true,
+          "use_case": "Diurnal analysis",
+          "values": [
+            "D",
+            "N"
+          ]
+        },
+        "type": {
+          "type": "integer",
+          "description": "Fire detection type",
+          "example": 0,
+          "required": true,
+          "use_case": "Fire classification"
+        }
+      }
+    }
+  },
+  "field_type_summary": {
+    "integer": [
+      "gbif.gbifID",
+      "gbif.year",
+      "gbif.month",
+      "gbif.day",
+      "ebird.howMany",
+      "inaturalist.id",
+      "iucn.taxonid",
+      "iucn.published_year",
+      "nasa_firms.confidence",
+      "nasa_firms.type"
+    ],
+    "uuid": [
+      "gbif.datasetKey"
+    ],
+    "string": [
+      "gbif.occurrenceID",
+      "gbif.kingdom",
+      "gbif.phylum",
+      "gbif.class",
+      "gbif.order",
+      "gbif.family",
+      "gbif.genus",
+      "gbif.species",
+      "gbif.scientificName",
+      "gbif.vernacularName",
+      "gbif.taxonomicStatus",
+      "gbif.country",
+      "gbif.stateProvince",
+      "gbif.locality",
+      "gbif.basisOfRecord",
+      "gbif.institutionCode",
+      "gbif.collectionCode",
+      "gbif.recordedBy",
+      "gbif.identifiedBy",
+      "gbif.license",
+      "ebird.speciesCode",
+      "ebird.comName",
+      "ebird.sciName",
+      "ebird.locId",
+      "ebird.locName",
+      "ebird.subId",
+      "inaturalist.place_guess",
+      "inaturalist.quality_grade",
+      "iucn.scientific_name",
+      "iucn.kingdom",
+      "iucn.phylum",
+      "iucn.class",
+      "iucn.order",
+      "iucn.family",
+      "iucn.genus",
+      "iucn.main_common_name",
+      "iucn.authority",
+      "iucn.category",
+      "iucn.criteria",
+      "iucn.population_trend",
+      "nasa_firms.satellite",
+      "nasa_firms.version",
+      "nasa_firms.daynight"
+    ],
+    "float": [
+      "gbif.decimalLatitude",
+      "gbif.decimalLongitude",
+      "gbif.coordinateUncertaintyInMeters",
+      "gbif.elevation",
+      "gbif.depth",
+      "ebird.lat",
+      "ebird.lng",
+      "nasa_firms.latitude",
+      "nasa_firms.longitude",
+      "nasa_firms.brightness",
+      "nasa_firms.scan",
+      "nasa_firms.track",
+      "nasa_firms.bright_t31",
+      "nasa_firms.frp"
+    ],
+    "datetime": [
+      "gbif.eventDate",
+      "ebird.obsDt",
+      "inaturalist.time_observed_at"
+    ],
+    "boolean": [
+      "ebird.obsValid",
+      "ebird.obsReviewed",
+      "ebird.locationPrivate"
+    ],
+    "date": [
+      "inaturalist.observed_on",
+      "iucn.assessment_date",
+      "nasa_firms.acq_date"
+    ],
+    "point": [
+      "inaturalist.location"
+    ],
+    "object": [
+      "inaturalist.user",
+      "inaturalist.taxon"
+    ],
+    "array": [
+      "inaturalist.photos",
+      "inaturalist.sounds",
+      "inaturalist.identifications",
+      "inaturalist.comments",
+      "inaturalist.faves"
+    ],
+    "time": [
+      "nasa_firms.acq_time"
+    ]
+  },
+  "common_fields": {
+    "spatial_coordinates": {
+      "gbif": [
+        "decimalLatitude",
+        "decimalLongitude"
+      ],
+      "ebird": [
+        "lat",
+        "lng"
+      ],
+      "inaturalist": [
+        "location"
+      ],
+      "nasa_firms": [
+        "latitude",
+        "longitude"
+      ]
+    },
+    "temporal_information": {
+      "gbif": [
+        "eventDate",
+        "year",
+        "month",
+        "day"
+      ],
+      "ebird": [
+        "obsDt"
+      ],
+      "inaturalist": [
+        "observed_on",
+        "time_observed_at"
+      ],
+      "iucn": [
+        "assessment_date",
+        "published_year"
+      ],
+      "nasa_firms": [
+        "acq_date",
+        "acq_time"
+      ]
+    },
+    "taxonomic_identification": {
+      "gbif": [
+        "scientificName",
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ],
+      "ebird": [
+        "sciName",
+        "comName",
+        "speciesCode"
+      ],
+      "inaturalist": [
+        "taxon"
+      ],
+      "iucn": [
+        "scientific_name",
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus"
+      ]
+    },
+    "data_quality": {
+      "gbif": [
+        "basisOfRecord",
+        "hasCoordinate",
+        "hasGeospatialIssue"
+      ],
+      "ebird": [
+        "obsValid",
+        "obsReviewed"
+      ],
+      "inaturalist": [
+        "quality_grade",
+        "identifications"
+      ],
+      "nasa_firms": [
+        "confidence",
+        "satellite"
+      ]
+    },
+    "unique_identifiers": {
+      "gbif": [
+        "gbifID",
+        "occurrenceID"
+      ],
+      "ebird": [
+        "subId",
+        "locId"
+      ],
+      "inaturalist": [
+        "id"
+      ],
+      "iucn": [
+        "taxonid"
+      ],
+      "nasa_firms": [
+        "latitude+longitude+acq_date+acq_time"
+      ]
+    }
+  },
+  "unique_capabilities": {
+    "gbif": {
+      "strengths": [
+        "Massive specimen and observation data (3.2B+ records)",
+        "Comprehensive taxonomic coverage",
+        "Historical data going back to 1976",
+        "Institutional specimen collections",
+        "Global coordinate coverage",
+        "Rich metadata extensions"
+      ],
+      "unique_fields": [
+        "institutionCode",
+        "collectionCode",
+        "basisOfRecord",
+        "coordinateUncertaintyInMeters",
+        "multimedia extensions"
+      ],
+      "best_for": [
+        "Historical biodiversity analysis",
+        "Museum specimen research",
+        "Large-scale biogeographic studies",
+        "Taxonomic distribution mapping"
+      ]
+    },
+    "ebird": {
+      "strengths": [
+        "Real-time bird observations",
+        "Standardized survey protocols",
+        "Abundance data (how many individuals)",
+        "Breeding behavior codes",
+        "Effort data (duration, distance, observers)",
+        "Community validation"
+      ],
+      "unique_fields": [
+        "howMany",
+        "breeding_codes",
+        "protocol_type",
+        "duration_minutes",
+        "distance_traveled_km",
+        "number_observers"
+      ],
+      "best_for": [
+        "Bird migration analysis",
+        "Real-time species monitoring",
+        "Abundance trend analysis",
+        "Citizen science studies"
+      ]
+    },
+    "inaturalist": {
+      "strengths": [
+        "Rich multimedia content (photos, sounds)",
+        "Community-based identification",
+        "Mobile app integration",
+        "Real-time observations",
+        "Broad taxonomic coverage",
+        "User engagement metrics"
+      ],
+      "unique_fields": [
+        "photos",
+        "sounds",
+        "identifications",
+        "comments",
+        "faves",
+        "quality_grade"
+      ],
+      "best_for": [
+        "Visual species verification",
+        "Community engagement analysis",
+        "Educational outreach",
+        "AI-assisted identification"
+      ]
+    },
+    "iucn": {
+      "strengths": [
+        "Authoritative conservation status",
+        "Threat assessments",
+        "Conservation action recommendations",
+        "Population trend data",
+        "Habitat requirements",
+        "Expert-reviewed assessments"
+      ],
+      "unique_fields": [
+        "category",
+        "criteria",
+        "population_trend",
+        "threats",
+        "conservation_measures",
+        "habitat"
+      ],
+      "best_for": [
+        "Conservation prioritization",
+        "Threat analysis",
+        "Policy development",
+        "Red List assessments"
+      ]
+    },
+    "nasa_firms": {
+      "strengths": [
+        "Real-time fire detection",
+        "Satellite-based monitoring",
+        "Fire intensity measurements",
+        "Global coverage",
+        "High temporal resolution",
+        "Multiple sensor integration"
+      ],
+      "unique_fields": [
+        "brightness",
+        "frp",
+        "confidence",
+        "satellite",
+        "scan",
+        "track"
+      ],
+      "best_for": [
+        "Fire impact assessment",
+        "Real-time threat monitoring",
+        "Conservation area protection",
+        "Climate change studies"
+      ]
+    }
+  },
+  "data_integration_mapping": {
+    "spatial_join_fields": {
+      "primary": "coordinates",
+      "mapping": {
+        "gbif": "decimalLatitude, decimalLongitude",
+        "ebird": "lat, lng",
+        "inaturalist": "location",
+        "nasa_firms": "latitude, longitude"
+      },
+      "precision": "coordinate_uncertainty_handling_required"
+    },
+    "temporal_join_fields": {
+      "primary": "observation_date",
+      "mapping": {
+        "gbif": "eventDate",
+        "ebird": "obsDt",
+        "inaturalist": "observed_on",
+        "nasa_firms": "acq_date"
+      },
+      "resolution": "daily_to_minute_precision"
+    },
+    "taxonomic_join_fields": {
+      "primary": "scientific_name",
+      "mapping": {
+        "gbif": "scientificName",
+        "ebird": "sciName",
+        "inaturalist": "taxon.name",
+        "iucn": "scientific_name"
+      },
+      "challenges": "name_standardization_required"
+    },
+    "cross_database_workflows": [
+      {
+        "name": "comprehensive_species_assessment",
+        "description": "Combine GBIF occurrences, eBird abundance, iNat photos, IUCN status",
+        "databases": [
+          "gbif",
+          "ebird",
+          "inaturalist",
+          "iucn"
+        ],
+        "join_logic": "spatial_temporal_taxonomic"
+      },
+      {
+        "name": "fire_impact_on_biodiversity",
+        "description": "Analyze fire effects on species observations",
+        "databases": [
+          "nasa_firms",
+          "gbif",
+          "ebird",
+          "inaturalist"
+        ],
+        "join_logic": "spatial_temporal_proximity"
+      },
+      {
+        "name": "conservation_effectiveness",
+        "description": "Evaluate protected area performance",
+        "databases": [
+          "gbif",
+          "ebird",
+          "inaturalist",
+          "iucn"
+        ],
+        "join_logic": "spatial_within_protected_areas"
+      }
+    ]
+  },
+  "use_case_recommendations": {
+    "research_scenarios": {
+      "species_distribution_modeling": {
+        "primary_database": "gbif",
+        "secondary_databases": [
+          "ebird",
+          "inaturalist"
+        ],
+        "key_fields": [
+          "coordinates",
+          "species_name",
+          "observation_date",
+          "data_quality_indicators"
+        ],
+        "filtering_strategy": "high_coordinate_precision + recent_data"
+      },
+      "real_time_biodiversity_monitoring": {
+        "primary_database": "ebird",
+        "secondary_databases": [
+          "inaturalist",
+          "nasa_firms"
+        ],
+        "key_fields": [
+          "recent_observations",
+          "abundance_data",
+          "validation_status"
+        ],
+        "filtering_strategy": "last_30_days + validated_observations"
+      },
+      "conservation_status_assessment": {
+        "primary_database": "iucn",
+        "secondary_databases": [
+          "gbif",
+          "ebird",
+          "inaturalist"
+        ],
+        "key_fields": [
+          "conservation_category",
+          "population_trend",
+          "threats",
+          "occurrence_data"
+        ],
+        "filtering_strategy": "threatened_species + occurrence_validation"
+      },
+      "habitat_threat_analysis": {
+        "primary_database": "nasa_firms",
+        "secondary_databases": [
+          "gbif",
+          "ebird",
+          "inaturalist"
+        ],
+        "key_fields": [
+          "fire_detections",
+          "species_occurrences",
+          "temporal_overlap"
+        ],
+        "filtering_strategy": "high_confidence_fires + spatial_proximity"
+      },
+      "citizen_science_validation": {
+        "primary_database": "inaturalist",
+        "secondary_databases": [
+          "gbif",
+          "ebird"
+        ],
+        "key_fields": [
+          "photos",
+          "community_identifications",
+          "expert_observations"
+        ],
+        "filtering_strategy": "research_grade + photo_available"
+      }
+    },
+    "data_collection_strategies": {
+      "comprehensive_survey": {
+        "description": "Maximum species detection across all databases",
+        "databases": [
+          "gbif",
+          "ebird",
+          "inaturalist"
+        ],
+        "search_radius": "50km",
+        "temporal_window": "all_available_data",
+        "expected_outcome": "highest_species_count"
+      },
+      "rapid_assessment": {
+        "description": "Quick biodiversity snapshot",
+        "databases": [
+          "ebird",
+          "inaturalist"
+        ],
+        "search_radius": "25km",
+        "temporal_window": "last_12_months",
+        "expected_outcome": "recent_species_activity"
+      },
+      "conservation_focused": {
+        "description": "Threatened species prioritization",
+        "databases": [
+          "iucn",
+          "gbif",
+          "ebird"
+        ],
+        "search_radius": "variable_by_species",
+        "temporal_window": "recent_validated_data",
+        "expected_outcome": "conservation_priority_species"
+      },
+      "threat_monitoring": {
+        "description": "Environmental threat assessment",
+        "databases": [
+          "nasa_firms",
+          "gbif",
+          "ebird"
+        ],
+        "search_radius": "100km",
+        "temporal_window": "real_time_plus_historical",
+        "expected_outcome": "threat_impact_analysis"
+      }
+    }
+  }
+}

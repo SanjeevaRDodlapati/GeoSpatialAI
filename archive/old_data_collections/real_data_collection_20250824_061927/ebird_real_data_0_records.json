@@ -1,0 +1,9 @@
+{
+  "database": "eBird",
+  "total_records_collected": 0,
+  "collection_timestamp": "2025-08-24T06:19:31.869566",
+  "api_endpoint": "https://api.ebird.org/v2",
+  "query_country": "Madagascar",
+  "data_authenticity": "100% Real API Data",
+  "records": []
+}

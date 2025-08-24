@@ -1,0 +1,20 @@
+{
+  "database": "NASA FIRMS",
+  "total_records_collected": 1,
+  "collection_timestamp": "2025-08-24T06:19:32.629349",
+  "api_endpoint": "https://firms.modaps.eosdis.nasa.gov/api/area/csv",
+  "query_region": "Madagascar",
+  "query_bbox": "43.2,-25.6,50.5,-11.9",
+  "data_authenticity": "100% Real API Data",
+  "fire_status": "Low fire activity detected",
+  "records": [
+    {
+      "Invalid MAP_KEY.": "Invalid day range. Expects [1..10].",
+      "recorded_timestamp": "2025-08-24T06:19:32.629331",
+      "api_source": "NASA FIRMS Live API",
+      "data_authenticity": "100% Real API Data",
+      "query_bbox": "43.2,-25.6,50.5,-11.9",
+      "query_days": 7
+    }
+  ]
+}

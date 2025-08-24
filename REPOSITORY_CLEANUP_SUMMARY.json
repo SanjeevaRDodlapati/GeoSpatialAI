@@ -1,0 +1,37 @@
+{
+  "cleanup_timestamp": "2025-08-24T07:27:11.447911",
+  "purpose": "Repository cleanup - keep final working files only",
+  "kept_files": {
+    "core_project": [
+      "README.md",
+      "LICENSE",
+      "requirements.txt",
+      ".gitignore"
+    ],
+    "final_working_files": [
+      "FINAL_COMPLETE_CONSERVATION_DASHBOARD.html",
+      "FINAL_PROJECT_COMPLETION_REPORT.md",
+      "final_working_collection.py",
+      "test_working_apis.py"
+    ],
+    "essential_directories": [
+      "src/",
+      "config/",
+      "tests/",
+      "docs/",
+      "archive/"
+    ],
+    "final_data": [
+      "final_working_collection_20250824_071934/",
+      "ebird_api_test_success.json"
+    ]
+  },
+  "archived_categories": {
+    "redundant_dashboards": "5 HTML dashboard files",
+    "intermediate_scripts": "15 development scripts",
+    "documentation_drafts": "13 draft documentation files",
+    "old_data_collections": "4 intermediate data collections",
+    "cache_directories": "3 cache/temp directories"
+  },
+  "final_structure": "Clean, organized repository with only essential working files"
+}

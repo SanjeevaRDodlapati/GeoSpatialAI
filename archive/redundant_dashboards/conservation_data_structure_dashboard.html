@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservation Data Structure Analysis Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .section-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .section-header:hover {
+            transform: translateY(-2px);
+        }
+
+        .section-header h2 {
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .toggle-icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .section-content {
+            padding: 2rem;
+            display: block;
+        }
+
+        .section-content.collapsed {
+            display: none;
+        }
+
+        .database-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .database-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            border-left: 5px solid;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .database-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .database-card.gbif { border-left-color: #27ae60; }
+        .database-card.ebird { border-left-color: #3498db; }
+        .database-card.inaturalist { border-left-color: #e67e22; }
+        .database-card.iucn { border-left-color: #e74c3c; }
+        .database-card.nasa-firms { border-left-color: #9b59b6; }
+
+        .database-card h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .database-stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .stat {
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            display: block;
+        }
+
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .field-types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .field-type {
+            background: #ecf0f1;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .field-type.integer { background: #e8f5e8; }
+        .field-type.string { background: #e8f0ff; }
+        .field-type.float { background: #fff3e0; }
+        .field-type.datetime { background: #f3e5f5; }
+        .field-type.boolean { background: #e0f2f1; }
+
+        .integration-workflows {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .workflow-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .workflow-card:hover {
+            border-color: #667eea;
+            transform: translateY(-3px);
+        }
+
+        .workflow-card h4 {
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+
+        .workflow-card p {
+            color: #6c757d;
+            margin-bottom: 1rem;
+        }
+
+        .database-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .database-tag {
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+        }
+
+        .use-case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .use-case-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+            padding: 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .use-case-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .use-case-card h4 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+        }
+
+        .key-fields {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .key-field {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.2rem 0.6rem;
+            border-radius: 10px;
+            font-size: 0.8rem;
+        }
+
+        .common-concepts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .concept-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .concept-card h4 {
+            color: #495057;
+            margin-bottom: 0.5rem;
+            text-transform: capitalize;
+        }
+
+        .field-mapping {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea15, #764ba215);
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .highlight-box h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .data-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .data-source {
+            background: #667eea;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            min-width: 120px;
+        }
+
+        .arrow {
+            font-size: 2rem;
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .database-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .database-stats {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .data-flow {
+                flex-direction: column;
+            }
+            
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+
+        .interactive-note {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 1rem 0;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Conservation Data Structure Analysis</h1>
+        <p>Comprehensive analysis of field types and record structures across conservation databases</p>
+    </div>
+
+    <div class="container">
+        <!-- Database Overview Section -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('database-overview')">
+                <h2>🗃️ Database Overview</h2>
+                <span class="toggle-icon" id="toggle-database-overview">▼</span>
+            </div>
+            <div class="section-content" id="database-overview">
+                <div class="database-grid">
+                    <div class="database-card gbif">
+                        <h3>🌍 GBIF</h3>
+                        <p>Global Biodiversity Information Facility</p>
+                        <div class="database-stats">
+                            <div class="stat">
+                                <span class="stat-number">3.2B+</span>
+                                <span class="stat-label">Records</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">31</span>
+                                <span class="stat-label">Core Fields</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Global</span>
+                                <span class="stat-label">Coverage</span>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Best For:</strong> Historical biodiversity analysis, museum specimens, taxonomic distribution mapping
+                        </div>
+                    </div>
+
+                    <div class="database-card ebird">
+                        <h3>🐦 eBird</h3>
+                        <p>Real-time bird observation data</p>
+                        <div class="database-stats">
+                            <div class="stat">
+                                <span class="stat-number">1B+</span>
+                                <span class="stat-label">Observations</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">13</span>
+                                <span class="stat-label">Core Fields</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Real-time</span>
+                                <span class="stat-label">Updates</span>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Best For:</strong> Bird migration analysis, abundance trends, citizen science validation
+                        </div>
+                    </div>
+
+                    <div class="database-card inaturalist">
+                        <h3>📸 iNaturalist</h3>
+                        <p>Community-based biodiversity observations</p>
+                        <div class="database-stats">
+                            <div class="stat">
+                                <span class="stat-number">268M+</span>
+                                <span class="stat-label">Observations</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">13</span>
+                                <span class="stat-label">Core Fields</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Photos</span>
+                                <span class="stat-label">Rich Media</span>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Best For:</strong> Visual species verification, community engagement, AI-assisted identification
+                        </div>
+                    </div>
+
+                    <div class="database-card iucn">
+                        <h3>🔴 IUCN Red List</h3>
+                        <p>Conservation status assessments</p>
+                        <div class="database-stats">
+                            <div class="stat">
+                                <span class="stat-number">150K+</span>
+                                <span class="stat-label">Species</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">15</span>
+                                <span class="stat-label">Core Fields</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Expert</span>
+                                <span class="stat-label">Reviewed</span>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Best For:</strong> Conservation prioritization, threat analysis, policy development
+                        </div>
+                    </div>
+
+                    <div class="database-card nasa-firms">
+                        <h3>🔥 NASA FIRMS</h3>
+                        <p>Fire Information for Resource Management</p>
+                        <div class="database-stats">
+                            <div class="stat">
+                                <span class="stat-number">Real-time</span>
+                                <span class="stat-label">Fire Data</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">14</span>
+                                <span class="stat-label">Core Fields</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Satellite</span>
+                                <span class="stat-label">Based</span>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Best For:</strong> Fire impact assessment, real-time threat monitoring, climate studies
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Field Types Analysis -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('field-types')">
+                <h2>🏷️ Field Types Analysis</h2>
+                <span class="toggle-icon" id="toggle-field-types">▼</span>
+            </div>
+            <div class="section-content" id="field-types">
+                <div class="field-types-grid">
+                    <div class="field-type string">
+                        <h3>📝 String (43 fields)</h3>
+                        <p>Text data including names, descriptions, locations</p>
+                        <strong>Examples:</strong> scientificName, locality, country
+                    </div>
+                    <div class="field-type float">
+                        <h3>📍 Float (14 fields)</h3>
+                        <p>Decimal numbers for coordinates and measurements</p>
+                        <strong>Examples:</strong> latitude, longitude, elevation
+                    </div>
+                    <div class="field-type integer">
+                        <h3>🔢 Integer (10 fields)</h3>
+                        <p>Whole numbers for counts and years</p>
+                        <strong>Examples:</strong> year, month, howMany
+                    </div>
+                    <div class="field-type datetime">
+                        <h3>⏰ DateTime (3 fields)</h3>
+                        <p>Date and time information</p>
+                        <strong>Examples:</strong> eventDate, observed_on
+                    </div>
+                    <div class="field-type boolean">
+                        <h3>✅ Boolean (3 fields)</h3>
+                        <p>True/false values for flags</p>
+                        <strong>Examples:</strong> obsValid, hasCoordinate
+                    </div>
+                    <div class="field-type other">
+                        <h3>🔗 Other (11 fields)</h3>
+                        <p>Arrays, objects, and specialized types</p>
+                        <strong>Examples:</strong> photos, identifications, threats
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <h3>🎯 Key Data Types for Analysis</h3>
+                    <p><strong>Spatial Data:</strong> All databases provide coordinate information with varying precision levels</p>
+                    <p><strong>Temporal Data:</strong> Date/time fields available across all sources for temporal analysis</p>
+                    <p><strong>Taxonomic Data:</strong> Scientific names and classification hierarchies for species identification</p>
+                    <p><strong>Quality Indicators:</strong> Validation flags and confidence scores for data filtering</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Common Field Concepts -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('common-fields')">
+                <h2>🔗 Cross-Database Integration</h2>
+                <span class="toggle-icon" id="toggle-common-fields">▼</span>
+            </div>
+            <div class="section-content" id="common-fields">
+                <div class="common-concepts">
+                    <div class="concept-card">
+                        <h4>📍 Spatial Coordinates</h4>
+                        <div class="field-mapping">
+                            <strong>GBIF:</strong> decimalLatitude, decimalLongitude<br>
+                            <strong>eBird:</strong> lat, lng<br>
+                            <strong>iNaturalist:</strong> location<br>
+                            <strong>NASA FIRMS:</strong> latitude, longitude
+                        </div>
+                    </div>
+                    
+                    <div class="concept-card">
+                        <h4>⏰ Temporal Information</h4>
+                        <div class="field-mapping">
+                            <strong>GBIF:</strong> eventDate, year, month, day<br>
+                            <strong>eBird:</strong> obsDt<br>
+                            <strong>iNaturalist:</strong> observed_on<br>
+                            <strong>IUCN:</strong> assessment_date<br>
+                            <strong>NASA FIRMS:</strong> acq_date, acq_time
+                        </div>
+                    </div>
+                    
+                    <div class="concept-card">
+                        <h4>🧬 Taxonomic Identification</h4>
+                        <div class="field-mapping">
+                            <strong>GBIF:</strong> scientificName, taxonomic hierarchy<br>
+                            <strong>eBird:</strong> sciName, comName, speciesCode<br>
+                            <strong>iNaturalist:</strong> taxon<br>
+                            <strong>IUCN:</strong> scientific_name, taxonomic classification
+                        </div>
+                    </div>
+                    
+                    <div class="concept-card">
+                        <h4>✅ Data Quality</h4>
+                        <div class="field-mapping">
+                            <strong>GBIF:</strong> basisOfRecord, hasCoordinate<br>
+                            <strong>eBird:</strong> obsValid, obsReviewed<br>
+                            <strong>iNaturalist:</strong> quality_grade<br>
+                            <strong>NASA FIRMS:</strong> confidence, satellite
+                        </div>
+                    </div>
+                    
+                    <div class="concept-card">
+                        <h4>🆔 Unique Identifiers</h4>
+                        <div class="field-mapping">
+                            <strong>GBIF:</strong> gbifID, occurrenceID<br>
+                            <strong>eBird:</strong> subId, locId<br>
+                            <strong>iNaturalist:</strong> id<br>
+                            <strong>IUCN:</strong> taxonid<br>
+                            <strong>NASA FIRMS:</strong> coordinate+time combination
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Integration Workflows -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('workflows')">
+                <h2>🔄 Multi-Database Workflows</h2>
+                <span class="toggle-icon" id="toggle-workflows">▼</span>
+            </div>
+            <div class="section-content" id="workflows">
+                <div class="integration-workflows">
+                    <div class="workflow-card">
+                        <h4>🎯 Comprehensive Species Assessment</h4>
+                        <p>Combine GBIF occurrences, eBird abundance, iNaturalist photos, and IUCN conservation status</p>
+                        <div class="database-tags">
+                            <span class="database-tag">GBIF</span>
+                            <span class="database-tag">eBird</span>
+                            <span class="database-tag">iNaturalist</span>
+                            <span class="database-tag">IUCN</span>
+                        </div>
+                        <p><strong>Join Logic:</strong> Spatial + Temporal + Taxonomic matching</p>
+                    </div>
+                    
+                    <div class="workflow-card">
+                        <h4>🔥 Fire Impact on Biodiversity</h4>
+                        <p>Analyze fire effects on species observations using real-time fire data</p>
+                        <div class="database-tags">
+                            <span class="database-tag">NASA FIRMS</span>
+                            <span class="database-tag">GBIF</span>
+                            <span class="database-tag">eBird</span>
+                            <span class="database-tag">iNaturalist</span>
+                        </div>
+                        <p><strong>Join Logic:</strong> Spatial proximity + Temporal correlation</p>
+                    </div>
+                    
+                    <div class="workflow-card">
+                        <h4>🛡️ Conservation Effectiveness</h4>
+                        <p>Evaluate protected area performance using biodiversity observations</p>
+                        <div class="database-tags">
+                            <span class="database-tag">GBIF</span>
+                            <span class="database-tag">eBird</span>
+                            <span class="database-tag">iNaturalist</span>
+                            <span class="database-tag">IUCN</span>
+                        </div>
+                        <p><strong>Join Logic:</strong> Spatial containment within protected areas</p>
+                    </div>
+                </div>
+
+                <div class="data-flow">
+                    <div class="data-source">🌍 GBIF<br>Historical Data</div>
+                    <div class="arrow">→</div>
+                    <div class="data-source">🐦 eBird<br>Real-time Obs</div>
+                    <div class="arrow">→</div>
+                    <div class="data-source">📸 iNaturalist<br>Visual Data</div>
+                    <div class="arrow">→</div>
+                    <div class="data-source">🔴 IUCN<br>Status Data</div>
+                    <div class="arrow">→</div>
+                    <div class="data-source">🔥 NASA FIRMS<br>Threat Data</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case Recommendations -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('use-cases')">
+                <h2>🎯 Research Use Cases</h2>
+                <span class="toggle-icon" id="toggle-use-cases">▼</span>
+            </div>
+            <div class="section-content" id="use-cases">
+                <div class="use-case-grid">
+                    <div class="use-case-card">
+                        <h4>🗺️ Species Distribution Modeling</h4>
+                        <p><strong>Primary:</strong> GBIF</p>
+                        <p><strong>Secondary:</strong> eBird, iNaturalist</p>
+                        <div class="key-fields">
+                            <span class="key-field">coordinates</span>
+                            <span class="key-field">species_name</span>
+                            <span class="key-field">observation_date</span>
+                            <span class="key-field">quality_indicators</span>
+                        </div>
+                        <p><strong>Strategy:</strong> High coordinate precision + recent data</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>📊 Real-time Biodiversity Monitoring</h4>
+                        <p><strong>Primary:</strong> eBird</p>
+                        <p><strong>Secondary:</strong> iNaturalist, NASA FIRMS</p>
+                        <div class="key-fields">
+                            <span class="key-field">recent_observations</span>
+                            <span class="key-field">abundance_data</span>
+                            <span class="key-field">validation_status</span>
+                        </div>
+                        <p><strong>Strategy:</strong> Last 30 days + validated observations</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>🛡️ Conservation Status Assessment</h4>
+                        <p><strong>Primary:</strong> IUCN</p>
+                        <p><strong>Secondary:</strong> GBIF, eBird, iNaturalist</p>
+                        <div class="key-fields">
+                            <span class="key-field">conservation_category</span>
+                            <span class="key-field">population_trend</span>
+                            <span class="key-field">threats</span>
+                            <span class="key-field">occurrence_data</span>
+                        </div>
+                        <p><strong>Strategy:</strong> Threatened species + occurrence validation</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>🔥 Habitat Threat Analysis</h4>
+                        <p><strong>Primary:</strong> NASA FIRMS</p>
+                        <p><strong>Secondary:</strong> GBIF, eBird, iNaturalist</p>
+                        <div class="key-fields">
+                            <span class="key-field">fire_detections</span>
+                            <span class="key-field">species_occurrences</span>
+                            <span class="key-field">temporal_overlap</span>
+                        </div>
+                        <p><strong>Strategy:</strong> High confidence fires + spatial proximity</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>✅ Citizen Science Validation</h4>
+                        <p><strong>Primary:</strong> iNaturalist</p>
+                        <p><strong>Secondary:</strong> GBIF, eBird</p>
+                        <div class="key-fields">
+                            <span class="key-field">photos</span>
+                            <span class="key-field">community_ids</span>
+                            <span class="key-field">expert_observations</span>
+                        </div>
+                        <p><strong>Strategy:</strong> Research grade + photo available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Collection Strategies -->
+        <div class="section">
+            <div class="section-header" onclick="toggleSection('strategies')">
+                <h2>📋 Data Collection Strategies</h2>
+                <span class="toggle-icon" id="toggle-strategies">▼</span>
+            </div>
+            <div class="section-content" id="strategies">
+                <div class="use-case-grid">
+                    <div class="use-case-card">
+                        <h4>🎯 Comprehensive Survey</h4>
+                        <p><strong>Goal:</strong> Maximum species detection</p>
+                        <p><strong>Databases:</strong> GBIF + eBird + iNaturalist</p>
+                        <p><strong>Radius:</strong> 50km | <strong>Time:</strong> All available data</p>
+                        <p><strong>Outcome:</strong> Highest species count</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>⚡ Rapid Assessment</h4>
+                        <p><strong>Goal:</strong> Quick biodiversity snapshot</p>
+                        <p><strong>Databases:</strong> eBird + iNaturalist</p>
+                        <p><strong>Radius:</strong> 25km | <strong>Time:</strong> Last 12 months</p>
+                        <p><strong>Outcome:</strong> Recent species activity</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>🛡️ Conservation Focused</h4>
+                        <p><strong>Goal:</strong> Threatened species priority</p>
+                        <p><strong>Databases:</strong> IUCN + GBIF + eBird</p>
+                        <p><strong>Radius:</strong> Variable by species | <strong>Time:</strong> Recent validated</p>
+                        <p><strong>Outcome:</strong> Priority species list</p>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <h4>🚨 Threat Monitoring</h4>
+                        <p><strong>Goal:</strong> Environmental threat assessment</p>
+                        <p><strong>Databases:</strong> NASA FIRMS + GBIF + eBird</p>
+                        <p><strong>Radius:</strong> 100km | <strong>Time:</strong> Real-time + historical</p>
+                        <p><strong>Outcome:</strong> Threat impact analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="interactive-note">
+            <strong>💡 Interactive Note:</strong> This analysis covers <strong>86 total data fields</strong> across <strong>5 major conservation databases</strong>. 
+            Each record type offers unique capabilities for different research scenarios. Use the integration mappings above to design 
+            multi-database workflows for comprehensive conservation analysis.
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            const content = document.getElementById(sectionId);
+            const icon = document.getElementById('toggle-' + sectionId);
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                icon.textContent = '▼';
+            } else {
+                content.classList.add('collapsed');
+                icon.textContent = '▶';
+            }
+        }
+
+        // Initialize all sections as expanded
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Conservation Data Structure Analysis Dashboard loaded');
+        });
+    </script>
+</body>
+</html>
