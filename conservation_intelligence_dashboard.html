@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 Advanced Conservation Intelligence Platform</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        /* Enhanced Global Styles */
+        :root {
+            --primary-gradient: linear-gradient(135deg, #2E8B57 0%, #4682B4 100%);
+            --secondary-gradient: linear-gradient(135deg, #FF6347 0%, #FFD700 100%);
+            --success-gradient: linear-gradient(135deg, #32CD32 0%, #228B22 100%);
+            --sidebar-width: 280px;
+            --header-height: 80px;
+            --transition-speed: 0.3s;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow-x: hidden;
+        }
+        
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: var(--header-height);
+            background: var(--primary-gradient);
+            color: white;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+        
+        .sidebar-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            margin-right: 20px;
+            padding: 8px;
+            border-radius: 4px;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+        }
+        
+        .sidebar-toggle:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .header-right {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .header-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .header-stat {
+            text-align: center;
+        }
+        
+        .header-stat-value {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .header-stat-label {
+            opacity: 0.8;
+            font-size: 0.8rem;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: var(--header-height);
+            left: 0;
+            width: var(--sidebar-width);
+            height: calc(100vh - var(--header-height));
+            background: white;
+            box-shadow: 4px 0 20px rgba(0,0,0,0.1);
+            transform: translateX(-100%);
+            transition: transform var(--transition-speed);
+            z-index: 999;
+            overflow-y: auto;
+        }
+        
+        .sidebar.open {
+            transform: translateX(0);
+        }
+        
+        .sidebar-header {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .sidebar-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .sidebar-subtitle {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        .nav-section {
+            margin-bottom: 10px;
+        }
+        
+        .nav-section-title {
+            padding: 15px 20px 10px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .nav-link {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            color: #2c3e50;
+            text-decoration: none;
+            border-left: 4px solid transparent;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+        }
+        
+        .nav-link:hover {
+            background: #f8f9fa;
+            color: #2E8B57;
+            border-left-color: #2E8B57;
+        }
+        
+        .nav-link.active {
+            background: linear-gradient(90deg, rgba(46, 139, 87, 0.1) 0%, transparent 100%);
+            color: #2E8B57;
+            border-left-color: #2E8B57;
+            font-weight: 500;
+        }
+        
+        .nav-icon {
+            width: 20px;
+            margin-right: 12px;
+            text-align: center;
+        }
+        
+        .nav-text {
+            flex: 1;
+        }
+        
+        /* Main Content */
+        .main-content {
+            margin-top: var(--header-height);
+            margin-left: 0;
+            transition: margin-left var(--transition-speed);
+            min-height: calc(100vh - var(--header-height));
+            background: white;
+        }
+        
+        .main-content.sidebar-open {
+            margin-left: var(--sidebar-width);
+        }
+        
+        /* Breadcrumb */
+        .breadcrumb-container {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .breadcrumb {
+            background: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .breadcrumb-item a {
+            color: #6c757d;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .breadcrumb-item a:hover {
+            color: #2E8B57;
+        }
+        
+        .breadcrumb-item.active {
+            color: #2c3e50;
+            font-weight: 500;
+        }
+        
+        /* Content Area */
+        .content-area {
+            padding: 30px;
+        }
+        
+        .content-header {
+            margin-bottom: 30px;
+        }
+        
+        .content-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .content-description {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+        
+        .content-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        /* Visualization Cards */
+        .viz-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+            transition: all var(--transition-speed);
+        }
+        
+        .viz-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+        
+        .viz-card-header {
+            background: var(--primary-gradient);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .viz-card-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        .viz-card-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .viz-action-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+        }
+        
+        .viz-action-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .viz-card-body {
+            padding: 0;
+            min-height: 500px;
+        }
+        
+        .plot-container {
+            width: 100%;
+            height: 500px;
+            padding: 20px;
+        }
+        
+        /* Action Buttons */
+        .btn-primary-gradient {
+            background: var(--primary-gradient);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+        }
+        
+        .btn-primary-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+        }
+        
+        .btn-success-gradient {
+            background: var(--success-gradient);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all var(--transition-speed);
+            cursor: pointer;
+        }
+        
+        .btn-success-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(50, 205, 50, 0.3);
+        }
+        
+        /* Loading States */
+        .loading-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255,255,255,0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #2E8B57;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Fullscreen Mode */
+        .fullscreen-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: white;
+            z-index: 2000;
+            display: none;
+        }
+        
+        .fullscreen-overlay.active {
+            display: block;
+        }
+        
+        .fullscreen-header {
+            background: var(--primary-gradient);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .fullscreen-content {
+            height: calc(100vh - 60px);
+            padding: 20px;
+        }
+        
+        .fullscreen-plot {
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+            }
+            
+            .main-content.sidebar-open {
+                margin-left: 0;
+            }
+            
+            .header-stats {
+                display: none;
+            }
+            
+            .content-area {
+                padding: 20px 15px;
+            }
+            
+            .viz-card-header {
+                padding: 15px;
+            }
+            
+            .viz-card-title {
+                font-size: 1.1rem;
+            }
+        }
+        
+        /* Overlay for mobile sidebar */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 998;
+            display: none;
+        }
+        
+        .sidebar-overlay.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="sidebar-toggle" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="header-title">🌍 Conservation Intelligence Platform</h1>
+        </div>
+        <div class="header-right">
+            <div class="header-stats">
+                <div class="header-stat">
+                    <div class="header-stat-value">3.2B</div>
+                    <div class="header-stat-label">GBIF Records</div>
+                </div>
+                <div class="header-stat">
+                    <div class="header-stat-value">252</div>
+                    <div class="header-stat-label">Countries</div>
+                </div>
+                <div class="header-stat">
+                    <div class="header-stat-value">269M</div>
+                    <div class="header-stat-label">iNaturalist</div>
+                </div>
+            </div>
+            <button class="btn btn-sm btn-outline-light" onclick="refreshDashboard()">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-light" onclick="showHelp()">
+                <i class="fas fa-question-circle"></i>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Sidebar Overlay (Mobile) -->
+    <div class="sidebar-overlay" onclick="closeSidebar()"></div>
+    
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">Navigation</div>
+            <div class="sidebar-subtitle">Conservation Data Intelligence</div>
+        </div>
+        
+        <div class="sidebar-nav">
+            <div class="nav-section">
+                <div class="nav-section-title">Global Overview</div>
+                <div class="nav-link active" onclick="navigateToSection('overview', 'global_metrics')">
+                    <i class="nav-icon fas fa-chart-bar"></i>
+                    <span class="nav-text">Global Metrics</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('overview', 'database_comparison')">
+                    <i class="nav-icon fas fa-database"></i>
+                    <span class="nav-text">Database Comparison</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('overview', 'coverage_maps')">
+                    <i class="nav-icon fas fa-map"></i>
+                    <span class="nav-text">Coverage Maps</span>
+                </div>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Metadata Intelligence</div>
+                <div class="nav-link" onclick="navigateToSection('intelligence', 'capabilities')">
+                    <i class="nav-icon fas fa-cogs"></i>
+                    <span class="nav-text">Database Capabilities</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('intelligence', 'selection_ai')">
+                    <i class="nav-icon fas fa-magic"></i>
+                    <span class="nav-text">Intelligent Selection</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('intelligence', 'quality_matrix')">
+                    <i class="nav-icon fas fa-star"></i>
+                    <span class="nav-text">Quality Analysis</span>
+                </div>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Conservation Analysis</div>
+                <div class="nav-link" onclick="navigateToSection('conservation', 'areas_analysis')">
+                    <i class="nav-icon fas fa-shield-alt"></i>
+                    <span class="nav-text">Protected Areas</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('conservation', 'biodiversity')">
+                    <i class="nav-icon fas fa-paw"></i>
+                    <span class="nav-text">Biodiversity Patterns</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('conservation', 'threats_assessment')">
+                    <i class="nav-icon fas fa-exclamation-triangle"></i>
+                    <span class="nav-text">Threats Assessment</span>
+                </div>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Research Tools</div>
+                <div class="nav-link" onclick="navigateToSection('research', 'strategy_optimizer')">
+                    <i class="nav-icon fas fa-target"></i>
+                    <span class="nav-text">Strategy Optimizer</span>
+                </div>
+                <div class="nav-link" onclick="navigateToSection('research', 'data_planner')">
+                    <i class="nav-icon fas fa-calendar-alt"></i>
+                    <span class="nav-text">Data Collection Planner</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb-container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" id="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" onclick="navigateHome()">Home</a></li>
+                    <li class="breadcrumb-item active" id="currentSection">Global Overview</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <!-- Content Area -->
+        <div class="content-area">
+            <div class="content-header">
+                <h2 class="content-title" id="contentTitle">Global Conservation Data Overview</h2>
+                <p class="content-description" id="contentDescription">
+                    Comprehensive analysis of global conservation databases and biodiversity patterns.
+                </p>
+                <div class="content-actions">
+                    <button class="btn btn-primary-gradient" onclick="exportCurrentView()">
+                        <i class="fas fa-download"></i> Export Data
+                    </button>
+                    <button class="btn btn-success-gradient" onclick="shareCurrentView()">
+                        <i class="fas fa-share"></i> Share View
+                    </button>
+                    <button class="btn btn-outline-secondary" onclick="printCurrentView()">
+                        <i class="fas fa-print"></i> Print
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Dynamic Content Container -->
+            <div id="dynamicContent">
+                <!-- Global Overview Section (Default) -->
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title">
+                            <i class="fas fa-chart-bar"></i> Global Database Overview
+                        </h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('database_overview')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                            <button class="viz-action-btn" onclick="downloadPlot('database_overview')">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="database_overview"></div>
+                    </div>
+                </div>
+                
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title">
+                            <i class="fas fa-map"></i> Global Coverage Map
+                        </h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('country_coverage_map')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                            <button class="viz-action-btn" onclick="downloadPlot('country_coverage_map')">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="country_coverage_map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Fullscreen Overlay -->
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+        <div class="fullscreen-header">
+            <h3 id="fullscreenTitle">Fullscreen View</h3>
+            <button class="btn btn-outline-light" onclick="closeFullscreen()">
+                <i class="fas fa-times"></i> Close
+            </button>
+        </div>
+        <div class="fullscreen-content">
+            <div class="fullscreen-plot" id="fullscreenPlot"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Global Variables
+        let sidebarOpen = false;
+        let currentSection = 'overview';
+        let currentSubsection = 'global_metrics';
+        let visualizations = {};
+        
+        // Initialize Dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 Initializing Advanced Conservation Dashboard...');
+            
+            // Load all visualizations
+            loadAllVisualizations();
+            
+            // Set initial navigation state
+            updateActiveNavigation();
+            
+            console.log('✅ Dashboard initialized successfully!');
+        });
+        
+        // Sidebar Functions
+        function toggleSidebar() {
+            sidebarOpen = !sidebarOpen;
+            const sidebar = document.getElementById('sidebar');
+            const mainContent = document.getElementById('mainContent');
+            const overlay = document.querySelector('.sidebar-overlay');
+            
+            if (sidebarOpen) {
+                sidebar.classList.add('open');
+                mainContent.classList.add('sidebar-open');
+                overlay.classList.add('show');
+            } else {
+                sidebar.classList.remove('open');
+                mainContent.classList.remove('sidebar-open');
+                overlay.classList.remove('show');
+            }
+        }
+        
+        function closeSidebar() {
+            sidebarOpen = false;
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('mainContent').classList.remove('sidebar-open');
+            document.querySelector('.sidebar-overlay').classList.remove('show');
+        }
+        
+        // Navigation Functions
+        function navigateToSection(section, subsection) {
+            currentSection = section;
+            currentSubsection = subsection;
+            
+            updateBreadcrumb(section, subsection);
+            updateContentHeader(section, subsection);
+            updateActiveNavigation();
+            loadSectionContent(section, subsection);
+            
+            // Close sidebar on mobile
+            if (window.innerWidth <= 768) {
+                closeSidebar();
+            }
+        }
+        
+        function navigateHome() {
+            navigateToSection('overview', 'global_metrics');
+        }
+        
+        function updateBreadcrumb(section, subsection) {
+            const breadcrumb = document.getElementById('breadcrumb');
+            const sectionInfo = getSectionInfo(section, subsection);
+            
+            breadcrumb.innerHTML = `
+                <li class="breadcrumb-item"><a href="#" onclick="navigateHome()">Home</a></li>
+                <li class="breadcrumb-item active">${sectionInfo.sectionTitle}</li>
+            `;
+        }
+        
+        function updateContentHeader(section, subsection) {
+            const sectionInfo = getSectionInfo(section, subsection);
+            document.getElementById('contentTitle').textContent = sectionInfo.subsectionTitle;
+            document.getElementById('contentDescription').textContent = sectionInfo.description;
+        }
+        
+        function updateActiveNavigation() {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Find and activate the current nav link (simplified)
+            const currentNavLink = document.querySelector(`.nav-link:nth-of-type(${getCurrentNavIndex()})`);
+            if (currentNavLink) {
+                currentNavLink.classList.add('active');
+            }
+        }
+        
+        function getCurrentNavIndex() {
+            // Simplified mapping for demo
+            const mapping = {
+                'overview_global_metrics': 1,
+                'overview_database_comparison': 2,
+                'overview_coverage_maps': 3,
+                'intelligence_capabilities': 4,
+                'intelligence_selection_ai': 5,
+                'intelligence_quality_matrix': 6,
+                'conservation_areas_analysis': 7,
+                'conservation_biodiversity': 8,
+                'conservation_threats_assessment': 9,
+                'research_strategy_optimizer': 10,
+                'research_data_planner': 11
+            };
+            return mapping[`${currentSection}_${currentSubsection}`] || 1;
+        }
+        
+        function getSectionInfo(section, subsection) {
+            const sections = {
+                'overview': {
+                    title: 'Global Overview',
+                    description: 'Comprehensive global conservation data statistics'
+                },
+                'intelligence': {
+                    title: 'Metadata Intelligence',
+                    description: 'AI-powered database analysis and selection'
+                },
+                'conservation': {
+                    title: 'Conservation Analysis',
+                    description: 'Real-world conservation area performance'
+                },
+                'research': {
+                    title: 'Research Tools',
+                    description: 'Research strategy optimization and planning'
+                }
+            };
+            
+            const subsections = {
+                'global_metrics': 'Global Database Metrics',
+                'database_comparison': 'Database Comparison',
+                'coverage_maps': 'Global Coverage Maps',
+                'capabilities': 'Database Capabilities',
+                'selection_ai': 'Intelligent Selection',
+                'quality_matrix': 'Quality Analysis',
+                'areas_analysis': 'Protected Areas Analysis',
+                'biodiversity': 'Biodiversity Patterns',
+                'threats_assessment': 'Threats Assessment',
+                'strategy_optimizer': 'Strategy Optimizer',
+                'data_planner': 'Data Collection Planner'
+            };
+            
+            return {
+                sectionTitle: sections[section]?.title || 'Global Overview',
+                subsectionTitle: subsections[subsection] || 'Global Database Metrics',
+                description: sections[section]?.description || 'Comprehensive global conservation data statistics'
+            };
+        }
+        
+        function loadSectionContent(section, subsection) {
+            const content = document.getElementById('dynamicContent');
+            
+            // Show loading
+            content.innerHTML = `
+                <div class="viz-card">
+                    <div class="viz-card-body">
+                        <div class="loading-overlay">
+                            <div class="spinner"></div>
+                            <span class="ms-3">Loading ${getSectionInfo(section, subsection).subsectionTitle}...</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Load content
+            setTimeout(() => {
+                showSectionContent(section, subsection);
+            }, 500);
+        }
+        
+        function showSectionContent(section, subsection) {
+            const content = document.getElementById('dynamicContent');
+            let contentHTML = '';
+            
+            switch(section) {
+                case 'overview':
+                    contentHTML = createOverviewContent(subsection);
+                    break;
+                case 'intelligence':
+                    contentHTML = createIntelligenceContent(subsection);
+                    break;
+                case 'conservation':
+                    contentHTML = createConservationContent(subsection);
+                    break;
+                case 'research':
+                    contentHTML = createResearchContent(subsection);
+                    break;
+                default:
+                    contentHTML = createOverviewContent('global_metrics');
+            }
+            
+            content.innerHTML = contentHTML;
+            
+            // Re-plot visualizations for this section
+            setTimeout(() => replotVisualizationsForSection(section, subsection), 100);
+        }
+        
+        function createOverviewContent(subsection) {
+            switch(subsection) {
+                case 'global_metrics':
+                    return `
+                        <div class="viz-card">
+                            <div class="viz-card-header">
+                                <h3 class="viz-card-title"><i class="fas fa-chart-bar"></i> Global Database Overview</h3>
+                                <div class="viz-card-actions">
+                                    <button class="viz-action-btn" onclick="fullscreenPlot('database_overview')">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="viz-card-body">
+                                <div class="plot-container" id="database_overview"></div>
+                            </div>
+                        </div>
+                    `;
+                case 'database_comparison':
+                    return `
+                        <div class="viz-card">
+                            <div class="viz-card-header">
+                                <h3 class="viz-card-title"><i class="fas fa-database"></i> Database Capabilities Matrix</h3>
+                                <div class="viz-card-actions">
+                                    <button class="viz-action-btn" onclick="fullscreenPlot('capabilities_matrix')">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="viz-card-body">
+                                <div class="plot-container" id="capabilities_matrix"></div>
+                            </div>
+                        </div>
+                    `;
+                case 'coverage_maps':
+                    return `
+                        <div class="viz-card">
+                            <div class="viz-card-header">
+                                <h3 class="viz-card-title"><i class="fas fa-map"></i> Global Coverage Map</h3>
+                                <div class="viz-card-actions">
+                                    <button class="viz-action-btn" onclick="fullscreenPlot('country_coverage_map')">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="viz-card-body">
+                                <div class="plot-container" id="country_coverage_map"></div>
+                            </div>
+                        </div>
+                    `;
+                default:
+                    return createOverviewContent('global_metrics');
+            }
+        }
+        
+        function createIntelligenceContent(subsection) {
+            return `
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-brain"></i> Intelligent Selection Workflow</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('selection_workflow')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="selection_workflow"></div>
+                    </div>
+                </div>
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-star"></i> Coverage vs Quality Analysis</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('coverage_quality')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="coverage_quality"></div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function createConservationContent(subsection) {
+            return `
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-leaf"></i> Conservation Areas Analysis</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('conservation_analysis')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="conservation_analysis"></div>
+                    </div>
+                </div>
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-paw"></i> Taxonomic Diversity Analysis</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('taxonomic_diversity')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="taxonomic_diversity"></div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function createResearchContent(subsection) {
+            return `
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-microscope"></i> Research Strategy Comparison</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('strategy_comparison')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="strategy_comparison"></div>
+                    </div>
+                </div>
+                <div class="viz-card">
+                    <div class="viz-card-header">
+                        <h3 class="viz-card-title"><i class="fas fa-chart-line"></i> Data Quality Assessment</h3>
+                        <div class="viz-card-actions">
+                            <button class="viz-action-btn" onclick="fullscreenPlot('quality_assessment')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="viz-card-body">
+                        <div class="plot-container" id="quality_assessment"></div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function loadAllVisualizations() {
+            console.log('📊 Loading all visualizations...');
+            
+            // Sample visualization data - in real implementation, these would come from your Python generators
+            visualizations['database_overview'] = {
+                data: [{
+                    x: ['GBIF', 'eBird', 'iNaturalist', 'IUCN', 'NASA FIRMS'],
+                    y: [3244938434, 1000000000, 268746290, 150000, 50000],
+                    type: 'bar',
+                    marker: {color: ['#2E8B57', '#4682B4', '#FF6347', '#32CD32', '#FFD700']},
+                    text: ['3.2B', '1.0B', '269M', '150K', '50K'],
+                    textposition: 'outside'
+                }],
+                layout: {
+                    title: 'Global Conservation Database Overview',
+                    xaxis: {title: 'Database'},
+                    yaxis: {title: 'Total Records', type: 'log'},
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['country_coverage_map'] = {
+                data: [{
+                    type: 'choropleth',
+                    locationmode: 'country names',
+                    locations: ['United States', 'Canada', 'Brazil', 'Australia', 'United Kingdom', 'Germany', 'France', 'South Africa', 'Madagascar', 'Indonesia'],
+                    z: [1145764668, 205908907, 186137536, 185359956, 162035712, 143034423, 131073263, 77306161, 5000000, 62008596],
+                    colorscale: 'Viridis',
+                    colorbar: {title: 'GBIF Records'}
+                }],
+                layout: {
+                    title: 'Global GBIF Data Coverage by Country',
+                    geo: {showframe: false, showcoastlines: true, projection: {type: 'natural earth'}},
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['capabilities_matrix'] = {
+                data: [{
+                    z: [[5, 4, 5, 4, 3], [4, 5, 4, 5, 4], [3, 4, 4, 3, 5], [2, 3, 2, 4, 3], [1, 2, 1, 2, 2]],
+                    x: ['Global Coverage', 'Data Volume', 'Real-time Updates', 'Quality Scores', 'API Access'],
+                    y: ['GBIF', 'eBird', 'iNaturalist', 'IUCN Red List', 'NASA FIRMS'],
+                    type: 'heatmap',
+                    colorscale: 'RdYlGn',
+                    colorbar: {title: 'Capability Score (1-5)'}
+                }],
+                layout: {
+                    title: 'Database Capabilities Matrix',
+                    xaxis: {title: 'Capabilities'},
+                    yaxis: {title: 'Databases'},
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['selection_workflow'] = {
+                data: [{
+                    type: 'sankey',
+                    node: {
+                        label: ['Research Purpose', 'Geographic Scope', 'Quality Requirements', 'Metadata Analysis', 
+                               'Database Selection', 'Parameter Optimization', 'GBIF Strategy', 'eBird Strategy', 
+                               'iNaturalist Strategy', 'Adaptive Collection', 'Results Validation'],
+                        color: ['#2E8B57', '#2E8B57', '#2E8B57', '#4682B4', '#4682B4', '#4682B4', 
+                               '#FF6347', '#FF6347', '#FF6347', '#32CD32', '#32CD32']
+                    },
+                    link: {
+                        source: [0, 1, 2, 0, 1, 2, 3, 3, 3, 4, 5, 6, 7, 8, 9],
+                        target: [3, 3, 3, 4, 4, 4, 6, 7, 8, 9, 9, 9, 9, 9, 10],
+                        value: [10, 10, 10, 5, 5, 5, 8, 6, 4, 6, 6, 8, 6, 4, 18]
+                    }
+                }],
+                layout: {
+                    title: 'Intelligent Selection Workflow',
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['coverage_quality'] = {
+                data: [{
+                    x: [95, 85, 70, 65, 60, 40, 25],
+                    y: [85, 90, 75, 70, 65, 50, 35],
+                    mode: 'markers',
+                    marker: {
+                        size: [50, 40, 25, 20, 15, 10, 8],
+                        color: ['#2E8B57', '#4682B4', '#FF6347', '#32CD32', '#FFD700', '#9370DB', '#FF69B4'],
+                        opacity: 0.7
+                    },
+                    text: ['GBIF Global', 'eBird Global', 'iNaturalist Global', 'GBIF Regional', 'eBird Regional', 'IUCN', 'NASA FIRMS'],
+                    textposition: 'top center',
+                    type: 'scatter'
+                }],
+                layout: {
+                    title: 'Database Coverage vs Quality Analysis',
+                    xaxis: {title: 'Geographic Coverage (%)'},
+                    yaxis: {title: 'Data Quality Score (%)'},
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['conservation_analysis'] = {
+                data: [{
+                    x: ['Andasibe-Mantadia NP', 'Ranomafana NP', 'Masoala NP', 'Isalo NP'],
+                    y: [81, 12, 0, 0],
+                    type: 'bar',
+                    marker: {color: ['#228B22', '#32CD32', '#FFD700', '#FF4500']},
+                    text: [81, 12, 0, 0],
+                    textposition: 'outside'
+                }],
+                layout: {
+                    title: 'Conservation Areas Species Count Analysis',
+                    xaxis: {title: 'Protected Areas'},
+                    yaxis: {title: 'Unique Species Count'},
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['taxonomic_diversity'] = {
+                data: [{
+                    labels: ['Plantae', 'Animalia', 'Fungi', 'Bacteria', 'Other'],
+                    values: [45, 35, 10, 7, 3],
+                    type: 'pie',
+                    marker: {colors: ['#2E8B57', '#4682B4', '#FF6347', '#32CD32', '#FFD700']}
+                }],
+                layout: {
+                    title: 'Taxonomic Diversity Distribution',
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['strategy_comparison'] = {
+                data: [{
+                    type: 'scatterpolar',
+                    r: [80, 90, 20, 20],
+                    theta: ['Expected Species', 'Data Quality', 'Cost Efficiency', 'Speed'],
+                    fill: 'toself',
+                    name: 'Comprehensive Biodiversity',
+                    fillcolor: '#2E8B57',
+                    opacity: 0.3
+                }, {
+                    type: 'scatterpolar',
+                    r: [30, 85, 60, 100],
+                    theta: ['Expected Species', 'Data Quality', 'Cost Efficiency', 'Speed'],
+                    fill: 'toself',
+                    name: 'Real-time Monitoring',
+                    fillcolor: '#4682B4',
+                    opacity: 0.3
+                }],
+                layout: {
+                    title: 'Research Strategy Comparison',
+                    polar: {
+                        radialaxis: {
+                            visible: true,
+                            range: [0, 100]
+                        }
+                    },
+                    template: 'plotly_white'
+                }
+            };
+            
+            visualizations['quality_assessment'] = {
+                data: [{
+                    type: 'scatterpolar',
+                    r: [85, 78, 92, 88, 75],
+                    theta: ['Coordinate Quality', 'Identification Quality', 'Institution Diversity', 'Temporal Coverage', 'Taxonomic Completeness'],
+                    fill: 'toself',
+                    name: 'Data Quality Assessment',
+                    fillcolor: '#2E8B57',
+                    opacity: 0.3
+                }],
+                layout: {
+                    title: 'Data Quality Assessment Radar',
+                    polar: {
+                        radialaxis: {
+                            visible: true,
+                            range: [0, 100]
+                        }
+                    },
+                    template: 'plotly_white'
+                }
+            };
+            
+            // Plot initial visualizations
+            replotVisualizationsForSection('overview', 'global_metrics');
+        }
+        
+        function replotVisualizationsForSection(section, subsection) {
+            // Re-plot visualizations that are now visible
+            setTimeout(() => {
+                Object.keys(visualizations).forEach(vizKey => {
+                    const element = document.getElementById(vizKey);
+                    if (element && visualizations[vizKey]) {
+                        try {
+                            Plotly.newPlot(vizKey, visualizations[vizKey].data, visualizations[vizKey].layout, {responsive: true});
+                            console.log(`✅ Plotted ${vizKey}`);
+                        } catch (error) {
+                            console.error(`❌ Error plotting ${vizKey}:`, error);
+                        }
+                    }
+                });
+            }, 100);
+        }
+        
+        // Fullscreen Functions
+        function fullscreenPlot(plotId) {
+            const overlay = document.getElementById('fullscreenOverlay');
+            const title = document.getElementById('fullscreenTitle');
+            
+            title.textContent = `Fullscreen: ${plotId.replace('_', ' ').toUpperCase()}`;
+            overlay.classList.add('active');
+            
+            if (visualizations[plotId]) {
+                setTimeout(() => {
+                    Plotly.newPlot('fullscreenPlot', visualizations[plotId].data, visualizations[plotId].layout, {responsive: true});
+                }, 100);
+            }
+        }
+        
+        function closeFullscreen() {
+            document.getElementById('fullscreenOverlay').classList.remove('active');
+        }
+        
+        // Utility Functions
+        function refreshDashboard() {
+            location.reload();
+        }
+        
+        function showHelp() {
+            alert('🎯 Conservation Intelligence Platform Help\n\n• Use the sidebar to navigate between sections\n• Click the expand icon to view plots in fullscreen\n• Use the action buttons to export or share views\n• All visualizations are interactive - hover, zoom, and click to explore!');
+        }
+        
+        function exportCurrentView() {
+            alert('📊 Export functionality will download the current analysis data.');
+        }
+        
+        function shareCurrentView() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Conservation Intelligence Platform',
+                    text: 'Check out this conservation data analysis!',
+                    url: window.location.href
+                });
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert('🔗 URL copied to clipboard!');
+            }
+        }
+        
+        function printCurrentView() {
+            window.print();
+        }
+        
+        function downloadPlot(plotId) {
+            if (document.getElementById(plotId)) {
+                Plotly.downloadImage(plotId, {
+                    format: 'png',
+                    width: 1200,
+                    height: 800,
+                    filename: plotId
+                });
+            }
+        }
+        
+        // Responsive handling
+        window.addEventListener('resize', function() {
+            setTimeout(function() {
+                if (typeof Plotly !== 'undefined') {
+                    Plotly.Plots.resize();
+                }
+            }, 100);
+        });
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                switch(e.key) {
+                    case 'b':
+                        e.preventDefault();
+                        toggleSidebar();
+                        break;
+                    case 'h':
+                        e.preventDefault();
+                        navigateHome();
+                        break;
+                    case 'r':
+                        e.preventDefault();
+                        refreshDashboard();
+                        break;
+                }
+            }
+            
+            if (e.key === 'Escape') {
+                closeFullscreen();
+                closeSidebar();
+            }
+        });
+    </script>
+</body>
+</html>
