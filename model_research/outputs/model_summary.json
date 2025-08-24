@@ -1,0 +1,20 @@
+{
+  "model_name": "PRITHVI-100M",
+  "model_type": "Temporal Vision Transformer",
+  "total_parameters": 69287444,
+  "model_size_mb": 264.3106231689453,
+  "input_channels": 6,
+  "input_size": 224,
+  "patch_size": 16,
+  "embed_dim": 768,
+  "num_heads": 12,
+  "num_layers": 12,
+  "available_tasks": [
+    "change_detection",
+    "burn_scars",
+    "flood_mapping",
+    "land_cover",
+    "deforestation",
+    "urban_expansion"
+  ]
+}

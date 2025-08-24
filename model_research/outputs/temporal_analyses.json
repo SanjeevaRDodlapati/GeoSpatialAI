@@ -1,0 +1,88 @@
+{
+  "amazon_deforestation": {
+    "temporal_results": [
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.8439093828201294,
+        "probabilities": [
+          0.8439093828201294,
+          0.156090646982193
+        ],
+        "inference_time_ms": 96.04787826538086,
+        "timestamp": "2025-08-23T16:01:50.395804"
+      },
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.8439967632293701,
+        "probabilities": [
+          0.8439967632293701,
+          0.1560032218694687
+        ],
+        "inference_time_ms": 175.5509376525879,
+        "timestamp": "2025-08-23T16:01:50.571481"
+      },
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.844048261642456,
+        "probabilities": [
+          0.844048261642456,
+          0.15595176815986633
+        ],
+        "inference_time_ms": 91.43686294555664,
+        "timestamp": "2025-08-23T16:01:50.663046"
+      }
+    ],
+    "change_points": [],
+    "confidence_trend": 6.94394111633313e-05,
+    "significant_changes": [],
+    "num_changes": 0,
+    "avg_confidence": 0.8439848025639852,
+    "confidence_std": 5.732436922198492e-05
+  },
+  "california_wildfire": {
+    "temporal_results": [
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.8449711203575134,
+        "probabilities": [
+          0.8449711203575134,
+          0.15502887964248657
+        ],
+        "inference_time_ms": 93.90115737915039,
+        "timestamp": "2025-08-23T16:01:50.763779"
+      },
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.8451508283615112,
+        "probabilities": [
+          0.8451508283615112,
+          0.15484915673732758
+        ],
+        "inference_time_ms": 88.92488479614258,
+        "timestamp": "2025-08-23T16:01:50.852833"
+      },
+      {
+        "task": "change_detection",
+        "prediction": 0,
+        "confidence": 0.8451047539710999,
+        "probabilities": [
+          0.8451047539710999,
+          0.15489520132541656
+        ],
+        "inference_time_ms": 95.46709060668945,
+        "timestamp": "2025-08-23T16:01:50.948425"
+      }
+    ],
+    "change_points": [],
+    "confidence_trend": 6.681680679330944e-05,
+    "significant_changes": [],
+    "num_changes": 0,
+    "avg_confidence": 0.8450755675633749,
+    "confidence_std": 7.62129755887484e-05
+  }
+}

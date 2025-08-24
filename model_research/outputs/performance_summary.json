@@ -1,0 +1,32 @@
+{
+  "change_detection": {
+    "total_inferences": 20,
+    "avg_time_ms": 101.2731075286865,
+    "min_time_ms": 84.10509427388509,
+    "max_time_ms": 206.79092407226562,
+    "total_time_s": 2.02546215057373,
+    "throughput_per_sec": 9.874289674746489
+  },
+  "burn_scars": {
+    "total_inferences": 1,
+    "avg_time_ms": 96.2209701538086,
+    "min_time_ms": 96.2209701538086,
+    "max_time_ms": 96.2209701538086,
+    "total_time_s": 0.0962209701538086,
+    "throughput_per_sec": 10.392744932850984
+  },
+  "land_cover": {
+    "total_inferences": 1,
+    "avg_time_ms": 100.7840633392334,
+    "min_time_ms": 100.7840633392334,
+    "max_time_ms": 100.7840633392334,
+    "total_time_s": 0.1007840633392334,
+    "throughput_per_sec": 9.9222036388239
+  },
+  "overall": {
+    "total_inferences": 22,
+    "total_time_s": 2.222467184066772,
+    "avg_time_ms": 101.02123563939872,
+    "device": "cpu"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "inference_history": [
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8439093828201294,
+      "probabilities": [
+        0.8439093828201294,
+        0.156090646982193
+      ],
+      "inference_time_ms": 135.9539031982422,
+      "timestamp": "2025-08-23T16:01:49.377963"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8439093828201294,
+      "probabilities": [
+        0.8439093828201294,
+        0.156090646982193
+      ],
+      "inference_time_ms": 206.79092407226562,
+      "timestamp": "2025-08-23T16:01:50.101045"
+    },
+    {
+      "task": "burn_scars",
+      "prediction": 1,
+      "confidence": 0.5414502620697021,
+      "probabilities": [
+        0.45854970812797546,
+        0.5414502620697021
+      ],
+      "inference_time_ms": 96.2209701538086,
+      "timestamp": "2025-08-23T16:01:50.197538"
+    },
+    {
+      "task": "land_cover",
+      "prediction": 3,
+      "confidence": 0.22021357715129852,
+      "probabilities": [
+        0.1290338933467865,
+        0.04703104868531227,
+        0.11005664616823196,
+        0.22021357715129852,
+        0.06779799610376358,
+        0.06147770956158638,
+        0.012816790491342545,
+        0.11559764295816422,
+        0.04967030510306358,
+        0.18630442023277283
+      ],
+      "inference_time_ms": 100.7840633392334,
+      "timestamp": "2025-08-23T16:01:50.298607"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8439093828201294,
+      "probabilities": [
+        0.8439093828201294,
+        0.156090646982193
+      ],
+      "inference_time_ms": 96.04787826538086,
+      "timestamp": "2025-08-23T16:01:50.395804"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8439967632293701,
+      "probabilities": [
+        0.8439967632293701,
+        0.1560032218694687
+      ],
+      "inference_time_ms": 175.5509376525879,
+      "timestamp": "2025-08-23T16:01:50.571481"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.844048261642456,
+      "probabilities": [
+        0.844048261642456,
+        0.15595176815986633
+      ],
+      "inference_time_ms": 91.43686294555664,
+      "timestamp": "2025-08-23T16:01:50.663046"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8449711203575134,
+      "probabilities": [
+        0.8449711203575134,
+        0.15502887964248657
+      ],
+      "inference_time_ms": 93.90115737915039,
+      "timestamp": "2025-08-23T16:01:50.763779"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8451508283615112,
+      "probabilities": [
+        0.8451508283615112,
+        0.15484915673732758
+      ],
+      "inference_time_ms": 88.92488479614258,
+      "timestamp": "2025-08-23T16:01:50.852833"
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.8451047539710999,
+      "probabilities": [
+        0.8451047539710999,
+        0.15489520132541656
+      ],
+      "inference_time_ms": 95.46709060668945,
+      "timestamp": "2025-08-23T16:01:50.948425"
+    }
+  ],
+  "performance_summary": {
+    "change_detection": {
+      "total_inferences": 20,
+      "avg_time_ms": 101.2731075286865,
+      "min_time_ms": 84.10509427388509,
+      "max_time_ms": 206.79092407226562,
+      "total_time_s": 2.02546215057373,
+      "throughput_per_sec": 9.874289674746489
+    },
+    "burn_scars": {
+      "total_inferences": 1,
+      "avg_time_ms": 96.2209701538086,
+      "min_time_ms": 96.2209701538086,
+      "max_time_ms": 96.2209701538086,
+      "total_time_s": 0.0962209701538086,
+      "throughput_per_sec": 10.392744932850984
+    },
+    "land_cover": {
+      "total_inferences": 1,
+      "avg_time_ms": 100.7840633392334,
+      "min_time_ms": 100.7840633392334,
+      "max_time_ms": 100.7840633392334,
+      "total_time_s": 0.1007840633392334,
+      "throughput_per_sec": 9.9222036388239
+    },
+    "overall": {
+      "total_inferences": 22,
+      "total_time_s": 2.222467184066772,
+      "avg_time_ms": 101.02123563939872,
+      "device": "cpu"
+    }
+  },
+  "export_timestamp": "2025-08-23T16:01:51.484299"
+}

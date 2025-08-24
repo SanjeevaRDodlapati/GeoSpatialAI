@@ -1,0 +1,22 @@
+[
+  {
+    "name": "amazon_deforestation",
+    "indices": [
+      0,
+      1,
+      2
+    ],
+    "change_type": "deforestation",
+    "ecosystem": "tropical_rainforest"
+  },
+  {
+    "name": "california_wildfire",
+    "indices": [
+      3,
+      4,
+      5
+    ],
+    "change_type": "fire_damage",
+    "ecosystem": "temperate_forest"
+  }
+]
