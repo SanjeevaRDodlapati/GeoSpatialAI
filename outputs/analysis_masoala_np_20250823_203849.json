@@ -1,0 +1,55 @@
+{
+  "area_name": "Masoala National Park",
+  "country": "Madagascar",
+  "ecosystem_type": "Tropical Rainforest",
+  "satellite_source": "sentinel2",
+  "num_samples": 3,
+  "analysis_results": {
+    "change_detected_samples": 0,
+    "no_change_samples": 3,
+    "change_detection_rate": 0.0,
+    "average_confidence": 0.6932828426361084,
+    "min_confidence": 0.6919606924057007,
+    "max_confidence": 0.6946210861206055
+  },
+  "individual_results": [
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.693266749382019,
+      "probabilities": [
+        0.693266749382019,
+        0.30673325061798096
+      ],
+      "inference_time_ms": 369.77100372314453,
+      "timestamp": "2025-08-23T20:38:48.790053",
+      "sample_id": 0
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.6919606924057007,
+      "probabilities": [
+        0.6919606924057007,
+        0.30803927779197693
+      ],
+      "inference_time_ms": 35.59589385986328,
+      "timestamp": "2025-08-23T20:38:49.314228",
+      "sample_id": 1
+    },
+    {
+      "task": "change_detection",
+      "prediction": 0,
+      "confidence": 0.6946210861206055,
+      "probabilities": [
+        0.6946210861206055,
+        0.30537888407707214
+      ],
+      "inference_time_ms": 33.04696083068848,
+      "timestamp": "2025-08-23T20:38:49.838442",
+      "sample_id": 2
+    }
+  ],
+  "total_analysis_time_ms": 1877.9802322387695,
+  "timestamp": "2025-08-23T20:38:49.838684"
+}
