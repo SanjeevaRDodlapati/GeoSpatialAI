@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "session_start": "2025-08-25T01:36:05.021190",
+    "total_updates": 10,
+    "alerts_generated": 0,
+    "quality_score": 0.925,
+    "counties_monitored": 10,
+    "max_vulnerability_change": 0.02593056943501804,
+    "alert_types": []
+  },
+  "recent_data": [
+    {
+      "timestamp": "2025-08-25T01:36:01.649837",
+      "county_id": 1550,
+      "vulnerability_score": 0.9965545096945722,
+      "environmental_risk": 0.9943332441006338,
+      "change_vulnerability": -0.003416880075935614,
+      "change_environmental": -0.005666755899366115
+    },
+    {
+      "timestamp": "2025-08-25T01:36:02.153799",
+      "county_id": 3016,
+      "vulnerability_score": 0.00014421883160419525,
+      "environmental_risk": 0.015915235491840703,
+      "change_vulnerability": 0.00012615599034059556,
+      "change_environmental": 0.015915235491840703
+    },
+    {
+      "timestamp": "2025-08-25T01:36:02.657310",
+      "county_id": 324,
+      "vulnerability_score": 0.997752415662423,
+      "environmental_risk": 0.9935014581472126,
+      "change_vulnerability": -0.0022161130851355766,
+      "change_environmental": -0.006498541852787443
+    },
+    {
+      "timestamp": "2025-08-25T01:36:03.158376",
+      "county_id": 580,
+      "vulnerability_score": 0.009228168503927547,
+      "environmental_risk": 0.1942277849107302,
+      "change_vulnerability": 0.009205117786354633,
+      "change_environmental": -0.005772215089269807
+    },
+    {
+      "timestamp": "2025-08-25T01:36:03.659044",
+      "county_id": 1862,
+      "vulnerability_score": 1.0134199803742008,
+      "environmental_risk": 0.9770711823468021,
+      "change_vulnerability": 0.013451451626642269,
+      "change_environmental": -0.022928817653197892
+    }
+  ],
+  "alerts": [],
+  "quality_results": {
+    "total_points": 10,
+    "completeness": 1.0,
+    "validity": 0.7,
+    "consistency": 1.0,
+    "timeliness": 1.0,
+    "issues": [
+      "Low validity: 70.00%"
+    ]
+  }
+}
