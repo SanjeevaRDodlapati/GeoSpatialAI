@@ -7,9 +7,8 @@
 [![Conservation APIs](https://img.shields.io/badge/APIs-Working-brightgreen.svg)](https://www.gbif.org)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SanjeevaRDodlapati/GeoSpatialAI/blob/main)
 
-## 🚀 **Quick Launch - Open Entire Repository in Google Colab**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SanjeevaRDodlapati/GeoSpatialAI/blob/main)
+## 🚀 **Quick Launch - Open Entire Repository in Google Colab**
 
 **🎯 Interactive Project Tutorials - Run Immediately in Colab:**
 
