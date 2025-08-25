@@ -1,0 +1,183 @@
+NAME,state,median_household_income,lisa_i,lisa_p,lisa_cluster
+Clay,28,37412,-0.0,0.001,Low-Low
+Daggett,49,61250,-0.16445526233006894,0.111,Not Significant
+Brewster,48,47747,-0.0,0.001,Low-Low
+Tuscola,26,59815,-0.0,0.001,Low-Low
+Hardin,47,46902,1.298392406156155,0.107,Not Significant
+Skamania,53,84500,1.8510138249260621,0.099,Not Significant
+Billings,38,74000,0.0,0.001,High-Low
+Logan,20,70382,0.0,0.001,High-Low
+Passaic,34,84465,0.0,0.001,High-Low
+Ventura,06,102141,0.0,0.001,High-Low
+Santa Cruz,04,51885,-0.0,0.001,Low-Low
+Faribault,27,64000,0.0,0.001,High-Low
+Door,55,68257,0.0,0.001,High-Low
+Sweetwater,56,79375,-0.16445526233006894,0.453,Not Significant
+Pottawattamie,19,68718,0.0,0.001,High-Low
+Seneca,39,62476,-0.028587694909590126,0.238,Not Significant
+Calhoun,17,88059,0.0,0.001,High-Low
+Hansford,48,62350,-0.0,0.001,Low-Low
+Holt,31,66325,0.0,0.001,High-Low
+Logan,39,69125,0.0,0.001,High-Low
+Perkins,31,61786,-0.0,0.001,Low-Low
+Newton,18,63673,0.0,0.001,High-Low
+Chouteau,30,51791,0.8905001239615399,0.125,Not Significant
+Liberty,30,48047,0.8905001239615398,0.189,Not Significant
+Schoharie,36,71479,0.0,0.001,High-Low
+Medina,48,73060,-0.3617963893739177,0.278,Not Significant
+Washington,44,99510,0.0,0.001,High-Low
+Acadia,22,44977,-0.0,0.001,Low-Low
+Carter,47,47994,-0.0,0.001,Low-Low
+Olmsted,27,90420,0.0,0.001,High-Low
+Crisp,13,47463,0.5447612276757412,0.297,Not Significant
+Jackson,39,56549,0.1779024784979962,0.334,Not Significant
+Collingsworth,48,52045,-0.0,0.001,Low-Low
+Allen,21,57159,-0.5803416849189149,0.099,Not Significant
+Oconto,55,73611,0.0,0.001,High-Low
+Bullock,01,36136,-0.0,0.001,Low-Low
+Trousdale,47,62018,-0.11674585084833781,0.099,Not Significant
+Hot Springs,56,64031,0.014190510985073568,0.351,Not Significant
+Alcorn,28,47716,1.2983924061561551,0.085,Not Significant
+Macon,29,54113,0.6005920855961661,0.163,Not Significant
+Iowa,55,79226,0.0,0.001,High-Low
+Fleming,21,46885,1.237458572754633,0.13,Not Significant
+Putnam,47,54371,-0.0,0.001,Low-Low
+Potter,42,56491,0.15605329840425602,0.369,Not Significant
+Hubbard,27,67197,0.0,0.001,High-Low
+McKinley,35,44029,-0.0,0.001,Low-Low
+Wasco,41,61316,-0.16766856683724027,0.121,Not Significant
+Pleasants,54,59666,-0.0,0.001,Low-Low
+Clarion,42,58690,-0.0,0.001,Low-Low
+Clay,12,82242,0.0,0.001,High-Low
+Rosebud,30,57656,-0.0,0.001,Low-Low
+Wayne,17,53522,0.4296436698456928,0.244,Not Significant
+Kitsap,53,93675,0.0,0.001,High-Low
+Hood River,41,80254,0.8416726290444109,0.151,Not Significant
+Hooker,31,43333,-0.0,0.001,Low-Low
+Pike,42,76416,0.0,0.001,High-Low
+Whiteside,17,62828,-0.0,0.001,Low-Low
+Pierce,55,82996,0.0,0.001,High-Low
+Richland,39,56557,-0.0,0.001,Low-Low
+Preble,39,66355,0.0,0.001,High-Low
+Westmoreland,42,69454,0.0,0.001,High-Low
+Fulton,36,60557,-0.0,0.001,Low-Low
+Wood,39,70537,0.14205136643573188,0.32,Not Significant
+Eddy,35,77458,0.0,0.001,High-Low
+Orange,18,60775,-0.0,0.001,Low-Low
+Todd,27,63216,-0.0,0.001,Low-Low
+Suffolk,51,87758,-0.7638690884944588,0.307,Not Significant
+Lehigh,42,74973,0.0,0.001,High-Low
+Hamilton,47,69069,0.0,0.001,High-Low
+Chippewa,27,62112,-0.0,0.001,Low-Low
+Washington,48,70043,0.11161574830121734,0.355,Not Significant
+Shelby,29,50387,0.600592085596166,0.229,Not Significant
+Richmond,51,62708,0.029788074830836432,0.196,Not Significant
+Grand Traverse,26,75553,0.0,0.001,High-Low
+Walton,12,74832,-1.0190619468668949,0.059,Not Significant
+Midland,48,90123,0.0,0.001,High-Low
+White,17,54605,0.4296436698456928,0.232,Not Significant
+Cimarron,40,57100,-0.0,0.001,Low-Low
+Stonewall,48,66591,0.0,0.001,High-Low
+Archer,48,69954,-0.1504967254134607,0.394,Not Significant
+Henry,39,71616,0.3126904277810538,0.235,Not Significant
+Towner,38,61250,-0.0,0.001,Low-Low
+Pemiscot,29,37426,-0.0,0.001,Low-Low
+Meigs,39,46255,0.8853689887585524,0.201,Not Significant
+Lake,26,45946,0.5551766439671713,0.248,Not Significant
+Calhoun,48,62267,-0.015296002461820616,0.37,Not Significant
+Essex,51,52335,0.029788074830836432,0.467,Not Significant
+Mason,21,48460,1.237458572754633,0.082,Not Significant
+Frio,48,56042,-0.3617963893739177,0.201,Not Significant
+Sumner,47,81883,-0.34854376788362634,0.364,Not Significant
+Livingston,29,58772,0.11375533260270766,0.366,Not Significant
+Belknap,33,80719,1.2350995461230918,0.14,Not Significant
+Waushara,55,61033,-0.0,0.001,Low-Low
+Torrance,35,50727,-0.0,0.001,Low-Low
+Umatilla,41,70322,0.0,0.001,High-Low
+Clark,17,65874,0.0,0.001,High-Low
+Georgetown,45,59782,-0.0,0.001,Low-Low
+Allegany,36,58725,0.15605329840425602,0.283,Not Significant
+Wagoner,40,75082,0.0,0.001,High-Low
+Payne,40,46658,-0.0,0.001,Low-Low
+Portsmouth,51,57154,-0.7638690884944588,0.053,Not Significant
+Lenoir,37,43063,-0.0,0.001,Low-Low
+Ross,39,58048,0.1779024784979962,0.307,Not Significant
+Butler,31,75690,0.0,0.001,High-Low
+Anne Arundel,24,116009,0.0,0.001,High-Low
+Rensselaer,36,83734,0.0,0.001,High-Low
+Jefferson,18,57801,-0.0,0.001,Low-Low
+Johnson,13,47796,-0.0,0.001,Low-Low
+Forrest,28,49340,-0.0,0.001,Low-Low
+Norman,27,65278,0.0,0.001,High-Low
+Greene,42,66283,-0.07958450990902664,0.364,Not Significant
+Lyon,21,64081,0.0,0.001,High-Low
+Newaygo,26,59065,0.27428693623552847,0.074,Not Significant
+Park,56,66754,0.014190510985073566,0.427,Not Significant
+Lincoln,55,64314,0.0,0.001,High-Low
+Holmes,12,46063,-1.0190619468668947,0.184,Not Significant
+Franklin,05,47695,0.9331704922058932,0.176,Not Significant
+Madison,05,51514,0.9331704922058932,0.101,Not Significant
+Box Butte,31,67893,0.0,0.001,High-Low
+Gallatin,21,58641,-0.0,0.001,Low-Low
+DeKalb,17,68617,0.0,0.001,High-Low
+Fairfax,51,128708,0.0,0.001,High-Low
+San Miguel,08,72829,0.0,0.001,High-Low
+Coryell,48,63281,0.0,0.001,High-Low
+Charlottesville,51,67177,0.0,0.001,High-Low
+Monroe,55,66451,0.0,0.001,High-Low
+Adams,08,86297,0.0,0.001,High-Low
+Caldwell,29,58269,0.11375533260270768,0.378,Not Significant
+Lawrence,17,55811,-0.0,0.001,Low-Low
+McIntosh,13,51262,-0.0,0.001,Low-Low
+Shawnee,20,63463,0.024925903515658605,0.058,Not Significant
+Henderson,37,65508,0.0,0.001,High-Low
+Wells,38,59732,-0.0,0.001,Low-Low
+Bayfield,55,67266,0.0,0.001,High-Low
+Bland,51,59901,-0.0,0.001,Low-Low
+Arenac,26,53487,-0.0,0.001,Low-Low
+Franklin,20,68217,0.0,0.001,High-Low
+Phelps,31,65114,0.0,0.001,High-Low
+Aroostook,23,50843,-0.0,0.001,Low-Low
+Upshur,54,49663,-0.0,0.001,Low-Low
+Caldwell,48,66779,0.0,0.001,High-Low
+Livingston,17,68175,0.0,0.001,High-Low
+Clark,05,48071,-0.0,0.001,Low-Low
+Carroll,33,77049,1.2350995461230918,0.11,Not Significant
+Brookings,46,64438,0.0,0.001,High-Low
+Weston,56,71800,0.0,0.001,High-Low
+Mason,54,53058,0.8853689887585524,0.069,Not Significant
+Barrow,13,75053,0.0,0.001,High-Low
+Marshall,54,58129,-0.07958450990902664,0.37,Not Significant
+Jack,48,58861,-0.1504967254134607,0.242,Not Significant
+Crane,48,71364,0.0,0.001,High-Low
+Haywood,47,44890,-1.67493681430565,0.101,Not Significant
+Laclede,29,49202,-0.0,0.001,Low-Low
+Victoria,48,66308,-0.015296002461820616,0.488,Not Significant
+Osceola,26,54875,0.4597404374202141,0.121,Not Significant
+Ford,20,67997,0.0,0.001,High-Low
+Choctaw,40,43252,-0.0,0.001,Low-Low
+Knox,47,68580,0.0,0.001,High-Low
+Nueces,48,64027,0.0,0.001,High-Low
+Van Buren,47,44730,-0.0,0.001,Low-Low
+Owen,18,57947,-0.0,0.001,Low-Low
+Fayette,47,81074,-1.67493681430565,0.055,Not Significant
+Pottawatomie,20,85241,0.024925903515658605,0.447,Not Significant
+Worth,13,56496,0.5447612276757412,0.097,Not Significant
+Stark,39,63130,-0.0,0.001,Low-Low
+Calhoun,28,44505,-0.0,0.001,Low-Low
+Laramie,56,76282,0.0,0.001,High-Low
+Lee,48,66448,0.11161574830121734,0.241,Not Significant
+Allen,20,55059,-0.0,0.001,Low-Low
+Hoonah-Angoon,02,62344,-0.0,0.001,Low-Low
+Boundary,16,58810,-0.0,0.001,Low-Low
+Jeff Davis,13,41780,-0.0,0.001,Low-Low
+Jackson,26,62581,-0.0,0.001,Low-Low
+Union,19,56495,-0.0,0.001,Low-Low
+Tarrant,48,78872,0.0,0.001,High-Low
+Saline,29,55396,-0.0,0.001,Low-Low
+Steuben,18,68837,0.0,0.001,High-Low
+Hockley,48,53283,-0.0,0.001,Low-Low
+Hickman,47,54669,-0.0,0.001,Low-Low
+Ozark,29,39125,-0.0,0.001,Low-Low
+Calcasieu,22,64370,0.0,0.001,High-Low
+Bronx,36,47036,-0.0,0.001,Low-Low
