@@ -1,0 +1,45 @@
+# Database Configurations for PySpark Tutorial
+# Copy this file to database_configs.yaml and update with your credentials
+
+postgresql:
+  host: localhost
+  port: 5432
+  database: tutorial_db
+  username: your_username
+  password: your_password
+  driver: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/tutorial_db
+
+mysql:
+  host: localhost
+  port: 3306
+  database: tutorial_db
+  username: your_username
+  password: your_password
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/tutorial_db
+
+mongodb:
+  host: localhost
+  port: 27017
+  database: tutorial_db
+  username: your_username
+  password: your_password
+  uri: mongodb://localhost:27017/tutorial_db
+
+cassandra:
+  host: localhost
+  port: 9042
+  keyspace: tutorial_keyspace
+
+redis:
+  host: localhost
+  port: 6379
+  database: 0
+  password: your_password
+
+# Test database (SQLite - no credentials needed)
+sqlite:
+  path: ../data/tutorial.db
+  driver: org.sqlite.JDBC
+  url: jdbc:sqlite:../data/tutorial.db
