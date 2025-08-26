@@ -1,5 +1,0 @@
-id,description,tags,notes,created_at
-1,"Product with quotes","tag1,tag2,tag3","Note with commas","2024-01-01"
-2,"Simple product","electronics","Normal note","2024-01-02"
-3,"Product description","tag1","Multiline note","2024-01-03"
-4,"Product with commas","home,garden","Simple note","2024-01-04"

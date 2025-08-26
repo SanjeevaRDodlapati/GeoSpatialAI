@@ -1,9 +1,0 @@
-product_id;product_name;category;price;quantity_sold;sale_date;discount
-P001;Laptop Pro;Electronics;1299.99;45;2024-01-15;0.1
-P002;Wireless Mouse;Electronics;29.99;120;;0.05
-P003;Office Chair;Furniture;299.99;30;2024-01-18;
-P004;Coffee Maker;Appliances;89.99;75;2024-01-20;0.15
-P005;Smartphone;Electronics;;200;2024-01-22;0.08
-P006;Desk Lamp;Furniture;45.99;60;2024-01-25;0.0
-P007;Tablet;Electronics;599.99;35;2024-01-28;0.12
-P008;Ergonomic Keyboard;Electronics;79.99;85;2024-01-30;0.07
